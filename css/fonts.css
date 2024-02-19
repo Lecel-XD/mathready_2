@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Inter-Black.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Inter-Bold.ttf) format("ttf");
+    
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Inter-Medium.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Inter-Light.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Lato-Black.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Lato-Bold.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Bahnschrift.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Handelson-Six';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/handelson_six_cyr_six.woff) format("woff"), url(../fonts/handelson_six_cyr_six.woff2) format("woff2");
+}

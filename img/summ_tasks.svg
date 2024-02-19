@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1817.35 424.75">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        font-size: 61.49px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #cfffff;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Inter-Regular, Inter;
+        font-variation-settings: 'wght' 400, 'slnt' 0;
+      }
+
+      .cls-5 {
+        stroke: #cfffff;
+        stroke-width: 3px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-5, .cls-3, .cls-7, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5, .cls-4 {
+        font-family: Lato-Thin, Lato;
+        font-size: 354.59px;
+        font-weight: 200;
+      }
+
+      .cls-6 {
+        stroke: #89e7ff;
+        stroke-width: 10px;
+      }
+
+      .cls-8 {
+        font-family: SourceSerifVariable-Roman, 'Source Serif Variable';
+        font-variation-settings: 'wght' 389;
+      }
+
+      .cls-9, .cls-10, .cls-11 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <path class="cls-6" d="m371.54,103.15h366.89-366.89Z"/>
+  <path class="cls-6" d="m739.65,103.15h366.89-366.89Z"/>
+  <path class="cls-6" d="m1104.31,103.15h366.89-366.89Z"/>
+  <path class="cls-6" d="m372.77,330.66h366.89-366.89Z"/>
+  <line class="cls-6" x1="371.54" y1="79.58" x2="371.54" y2="130.82"/>
+  <line class="cls-6" x1="1474.26" y1="77.53" x2="1474.26" y2="128.77"/>
+  <line class="cls-6" x1="1105.32" y1="77.53" x2="1105.32" y2="128.77"/>
+  <line class="cls-6" x1="371.54" y1="305.04" x2="371.54" y2="356.28"/>
+  <line class="cls-6" x1="740.48" y1="305.04" x2="740.48" y2="356.28"/>
+  <g class="cls-7">
+    <text class="cls-3" transform="translate(1600.39 241.73)"><tspan x="0" y="0">30 кар.</tspan></text>
+  </g>
+  <g class="cls-7">
+    <text class="cls-4" transform="translate(1495.39 331.41)"><tspan x="0" y="0">}</tspan></text>
+    <text class="cls-5" transform="translate(1495.39 331.41)"><tspan x="0" y="0">}</tspan></text>
+  </g>
+  <text class="cls-2" transform="translate(24.96 120.93)"><tspan class="cls-9" x="0" y="0">В </tspan><tspan class="cls-8" x="46.36" y="0">I</tspan><tspan class="cls-9" x="69.11" y="0"> </tspan><tspan class="cls-11" x="82.15" y="0">к</tspan><tspan class="cls-9" x="111.23" y="0">ороб</tspan><tspan class="cls-10" x="246.2" y="0">к</tspan><tspan class="cls-9" x="275.29" y="0">е</tspan></text>
+  <text class="cls-2" transform="translate(0 348.22)"><tspan class="cls-9" x="0" y="0">В </tspan><tspan class="cls-8" x="46.36" y="0">II</tspan><tspan class="cls-9" x="91.86" y="0"> </tspan><tspan class="cls-11" x="104.9" y="0">к</tspan><tspan class="cls-9" x="133.98" y="0">ороб</tspan><tspan class="cls-10" x="268.95" y="0">к</tspan><tspan class="cls-9" x="298.04" y="0">е</tspan></text>
+  <text class="cls-1" transform="translate(1198.89 53.1)"><tspan x="0" y="0">6 кар.</tspan></text>
+</svg>
