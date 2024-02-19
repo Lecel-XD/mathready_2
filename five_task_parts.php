@@ -6,38 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATHREADY</title>
     <link rel="shortcut icon" href="#" type="image/x-icon">
-    <link rel="stylesheet" href="../css/fonts.css">
-    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="../sass/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="sass/style.css">
 </head>
 <body class="fifth">
-    <header>
-        <div class="container">
-            <nav>
-                <div class="row">
-                    <a href="" class="nav_link col-md-2">
-                        <img src="../icons/temporary/logo.png" alt="#" class="nav_logo_img">
-                    </a>
-                    <div class="nav_menu col-md-4 offset-md-2">
-                        <ul class="menu">
-                            <li class="menu_li"><a href="" class="menu_link">главная</a></li>
-                            <li class="menu_li"><a href="" class="menu_link">алгебра</a></li>
-                            <li class="menu_li"><a href="" class="menu_link">геометрия</a></li>
-                        </ul>
-                    </div>
-                    <div class="nav_btns col-md-3 offset-md-1">
-                        <!-- <button class="nav_btn"><img src="#" alt="поиск"></button> -->
-                        <!-- <button class="nav_btn"><img src="#" alt="тема"></button> -->
-                        <a class="nav_btn">
-                            <span></span><span></span><span></span>
-                        </a>
-                        <!-- <button class="nav_btn"><img src="#" alt="профиль"></button> -->
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php 
+        @include('nav.php')
+     ?>
     <div class="container">
         <h1>математика</h1>
         <h2>5 класс</h2>
@@ -57,7 +34,7 @@
                 <p>На двух полках стоит 120 книг – на первой полке в 3 раза больше, чем на второй. Сколько книг стоит на каждой полке?</p>
                 <div class="solution">Решение</div>
                 <p>Если книги, стоящие на второй полке, составляют 1 часть, то на первой полке – 3 такие части</p>
-                <img src="../img/parts_tasks1.svg" alt="" class="parts_img">
+                <img src="img/parts_tasks.svg" alt="" class="parts_img">
                 <div class="episodes">
                     <p>1) Сколько частей составляют 120 книг?</p>   
                     <div class="term">1 + 3 = 4 (части)</div> 
@@ -69,14 +46,14 @@
                 </div>
             </div>
         </section>
-        <section class="summ_tasks">
+        <section class="summ_tasks" name='test_link'>
             <div class="theme_box">
                 <div class="theme_text">Задачи на нахождение двух чисел по их сумме и разности</div>
             </div>
             <div class="task_3">
                 <div class="yellow_subheader">Задача 1</div>
                 <p>В первой коробке на 6 карандашей больше, чем во второй, а в двух вместе 30 карандашей. Сколько карандашей в каждой коробке?</p>
-                <img src="../img/summ_tasks.svg" alt="" class="summ_tasks_img">
+                <img src="img/summ_tasks.svg" alt="" class="summ_tasks_img">
                 <div class="solution">Решение</div>
                 <div class="episodes">
                     <p>Если из первой коробки вынуть 6 карандашей, в ней станет столько же карандашей, сколько и во второй, а в двух вместе – в 2 раза больше, чем во второй:</p>
@@ -90,8 +67,8 @@
             </div>
         </section>
         <section class="theme_btns">
-            <div class="theme_btn"><a href="">предыдущая тема</a></div>
-            <div class="theme_btn"><a href="">главная</a></div>
+            <div class="theme_btn"><a href="five_natural_numbers.php">предыдущая тема</a></div>
+            <div class="theme_btn"><a href="index.php">главная</a></div>
             <div class="theme_btn"><a href="">следующая тема</a></div>
         </section>
     </div>

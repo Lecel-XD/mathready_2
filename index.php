@@ -12,32 +12,9 @@
     <link rel="stylesheet" href="sass/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="row">
-                    <a href="" class="nav_link col-md-2">
-                        <img src="icons/temporary/logo.png" alt="#" class="nav_logo_img">
-                    </a>
-                    <div class="nav_menu col-md-4 offset-md-2">
-                        <ul class="menu">
-                            <li class="menu_li"><a href="" class="menu_link">главная</a></li>
-                            <li class="menu_li"><a href="" class="menu_link">алгебра</a></li>
-                            <li class="menu_li"><a href="" class="menu_link">геометрия</a></li>
-                        </ul>
-                    </div>
-                    <div class="nav_btns col-md-3 offset-md-1">
-                        <!-- <button class="nav_btn"><img src="#" alt="поиск"></button> -->
-                        <!-- <button class="nav_btn"><img src="#" alt="тема"></button> -->
-                        <a class="nav_btn">
-                            <span></span><span></span><span></span>
-                        </a>
-                        <!-- <button class="nav_btn"><img src="#" alt="профиль"></button> -->
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php 
+        @include('nav.php');
+     ?>
 
     <section class="about">
         <div class="container">
@@ -59,8 +36,8 @@
             <h2 class="category_header">категории</h2>
             <h3 class="category_subheader">классы</h3>
             <div class="wrapper">
-                <a href="fifth_grade/natural_numbers.html" class="category_link">5 класс</a>
-                <a href="html/six/main.html" class="category_link">6 класс</a>
+                <a href="five_natural_numbers.php#top" class="category_link">5 класс</a>
+                <a href="" class="category_link">6 класс</a>
                 <a href="html/seven/main.html" class="category_link">7 класс</a>
                 <a href="html/eight/main.html" class="category_link">8 класс</a>
                 <a href="html/nine/main.html" class="category_link">9 класс</a>

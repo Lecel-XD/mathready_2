@@ -6,45 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATHREADY</title>
     <link rel="shortcut icon" href="#" type="image/x-icon">
-    <link rel="stylesheet" href="../css/fonts.css">
-    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="../sass/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="sass/style.css">
 </head>
 <body class="fifth">
-    <header>
-        <div class="container">
-            <nav>
-                <div class="row">
-                    <a href="../index.html" class="nav_link col-md-2">
-                        <img src="../icons/temporary/logo.png" alt="#" class="nav_logo_img">
-                    </a>
-                    <div class="nav_menu col-md-4 offset-md-2">
-                        <ul class="menu">
-                            <li class="menu_li"><a href="" class="menu_link">главная</a></li>
-                            <li class="menu_li"><a href="" class="menu_link">алгебра</a></li>
-                            <li class="menu_li"><a href="" class="menu_link">геометрия</a></li>
-                        </ul>
-                    </div>
-                    <div class="nav_btns col-md-3 offset-md-1">
-                        <!-- <button class="nav_btn"><img src="#" alt="поиск"></button> -->
-                        <!-- <button class="nav_btn"><img src="#" alt="тема"></button> -->
-                        <a class="nav_btn">
-                            <span></span><span></span><span></span>
-                        </a>
-                        <!-- <button class="nav_btn"><img src="#" alt="профиль"></button> -->
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php 
+        @include('nav.php');
+     ?>
     <div class="container">
         <h1>математика</h1>
         <h2>5 класс</h2>
         <section class="natural_numbers">
             <div class="theme_box"><h3 class="theme_text">Натуральные числа</h3></div>
             <div class="yellow_illustration numbers">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ...,</div>
-            <img src="../img/arrow.png" alt="" class="arrow">
+            <img src="img/arrow.png" alt="" class="arrow">
             <p class="comment nat_first">В натуральном ряду есть первое число 1, но нет последнего</p>
             <p class="term"><strong>Натуральные числа</strong> – числа, которые мы используем при счете</p>
             <p class="term"><strong>Ряд натуральных чисел (натуральный ряд)</strong> – натуральные числа, записанные в порядке возрастания без пропусков</p>
@@ -94,7 +71,7 @@
                     <p class="">и т.д.</p>
                 </div>
             </div>
-            <img src="../img/numbers_ranks.png" alt="numbers_ranks" class="rank_numbers">
+            <img src="img/numbers_ranks.png" alt="numbers_ranks" class="rank_numbers">
             <div class="every_natural">
                 <div class="box_center every_nat">
                     <p class="text_center">Каждое натуральное число можно записать в виде суммы разрядных слагаемых</p>
@@ -119,7 +96,7 @@
                         </p>
                     </div>
                     <div class="col-md-7">
-                        <img src="../img/number_line.png" alt="number line" class="number_line">
+                        <img src="img/number_line.png" alt="number line" class="number_line">
                     </div>
                 </div>
             </div>
@@ -290,6 +267,28 @@
                     </div>
                 </div>
             </div>
+            <div class="division_flex">
+                <div class="biggest_division_box">
+                    <h4>Наибольший общий делитель (НОД)</h4>
+                    <p>Чтобы найти НОД, нужно каждое из чисел разложить на простые множители</p>
+                    <p>После этого перемножаются множители, которые присутствуют в обоих числах</p>
+                    <p class='examples'>180 = <u>2</u> · <u>2</u> · <u>3</u> · 3 · 5</p>
+                    <p class='examples'>336 = <u>2</u> · <u>2</u> · 2 · 2 · <u>3</u> · 7</p>
+                    <p>НОД(180, 336) = 2 · 2 · 3 = 12</p>
+                    <p>Взаимно простые числа – числа, не имеющие простых общих множителей</p>
+                    <img src="" alt="">
+                </div>
+                <div class="lowest_factor_box">
+                    <h4>Наименьшее общее кратное (НОК)</h4>
+                    <p>НОК – наименьшее натуральное число, которое нацело делится на оба данных числа</p>
+                    <p>Чтобы найти НОК, нужно взять все множители первого числа, и умножить их на множители второго, которых не было в разложении первого</p>
+                    <p class='examples'>24 = 2 · 2 · 2 · 3</p>
+                    <p class='examples'>18 = 2 · 3 · 3</p>
+                    <p>НОК(24, 18) = (2 · 2 · 2 · 3) · 3 = 72</p>
+                    <img src="" alt="">
+                </div>
+
+            </div>
             <div class="division_with_rest box">
                 <h4>деление с остатком</h4>
                 <p class="yellow_subheader">14 = 3 · 4 + 2</p>
@@ -316,8 +315,8 @@
             </div>
         </section>
         <section class="theme_btns">
-            <div class="theme_btn"><a href="">главная</a></div>
-            <div class="theme_btn"><a href="">следующая тема</a></div>
+            <div class="theme_btn"><a href="index.php">главная</a></div>
+            <div class="theme_btn"><a href="five_task_parts.php">следующая тема</a></div>
         </section>
     </div>
 </body>

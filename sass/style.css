@@ -322,17 +322,15 @@ footer img {
 .fifth {
   font-size: 17px;
   background-color: #121212;
-  padding-top: 67px;
 }
-.fifth header {
-  position: absolute;
-  top: 0px;
+.fifth .container {
+  padding-top: 150px;
 }
 .fifth h1 {
   font-size: 33px;
   font-weight: 900;
   text-align: center;
-  margin: 85px auto 20px auto;
+  margin: 0 auto 20px auto;
   text-transform: uppercase;
   line-height: 33px;
 }
@@ -528,6 +526,44 @@ footer img {
 .fifth .comparison_nat .wrapper .row img {
   position: relative;
   right: -60px;
+}
+.fifth .actions_with_naturals .division_flex {
+  position: relative;
+  left: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1075px;
+}
+.fifth .actions_with_naturals .division_flex h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.fifth .actions_with_naturals .division_flex p {
+  margin-bottom: 7px;
+}
+.fifth .actions_with_naturals .division_flex .examples {
+  text-align: center;
+  color: #d1ae59;
+}
+.fifth .actions_with_naturals .division_flex .examples u {
+  color: #d1ae59;
+  text-decoration-color: #c7c7c7;
+}
+.fifth .actions_with_naturals .division_flex .biggest_division_box {
+  max-width: 520px;
+  border-radius: 10px;
+  background-color: #191919;
+  padding: 20px;
+}
+.fifth .actions_with_naturals .division_flex .lowest_factor_box {
+  max-width: 520px;
+  border-radius: 10px;
+  background-color: #191919;
+  padding: 20px;
 }
 .fifth .actions_with_naturals .theme_box {
   margin-bottom: 40px;
