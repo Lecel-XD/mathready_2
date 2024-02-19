@@ -15,7 +15,7 @@
     <?php 
         @include('nav.php');
      ?>
-    <div class="container">
+    <div class="container first_cont">
         <h1>математика</h1>
         <h2>5 класс</h2>
         <section class="natural_numbers">
@@ -27,36 +27,7 @@
             <p class="term"><strong>Ряд натуральных чисел (натуральный ряд)</strong> – натуральные числа, записанные в порядке возрастания без пропусков</p>
             <p class="term"><strong>Числовое выражение</strong> – запись, в которой используются только числа, знаки арифметических действий и скобки</p>
             <div class="box_center zero"><p class="text_center">Нуль НЕ считают натуральным числом</p></div>
-            <div class="ranks">
-                <div class="rank">
-                    <p>1</p>
-                    <p>10</p>
-                    <p>100</p>
-                    <p>1 000</p>
-                    <p>10 000</p>
-                    <p>100 000</p>
-                    <p>1 000 000</p>
-                    <p>10 000 000</p>
-                    <p>100 000 000</p>
-                    <p>1 000 000 000</p>
-                    <p>10 000 000 000</p>
-                    <p>100 000 000 000</p>
-                </div>
-                <div class="definition">
-                    <p>– единица</p>
-                    <p>– десять</p>
-                    <p>– сто</p>
-                    <p>– тясяча</p>
-                    <p>– десять тысяч</p>
-                    <p>– сто тысяч</p>
-                    <p>– миллион</p>
-                    <p>– десять миллионов</p>
-                    <p>– сто миллионов</p>
-                    <p>– миллиард</p>
-                    <p>– десять миллиардов</p>
-                    <p>– сто миллиардов</p>
-                </div>
-            </div>
+
             <div class="single_digit">
                 <div class="main_digit">
                     <p class="single">однозначные</p>

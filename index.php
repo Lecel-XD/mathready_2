@@ -36,13 +36,12 @@
             <h2 class="category_header">категории</h2>
             <h3 class="category_subheader">классы</h3>
             <div class="wrapper">
-                <a href="five_natural_numbers.php#top" class="category_link">5 класс</a>
-                <a href="" class="category_link">6 класс</a>
-                <a href="html/seven/main.html" class="category_link">7 класс</a>
-                <a href="html/eight/main.html" class="category_link">8 класс</a>
-                <a href="html/nine/main.html" class="category_link">9 класс</a>
-                <a href="html/ten/main.html" class="category_link">10 класс</a>
-                <a href="html/eleven/main.html" class="category_link">11 класс</a>
+                <a href="five_main.php" class="category_link">5 класс</a>
+                <a href="six_main.php" class="category_link">6 класс</a>
+                <a href="seven_main.php" class="category_link">7 класс</a>
+                <a href="eight_main.php" class="category_link">8 класс</a>
+                <a href="nine_main.php" class="category_link">9 класс</a>
+                <a href="ten-eleven_main.php" class="category_link">10-11 класс</a>
             </div>
             <h2 class="category_header">категории</h2>
             <h3 class="category_exams">огэ, егэ</h3>

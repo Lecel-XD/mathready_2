@@ -15,7 +15,7 @@
     <?php 
         @include('nav.php')
      ?>
-    <div class="container">
+    <div class="container first_cont">
         <h1>математика</h1>
         <h2>5 класс</h2>
         <section class="tasks_on_parts">

@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530.31 189.32">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 531.31 190.32">
   <defs>
     <style>
       .cls-1 {
-        letter-spacing: -.01em;
+        font-family: Inter-Regular, Inter;
+        font-size: 17px;
+        font-variation-settings: 'wght' 400, 'slnt' 0;
       }
 
-      .cls-2 {
-        font-family: Inter-Medium, Inter;
-        font-size: 20px;
-        font-variation-settings: 'wght' 500, 'slnt' 0;
-        font-weight: 500;
-      }
-
-      .cls-2, .cls-3 {
+      .cls-1, .cls-2 {
         fill: #d1ae59;
       }
 
-      .cls-4 {
-        fill: none;
-        stroke: #fff;
-        stroke-miterlimit: 10;
-        stroke-width: 5px;
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
       }
 
-      .cls-3 {
+      .cls-2 {
         font-family: Inter-Thin, Inter;
-        font-size: 160px;
+        font-size: 133px;
         font-variation-settings: 'wght' 100, 'slnt' 0;
         font-weight: 200;
       }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-4, .cls-3 {
+        fill: none;
+      }
     </style>
   </defs>
-  <line class="cls-4" x1="134.13" y1="46.46" x2="398.37" y2="46.46"/>
-  <line class="cls-4" x1="398.37" y1="28.35" x2="398.37" y2="65.31"/>
-  <line class="cls-4" x1="136.35" y1="28.35" x2="136.35" y2="65.31"/>
-  <line class="cls-4" x1="136.35" y1="110.39" x2="136.35" y2="147.35"/>
-  <line class="cls-4" x1="312.63" y1="28.35" x2="312.63" y2="65.31"/>
-  <line class="cls-4" x1="312.63" y1="110.39" x2="312.63" y2="147.35"/>
-  <line class="cls-4" x1="134.5" y1="128.87" x2="312.63" y2="128.87"/>
-  <text class="cls-2" transform="translate(332.94 20.61)"><tspan x="0" y="0">6 кар</tspan></text>
-  <text class="cls-2" transform="translate(5.39 51.11)"><tspan x="0" y="0">В I коробке</tspan></text>
-  <text class="cls-2" transform="translate(0 134.11)"><tspan x="0" y="0">В II коробке</tspan></text>
-  <text class="cls-3" transform="translate(412.19 138.18)"><tspan x="0" y="0">}</tspan></text>
-  <text class="cls-2" transform="translate(458.98 98.65)"><tspan x="0" y="0">30 кар</tspan><tspan class="cls-1" x="65.89" y="0">.</tspan></text>
+  <line class="cls-4" x1="134.63" y1="46.96" x2="398.87" y2="46.96"/>
+  <line class="cls-4" x1="313.13" y1="34.85" x2="313.13" y2="59.81"/>
+  <line class="cls-4" x1="313.13" y1="116.89" x2="313.13" y2="141.85"/>
+  <line class="cls-4" x1="134.63" y1="116.89" x2="134.63" y2="141.85"/>
+  <line class="cls-4" x1="135" y1="34.48" x2="135" y2="59.44"/>
+  <line class="cls-4" x1="398.87" y1="34.48" x2="398.87" y2="59.44"/>
+  <line class="cls-4" x1="135" y1="129.37" x2="313.13" y2="129.37"/>
+  <g class="cls-3">
+    <text class="cls-1" transform="translate(334.53 28.11)"><tspan x="0" y="0">6 кар</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-1" transform="translate(34 52.13)"><tspan x="0" y="0">В I коробке</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-1" transform="translate(24.12 133.13)"><tspan x="0" y="0">В II коробке</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(410.33 129.37)"><tspan x="0" y="0">}</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-1" transform="translate(450.18 94.63)"><tspan x="0" y="0">30 кар</tspan></text>
+  </g>
 </svg>
