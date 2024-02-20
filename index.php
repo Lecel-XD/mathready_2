@@ -36,18 +36,18 @@
             <h2 class="category_header">категории</h2>
             <h3 class="category_subheader">классы</h3>
             <div class="wrapper">
-                <a href="five_main.php" class="category_link">5 класс</a>
-                <a href="six_main.php" class="category_link">6 класс</a>
-                <a href="seven_main.php" class="category_link">7 класс</a>
-                <a href="eight_main.php" class="category_link">8 класс</a>
-                <a href="nine_main.php" class="category_link">9 класс</a>
-                <a href="ten-eleven_main.php" class="category_link">10-11 класс</a>
+                <a href="five_main.php" class="category_link five"></a>
+                <a href="six_main.php" class="category_link six"></a>
+                <a href="seven_main.php" class="category_link seven"></a>
+                <a href="eight_main.php" class="category_link eight"></a>
+                <a href="nine_main.php" class="category_link nine"></a>
+                <a href="ten-eleven_main.php" class="category_link ten_eleven"></a>
             </div>
             <h2 class="category_header">категории</h2>
             <h3 class="category_exams">огэ, егэ</h3>
             <div class="wrapper">
-                <a href="" class="category_link">огэ</a>
-                <a href="" class="category_link">егэ</a>
+                <a href="oge_main.php" class="category_link oge"></a>
+                <a href="ege_main.php" class="category_link ege"></a>
             </div>
         </div>
     </section>

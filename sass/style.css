@@ -187,20 +187,52 @@ body {
   border-radius: 10px;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 100px;
   font-weight: 700;
   margin: 20px;
   font-size: 20px;
   line-height: 20px;
   width: 220px;
   height: 220px;
-  background-color: #191919;
-  transition-duration: 0.5s;
+  background-image: url(../img/5.svg);
 }
 .category .wrapper .category_link:hover {
-  color: #c75c5c;
-  background-color: #202020;
-  text-decoration: none;
+  background-image: url(../img/5_hover.svg);
+}
+.category .wrapper .five {
+  background-image: url(../img/5.svg);
+}
+.category .wrapper .five:hover {
+  background-image: url(../img/5_hover.svg);
+}
+.category .wrapper .six {
+  background-image: url(../img/6.svg);
+}
+.category .wrapper .six:hover {
+  background-image: url(../img/6_hover.svg);
+}
+.category .wrapper .seven {
+  background-image: url(../img/7.svg);
+}
+.category .wrapper .seven:hover {
+  background-image: url(../img/7_hover.svg);
+}
+.category .wrapper .eight {
+  background-image: url(../img/8.svg);
+}
+.category .wrapper .eight:hover {
+  background-image: url(../img/8_hover.svg);
+}
+.category .wrapper .nine {
+  background-image: url(../img/9.svg);
+}
+.category .wrapper .nine:hover {
+  background-image: url(../img/9_hover.svg);
+}
+.category .wrapper .ten_eleven {
+  background-image: url(../img/10-11.svg);
+}
+.category .wrapper .ten_eleven:hover {
+  background-image: url(../img/10-11_hover.svg);
 }
 .category_item {
   margin: 20px 20px;
