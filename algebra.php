@@ -16,8 +16,8 @@
         @include('nav.php');
      ?>
     <div class="container first_cont">
-        <h1>математика</h1>
-        <h2>5 класс</h2>
+        <h1>алгебра</h1>
+        <h2>5-11 класс</h2>
         <div class="theme_box">
             <h3 class="theme_text">Список тем</h3>
         </div>
