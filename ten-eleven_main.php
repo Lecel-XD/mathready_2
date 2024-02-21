@@ -23,14 +23,12 @@
         </div>
         <div class="ol_box">
             <ol>
-                <li><a href="ten-eleven_numbers.php">Виды чисел</a></li>
+                <li><a href="ten-eleven_numbers.php">Теория чисел</a></li>
                 <ul>
-                    <li>Сравнение натуральных чисел</li>
-                    <li>Действия с натуральными числами</li>
-                    <li>НОК и НОД</li>
-                    <li>Порядок выполнения действий</li>
+                    <li><a href="ten-eleven_numbers_progressions.php#numbers">Виды чисел</a></li>
+                    <li><a href="ten-eleven_numbers_progressions.php#progressions">Виды прогрессий</a></li>
                 </ul>
-                <li><a href="five_task_parts.php">Задачи "на части" и на нахождение двух чисел по их сумме и разности</a></li>
+                <li><a href="">Теория вероятности</a></li>
                 <li><a href="">grFDFV</a></li>
                 <li><a href="">grFDFV</a></li>
                 <li><a href="">grFDFV</a></li>
