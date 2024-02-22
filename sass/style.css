@@ -898,4 +898,140 @@ footer img {
   text-transform: uppercase;
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+.ten-eleven {
+  font-size: 17px;
+  font-weight: 500;
+}
+.ten-eleven .numbers_box {
+  width: 1075px;
+  position: relative;
+  background-color: #191919;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 15px;
+  left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ten-eleven .numbers_box .number_box {
+  width: 300px;
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 10px;
+  height: 200px;
+}
+.ten-eleven .numbers_box .number_box img {
+  max-height: 18px;
+  margin: 0 auto;
+  display: block;
+}
+.ten-eleven .numbers_box .number_box p {
+  text-align: center;
+}
+.ten-eleven .numbers_box .number_box strong {
+  color: #d1ae59;
+}
+.ten-eleven .numbers_box .number_box .number_item {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.ten-eleven .numbers_box .number_box .rational_number span {
+  width: 11px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+.ten-eleven .numbers_box .number_box .rational_number p {
+  margin: 0;
+}
+.ten-eleven .numbers_box .number_box .rational_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ten-eleven .numbers_box .number_box .rational_flex p {
+  margin: 0 5px;
+}
+.ten-eleven .actions_wrapper .theme_box {
+  margin-top: 70px;
+}
+.ten-eleven .actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 0 35px;
+  margin-top: 30px;
+}
+.ten-eleven .actions .action .wrapper {
+  background-color: #191919;
+  border-radius: 10px;
+  min-height: 165px;
+  width: 200px;
+  padding: 10px 0;
+  position: relative;
+}
+.ten-eleven .actions .action .wrapper .example {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.ten-eleven .actions .action .wrapper .elements {
+  padding: 5px 15px;
+  position: relative;
+  bottom: 0;
+}
+.ten-eleven .actions .action .wrapper .elements p {
+  margin: 0;
+  line-height: 22px;
+}
+.ten-eleven .actions .action .wrapper h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+}
+.ten-eleven .actions .start .wrapper {
+  width: 150px;
+}
+.ten-eleven .actions .exponentiation .wrapper {
+  width: 280px;
+}
+.ten-eleven .actions_rules .box {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  flex-wrap: wrap;
+}
+.ten-eleven .actions_rules .box h3 {
+  text-align: center;
+}
+.ten-eleven .actions_rules .box .lighter_box {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.ten-eleven .actions_rules .box .lighter_box p {
+  text-align: center;
+}
+.ten-eleven .actions_rules .box .lighter_box h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d1ae59;
+  display: inline-block;
+  max-width: 250px;
+}
+.ten-eleven .actions_rules .box .yellow {
+  color: #d1ae59;
 }/*# sourceMappingURL=style.css.map */
