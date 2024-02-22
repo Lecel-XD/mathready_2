@@ -916,7 +916,7 @@ footer img {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .ten-eleven .numbers_box .number_box {
   width: 300px;
@@ -960,9 +960,6 @@ footer img {
 }
 .ten-eleven .numbers_box .number_box .rational_flex p {
   margin: 0 5px;
-}
-.ten-eleven .actions_wrapper .theme_box {
-  margin-top: 70px;
 }
 .ten-eleven .actions {
   display: flex;
@@ -1020,6 +1017,7 @@ footer img {
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
+  max-width: 300px;
 }
 .ten-eleven .actions_rules .box .lighter_box p {
   text-align: center;
@@ -1029,9 +1027,17 @@ footer img {
   text-transform: uppercase;
   font-weight: 500;
   color: #d1ae59;
-  display: inline-block;
+  display: block;
   max-width: 250px;
+  margin: 0 auto 8px auto;
+}
+.ten-eleven .actions_rules .box .features_wider {
+  max-width: 100%;
 }
 .ten-eleven .actions_rules .box .yellow {
   color: #d1ae59;
+}
+
+section {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */

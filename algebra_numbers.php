@@ -67,7 +67,7 @@
         </section>
         <section class="actions_wrapper">
             <div class="theme_box">
-                <div class="theme_text">Арифмметические действия</div>
+                <div class="theme_text">Арифметические действия</div>
             </div>
             <div class="actions">
                 <div class="action start">
@@ -146,7 +146,15 @@
                     <p>a<sup>3</sup> - b<sup>3</sup> = (a - b)(a<sup>2</sup> + ab + b<sup>2</sup>)</p>
                     <p></p>
                 </div>
+                
                 <div class="lighter_box">
+                    <h4>Свойства делимости</h4>
+                    <p>Если a ⋮ n, то ab ⋮ n</p>
+                    <p>Если a ⋮ b, b ⋮ c, то a ⋮ c</p>
+                    <p>Если a ⋮ n, b ⋮ n, то a ± b ⋮ n</p>
+                    <p>Если a ⋮ n, но b не делится нацело на n, то a ± b не делится на n</p>
+                </div>  
+                <div class="lighter_box features_wider">
                     <h4>Признаки делимости</h4>
                     <p><strong class="yellow">a ⋮ 2</strong>, если последняя цифра числа a чётная</p>
                     <p><strong class="yellow">a ⋮ 3</strong>, если сумма цифр числа делится на 3</p>
@@ -157,9 +165,38 @@
                     <p><strong class="yellow">a ⋮ 10</strong>, если число оканчивается на 0</p>
                     <p><strong class="yellow">a ⋮ 11</strong>, если суммы цифр на чётных и нечётных позициях равны</p>
                 </div>
-                <div class="lighter_box"></div>
-                <div class="lighter_box"></div>    
 
+            </div>
+        </section>
+        <section class="roots">
+            <div class="theme_box">
+                <div class="theme_text">Корень, степень, модуль</div>
+            </div>
+            <div class="box">
+                <div class="lighter_box">
+                    <h4>Свойства корней</h4>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="lighter_box">
+                    <h4>Свойства степени</h4>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="lighter_box">
+                    <h4>Свойства модуля</h4>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
             </div>
         </section>
     </div>
