@@ -16,7 +16,7 @@
         @include('nav.php')
      ?>
 
-    <section class="progressions">
+    <section class="container first_container">
         <div class="theme_box">
             <div class="theme_text">Арифметическая и геометрическая прогрессия</div>
         </div>

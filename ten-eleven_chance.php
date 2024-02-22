@@ -13,8 +13,8 @@
 </head>
 <body>
     <?php 
-            @include('nav.php')
-        ?>
+        @include('nav.php')
+    ?>
     
 </body>
 </html>
