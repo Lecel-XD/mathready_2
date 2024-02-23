@@ -1321,6 +1321,76 @@ footer img {
   text-align: center;
 }
 
+.equals .grade_1 .first_grade {
+  display: flex;
+  justify-content: space-between;
+}
+.equals .grade_1 .first_grade .lighter_box {
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: #202020;
+}
+.equals .grade_1 .first_grade .lighter_box h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+}
+.equals .grade_1 .first_grade .example p {
+  margin: 0;
+}
+.equals .grade_1 .properties {
+  padding: 10px;
+}
+.equals .grade_1 .properties .lighter_box {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #202020;
+  margin: 20px;
+}
+.equals .grade_1 .properties h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+}
+.equals .systems_first_grade .systems h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.equals .systems_first_grade .systems .flex_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.equals .systems_first_grade .systems .flex_box .lighter_box {
+  border-radius: 10px;
+  background-color: #202020;
+  max-width: 470px;
+  padding: 20px;
+  margin: 20px;
+}
+.equals .systems_first_grade .systems .flex_box .lighter_box h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+}
+.equals .systems_first_grade .systems .flex_box .lighter_box .sys-1 {
+  max-height: 242px;
+  margin: 10px 0;
+}
+.equals .systems_first_grade .systems .flex_box .lighter_box .sys-2 {
+  max-height: 246px;
+  margin: 10px 0;
+}
+
 section {
   margin-bottom: 50px;
 }

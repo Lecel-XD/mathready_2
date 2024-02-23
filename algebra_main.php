@@ -40,6 +40,12 @@
                     <li><a href="algebra_progressions.php#arifmetic">Арифметическая, геометрическая прогрессии</a></li>
                     <li><a href="algebra_progressions.php#infinite">Бесконечно убывающая геометрическая прогрессия</a></li>
                 </ul>
+                <li><a href="algebra_equals.php">Уравнения</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
             </ol>
         </div>
     </div> 
