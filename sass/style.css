@@ -7,6 +7,62 @@
   transition-duration: 0.5s;
 }
 
+sub {
+  font-weight: 500;
+}
+
+.container_with_fraction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container_with_fraction p {
+  margin: 0;
+}
+.container_with_fraction .elem {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+.container_with_fraction .fraction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_with_fraction .fraction hr {
+  width: 90%;
+  margin: 5px;
+}
+.container_with_fraction .fraction p {
+  text-align: center;
+  line-height: 19px;
+}
+.container_with_fraction img {
+  max-height: 50px;
+}
+.container_with_fraction .bracket_2_rotated {
+  transform: scale(-1, 1);
+}
+.container_with_fraction .degree_of_bracket {
+  top: -20px;
+}
+.container_with_fraction .high_module {
+  display: block;
+  background-color: #fff;
+  height: 50px;
+  width: 2px;
+  margin: 0 2px;
+}
+
+.yellow {
+  color: #d1ae59;
+}
+
+.approximation_line {
+  text-decoration: overline;
+}
+
 header {
   position: fixed;
   z-index: 999;
@@ -269,13 +325,17 @@ footer img {
   margin: 0 auto;
 }
 
+.ol_box ol ul li a {
+  color: #c7c7c7;
+}
+
 .theme_box {
   height: 66px;
   background-color: #191919;
   border-radius: 32px;
   display: inline-block;
   padding: 10px 35px;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .theme_text {
@@ -434,9 +494,6 @@ footer img {
 }
 .fifth .natural_numbers {
   position: relative;
-}
-.fifth .natural_numbers .theme_box {
-  margin-bottom: 30px;
 }
 .fifth .natural_numbers .arrow {
   transform: rotate(180deg);
@@ -622,9 +679,6 @@ footer img {
   border-radius: 10px;
   background-color: #191919;
   padding: 20px;
-}
-.fifth .actions_with_naturals .theme_box {
-  margin-bottom: 40px;
 }
 .fifth .actions_with_naturals .actions {
   display: flex;
@@ -1017,10 +1071,11 @@ footer img {
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
-  max-width: 300px;
+  width: 450px;
 }
 .ten-eleven .actions_rules .box .lighter_box p {
   text-align: center;
+  line-height: 30px;
 }
 .ten-eleven .actions_rules .box .lighter_box h4 {
   text-align: center;
@@ -1037,7 +1092,262 @@ footer img {
 .ten-eleven .actions_rules .box .yellow {
   color: #d1ae59;
 }
+.ten-eleven .roots .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+}
+.ten-eleven .roots .box .lighter_box {
+  margin: 10px;
+  position: relative;
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+}
+.ten-eleven .roots .box .lighter_box .root {
+  height: 34px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+.ten-eleven .roots .box .lighter_box .degree {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+.ten-eleven .roots .box .lighter_box h4 {
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #d1ae59;
+}
+.ten-eleven .roots .box .lighter_box p {
+  text-align: center;
+}
+.ten-eleven .roots .box .lighter_box .tie {
+  width: 115px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+}
+.ten-eleven .roots .box .lighter_box .tie:before {
+  content: "";
+  display: block;
+  top: -7px;
+  position: absolute;
+  height: 7px;
+  width: 2px;
+  background-color: #fff;
+}
+.ten-eleven .roots .box .lighter_box .tie:after {
+  content: "";
+  display: block;
+  top: -7px;
+  right: 0;
+  position: absolute;
+  height: 7px;
+  width: 2px;
+  background-color: #fff;
+}
+.ten-eleven .roots .box .lighter_box .formule_roots {
+  margin: 0 0 10px 0;
+}
+.ten-eleven .roots .box .lighter_box .absolute {
+  position: relative;
+  right: -15px;
+}
+.ten-eleven .approximation p {
+  line-height: 22px;
+  margin: 1rem 0;
+}
+.ten-eleven .approximation .container_with_fraction {
+  justify-content: flex-start;
+}
+.ten-eleven .approximation .container_with_fraction p {
+  line-height: 17px;
+  margin: 0;
+}
+.ten-eleven .plenties .left .definition {
+  position: relative;
+  left: 35px;
+  color: #c7c7c7;
+}
+
+.container .left {
+  position: relative;
+  left: 35px;
+}
+
+.proportions .left .progr_box_center {
+  border-radius: 10px;
+  background-color: #191919;
+  width: 1075px;
+  padding: 10px;
+  margin: 20px 0;
+}
+.proportions .left .progr_box_center .progr_text_center {
+  text-align: center;
+  margin: 10px 0;
+}
+.proportions .left .proportion {
+  margin-top: 50px;
+}
+.proportions .left img {
+  max-height: 100px;
+}
+.proportions .left .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+.proportions .left .box .flex_elem {
+  margin: 10px 20px;
+}
+
+.units .flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 35px;
+  width: 1075px;
+}
+.units .flexbox .unit_item {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+  background-color: #191919;
+  padding: 25px;
+  min-height: 290px;
+}
+.units .flexbox .unit_item h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #d1ae59;
+}
+
+.progressions .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.progressions .box .progression_column {
+  border-radius: 10px;
+  background-color: #202020;
+  padding: 20px;
+  max-width: 500px;
+}
+.progressions .box .progression_column h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d1ae59;
+  font-size: 20px;
+}
+.progressions .box .progression_column .progression_formules {
+  margin: 0 auto;
+  display: inline;
+}
+.progressions .box .progression_column .progression_formules p {
+  color: #d1ae59;
+  text-align: center;
+}
+.progressions .box .progression_column .progression_formules p sub {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_formules p sup {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_formules .progression_formule {
+  text-align: left;
+  margin-top: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.progressions .box .progression_column .container_with_fraction p, .progressions .box .progression_column .container_with_fraction sub, .progressions .box .progression_column .container_with_fraction sup {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .container_with_fraction hr {
+  border-color: #d1ae59;
+}
+.progressions .box .progression_column .progression_property .property_header {
+  text-align: left;
+  margin-top: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.progressions .box .progression_column .progression_property .property_text {
+  color: #fff;
+  text-align: left;
+}
+.progressions .box .progression_column .progression_property p {
+  text-align: center;
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_property p sub {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_property p sup {
+  color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 {
+  display: block;
+  padding: 30px;
+}
+.progressions .infinite_geometric_progression_box .box-2 .container_with_fraction p {
+  color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 .container_with_fraction p sub {
+  color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 .container_with_fraction p sup {
+  color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 .container_with_fraction hr {
+  border-color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 .center {
+  text-align: center;
+}
 
 section {
   margin-bottom: 50px;
+}
+
+.left {
+  position: relative;
+  left: 35px;
+}
+
+.bottom_nav nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom_nav a {
+  padding: 20px;
+  border-radius: 20px;
+  height: 30px;
+  margin: 0 20px;
+  background-color: #d1ae59;
+}
+.bottom_nav a div {
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  font-weight: 700;
+  transform: translateY(-50%);
+  position: relative;
+  color: #121212;
 }/*# sourceMappingURL=style.css.map */

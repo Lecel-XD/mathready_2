@@ -4,7 +4,7 @@
     border-radius: 32px
     display: inline-block
     padding: 10px 35px
-    margin-top: 30px
+    margin: 30px 0
 .theme_text
     color: #c75c5c
     font-weight: 700
@@ -131,8 +131,6 @@
     background-color: $main_theme
     .natural_numbers 
         position: relative
-        .theme_box 
-            margin-bottom: 30px
         .arrow 
             transform: rotate(180deg)
             max-width: 120px
@@ -286,8 +284,6 @@
                 border-radius: 10px 
                 background-color: $second_color
                 padding: 20px
-        .theme_box
-            margin-bottom: 40px
         .actions 
             display: flex
             flex-direction: row 
@@ -617,9 +613,12 @@
                 padding: 20px
                 border-radius: 10px
                 margin: 20px
-                max-width: 300px
+                width: 450px
                 p 
                     text-align: center
+                    line-height: 30px
+                .formule_str 
+                    
                 h4 
                     text-align: center
                     text-transform: uppercase
@@ -632,10 +631,227 @@
                 max-width: 100%
             .yellow 
                 color: $yellow_color
+    .roots 
+        .box 
+            display: flex
+            flex-direction: row 
+            justify-content: space-around
+            padding: 5px
+            .lighter_box 
+                margin: 10px
+                position: relative
+                background-color: $third_color
+                border-radius: 10px
+                padding: 15px
+                width: 100%
+                .root 
+                    height: 34px
+                    display: block
+                    margin: 0 auto 1rem auto
+                .degree
+                    position: relative
+                    display: block
+                    margin: 0 auto
+                    width: 200px
+                h4 
+                    text-align: center
+                    font-weight: 500
+                    text-transform: uppercase
+                    color: $yellow_color
+                p 
+                    text-align: center
+                .tie
+                    width: 115px
+                    height: 2px
+                    background-color: #fff
+                    display: block
+                    position: absolute
+                    right: 25px
+                    top: 30px
+                    &:before 
+                        content: ''
+                        display: block
+                        top: -7px
+                        position: absolute
+                        height: 7px
+                        width: 2px
+                        background-color: #fff
+                    &:after
+                        content: ''
+                        display: block
+                        top: -7px
+                        right: 0
+                        position: absolute
+                        height: 7px
+                        width: 2px
+                        background-color: #fff
+                .formule_roots  
+                    margin: 0 0 10px 0
+                .absolute 
+                    position: relative
+                    right: -15px
         
+    .approximation 
+        p 
+            line-height: 22px
+            margin: 1rem 0
+        .container_with_fraction
+            justify-content: flex-start
+            p 
+                line-height: 17px
+                margin: 0
 
+    .plenties 
+        .left 
+            .definition 
+                position: relative
+                left: 35px
+                color: $p_color
+.container 
+    .left 
+        position: relative
+        left: 35px  
+.proportions 
+    .left 
+        .progr_box_center  
+            border-radius: 10px
+            background-color: $second_color
+            width: 1075px
+            padding: 10px
+            margin: 20px 0
+            .progr_text_center  
+                text-align: center 
+                margin: 10px 0 
+        .proportion 
+            margin-top: 50px
+        img 
+            max-height: 100px
+        .box 
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 20px 10px
+            .flex_elem
+                margin: 10px 20px
+.units 
+    .flexbox 
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        position: relative
+        left: 35px
+        width: 1075px
+        .unit_item 
+            max-width: 300px
+            max-height: 300px
+            border-radius: 10px
+            background-color: $second_color
+            padding: 25px
+            min-height: 290px
+            h4 
+                text-align: center
+                text-transform: uppercase
+                font-weight: 500
+                font-size: 17px
+                margin-bottom: 10px
+                color: $yellow_color
+
+.progressions 
+    .box
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        .progression_column
+            border-radius: 10px
+            background-color: $third_color
+            padding: 20px
+            max-width: 500px
+            h4 
+                text-align: center
+                text-transform: uppercase
+                font-weight: 500
+                color: $yellow_color
+                font-size: 20px
+            .progression_formules 
+                margin: 0 auto
+                display: inline
+                p 
+                    color: $yellow_color
+                    text-align: center
+                    sub 
+                        color: $yellow_color
+                    sup 
+                        color: $yellow_color
+                .progression_formule
+                    text-align: left
+                    margin-top: 30px
+                    font-weight: 700
+                    color: #fff
+            .container_with_fraction
+                p, sub, sup
+                    color: $yellow_color
+                hr 
+                    border-color: $yellow_color
+            .progression_property 
+                .property_header
+                    text-align: left
+                    margin-top: 30px
+                    font-weight: 700
+                    color: #fff
+                    margin-bottom: 5px
+                .property_text 
+                    color: #fff
+                    text-align: left
+                p 
+                    text-align: center
+                    color: $yellow_color
+                    sub 
+                        color: $yellow_color
+                    sup 
+                        color: $yellow_color
+    .infinite_geometric_progression_box
+        .box-2 
+            display: block
+            padding: 30px
+            .container_with_fraction 
+                p 
+                    color: $yellow_color
+                    sub 
+                        color: $yellow_color
+                    sup 
+                        color: $yellow_color
+                hr 
+                    border-color: $yellow_color
+            .center 
+                text-align: center
 
 section 
     margin-bottom: 50px
+.left 
+    position: relative
+    left: 35px
+.bottom_nav
+    nav 
+        display: flex
+        justify-content: center 
+        align-items: center
+        
+    a 
+        padding: 20px
+        border-radius: 20px 
+        height: 30px
+        margin: 0 20px
+        background-color: $yellow_color
+        div 
+            text-align: center
+            text-transform: uppercase
+            top: 50%
+            font-weight: 700
+            transform: translateY(-50%)
+            position: relative
+            color: $main_theme
+
+
 
     

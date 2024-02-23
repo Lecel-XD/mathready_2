@@ -16,9 +16,10 @@
         @include('nav.php')
      ?>
     <div class="container">
+        <a name="numbers"></a>
         <section class="first_cont">
             <h1>алгебра</h1>
-            <h2>10-11 класс</h2>
+            <h2>весь школьный курс</h2>
             <div class="theme_box">
                 <div class="theme_text">Виды чисел</div>
             </div>
@@ -26,6 +27,10 @@
                 <div class="number_box">
                     <p class="number_item"><strong>Натуральные числа</strong> – используются при счёте предметов (N)</p>
                     <p>N = {1, 2, 3, ...}</p>
+                </div>
+                <div class="number_box">
+                    <p class="number_item"><strong>Отрицательные числа</strong> – числа меньше нуля</p>
+                    <p>Пример: -1, -2, -3, ...</p>
                 </div>
                 <div class="number_box">
                     <p class="number_item"><strong>Целые числа</strong> – натуральные числа, отрицательные и нуль (Z)</p>
@@ -64,7 +69,9 @@
                     <p>Пример: 4, 6, 8, 9, 10, ...</p>
                 </div>
             </div>
+            <a name="arifmetic"></a>
         </section>
+        
         <section class="actions_wrapper">
             <div class="theme_box">
                 <div class="theme_text">Арифметические действия</div>
@@ -136,24 +143,28 @@
                     <p>a · (b + c) = a · b + a · c</p>
                 </div>
                 <div class="lighter_box">
-                    <h4>Формулы сокращённого умножения</h4>
-                    <p>a<sup>2</sup> - b<sup>2</sup> = (a - b)(a + b)</p>
-                    <p>(a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></p>
-                    <p>(a - b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></p>
-                    <p>(a + b)<sup>3</sup> = a<sup>3</sup> + 3a<sup>2</sup>b + 3ab<sup>2</sup> + b<sup>3</sup></p>
-                    <p>(a - b)<sup>3</sup> = a<sup>3</sup> - 3a<sup>2</sup>b + 3ab<sup>2</sup> - b<sup>3</sup></p>
-                    <p>a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> - ab + b<sup>2</sup>)</p>
-                    <p>a<sup>3</sup> - b<sup>3</sup> = (a - b)(a<sup>2</sup> + ab + b<sup>2</sup>)</p>
-                    <p></p>
-                </div>
-                
-                <div class="lighter_box">
                     <h4>Свойства делимости</h4>
                     <p>Если a ⋮ n, то ab ⋮ n</p>
                     <p>Если a ⋮ b, b ⋮ c, то a ⋮ c</p>
                     <p>Если a ⋮ n, b ⋮ n, то a ± b ⋮ n</p>
                     <p>Если a ⋮ n, но b не делится нацело на n, то a ± b не делится на n</p>
                 </div>  
+                <div class="lighter_box">
+                    <h4>Формулы сокращённого умножения</h4>
+                    <p>a<sup>2</sup> - b<sup>2</sup> = (a - b)(a + b)</p>
+                    <p>(a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></p>
+                    <p>(a + b + c)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> + 2ab + 2ac + 2bc</p>
+                    <p>(a - b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></p>
+                    <p>(a + b)<sup>3</sup> = a<sup>3</sup> + 3a<sup>2</sup>b + 3ab<sup>2</sup> + b<sup>3</sup></p>
+                    <p>(a - b)<sup>3</sup> = a<sup>3</sup> - 3a<sup>2</sup>b + 3ab<sup>2</sup> - b<sup>3</sup></p>
+                    <p>a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> - ab + b<sup>2</sup>)</p>
+                    <p>a<sup>3</sup> - b<sup>3</sup> = (a - b)(a<sup>2</sup> + ab + b<sup>2</sup>)</p>
+                    <p class="formule_str">(a<sub>1</sub> + a<sub>2</sub> + … + a<sub>n</sub>)<sup>2</sup> = a<sub>1</sub><sup>2</sup> + a<sub>2</sub><sup>2</sup> + … + a<sub>n</sub><sup>2</sup> + 2a<sub>1</sub>a<sub>2</sub> + 2a<sub>1</sub>a<sub>3</sub> + 2a<sub>1</sub>a<sub>4</sub> + … + 2a<sub>1</sub>a<sub>n</sub> + 2a<sub>2</sub>a<sub>3</sub> + 2a<sub>2</sub>a<sub>4</sub> + … + 2a<sub>2</sub>a<sub>n</sub> + … + 2a<sub>n-1</sub>a<sub>n</sub></p>
+                    <p>a<sup>n</sup> − b<sup>n</sup> = (a − b)(a<sup>n-1</sup> + a<sup>n-2</sup>b + a<sup>n-2</sup>b<sup>2</sup> + … + ab<sup>n-2</sup> + b<sup>n-1</sup>) 
+                        </p>
+                </div>
+                
+                
                 <div class="lighter_box features_wider">
                     <h4>Признаки делимости</h4>
                     <p><strong class="yellow">a ⋮ 2</strong>, если последняя цифра числа a чётная</p>
@@ -167,6 +178,7 @@
                 </div>
 
             </div>
+            <a name="roots"></a>
         </section>
         <section class="roots">
             <div class="theme_box">
@@ -174,30 +186,151 @@
             </div>
             <div class="box">
                 <div class="lighter_box">
-                    <h4>Свойства корней</h4>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <h4>Свойства корня</h4>
+                    <img class="root" src="img/root-1.svg" alt="">
+                    <img class="root" src="img/root-2.svg" alt="">
+                    <img class="root" src="img/root-3.svg" alt="">
+                    <img class="root" src="img/root-4.svg" alt="">
+                    <img class="root" src="img/root-5.svg" alt="">
+                    <img class="root" src="img/root-6.svg" alt="">
+                    <img class="root" src="img/root-7.svg" alt="">
                 </div>
                 <div class="lighter_box">
                     <h4>Свойства степени</h4>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <div class="degree">
+                        <p class="formule_roots">a<sup>n</sup> = a · a · a · ... · a</p>
+                        <span class="tie"></span>
+                        <p class="absolute">n раз</p>
+                    </div>
+                    <p>a – основание степени</p>
+                    <p>n – показатель степени</p>
+                    <p>a<sup>1</sup> = a</p>
+                    <p>a<sup>0</sup> = 1</p>
+                    <div class="container_with_fraction">
+                        <div class="elem">
+                            <p>a<sup>-1</sup> = </p>
+                        </div>
+                        <div class="fraction elem">
+                            <p>1</p>
+                            <hr>
+                            <p>a<sup>n</sup></p>
+                        </div>
+                    </div>
+                    <p>a<sup>m</sup> a<sup>n</sup> = a<sup>m+n</sup></p>
+                    <p>(a<sup>m</sup>)<sup>n</sup> = (a<sup>n</sup>)<sup>m</sup> = a<sup>mn</sup></p>
+                    <p>a<sup>n</sup> b<sup>n</sup> = ab<sup>n</sup></p>
+                    <div class="container_with_fraction">
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>a<sup>m</sup></p>
+                                <hr>
+                                <p>a<sup>n</sup></p>
+                            </div>
+                        </div>
+                        <p>= a<sup>m-n</sup></p>
+                    </div>
+                    <div class="container_with_fraction">
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>a<sup>n</sup></p>
+                                <hr>
+                                <p>b<sup>n</sup></p>
+                            </div>
+                        </div>
+                        <p>=</p>
+                        <img src="img/bracket_1.svg" alt="">
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>a</p>
+                                <hr>
+                                <p>b</p>
+                            </div>
+                        </div>
+                        <img class="bracket_2_rotated" src="img/bracket_1.svg" alt="">
+                        <sup class="degree_of_bracket">n</sup>
+
+                        
+                    </div>
                     <p></p>
                     <p></p>
                 </div>
                 <div class="lighter_box">
                     <h4>Свойства модуля</h4>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>|a| = |-a|</p>
+                    <p>|a| ≥ 0</p>
+                    <p>|a| ≥ a</p>
+                    <p>|a · b| = |a| · |b|</p>
+                    <p>
+                        <div class="container_with_fraction">
+                        
+                            <div class="elem">
+                                <span class="high_module"></span>
+                                <div class="fraction">
+                                    <p>a</p>
+                                    <hr>
+                                    <p>b</p>
+                                </div>
+                                <span class="high_module"></span>
+                            </div>
+                            
+                            <p> =</p>
+                            <div class="fraction elem">
+                                <p>|a|</p>
+                                <hr>
+                                <p>|b|</p>
+                            </div>
+                            <p>при b = 0</p>
+                        </div>
+                    </p>
+                    <p>|a + b| ≤ |a| + |b|</p>
                 </div>
             </div>
+            <a name="approximation"></a>
+        </section>
+        <section class="approximation">
+            <div class="theme_box">
+                <div class="theme_text">Приближение. Абсолютная, относительная погрешность приближения</div>
+            </div>
+            <div class="left">
+                <p class="yellow lh17">a ≈ <b class="approximation_line yellow">a</b></p>
+                <p class="margin-bottom lh17"><b class="approximation_line">a</b> – приближение числа a</p>
+                <p class="lh17"><strong>Абсолютная погрешность приближения</strong>: |a - <b class="approximation_line">a</b>|</p>
+                <p>
+                    <div class="container_with_fraction">
+                        <p class="elem"><strong>Относительная погрешность приближения</strong>:</p>
+                        <div class="fraction elem">
+                            <p>|a - <b class="approximation_line">a</b>|</p>
+                            <hr>
+                            <p>|a|</p>
+                        </div>
+                    </div>
+                </p>
+                <p>Если заменить положительное число его приближением с точностью до k-й значащей цифры с недостатком, то относительная погрешность этого приближения не превышает 10<sup>-(k-1)</sup></p>
+                <p>Если заменить положительное число его приближением с точностью до k-й значащей цифры с округлением, то относительная погрешность этого приближения не превышает 0,5 · 10<sup>-(k-1)</sup></p>
+            </div>
+            <a name="plenties"></a>
+        </section>
+        <section class="plenties">
+            <div class="theme_box">
+                <div class="theme_text">Множества</div>
+            </div>
+            <div class="left">
+                <p><strong class="yellow">Множество</strong> — набор, совокупность каких-либо объектов — элементов этого множества (натуральных, действительных, целых чисел, точек и т.д.)</p>
+                <p class="definition">2 ∈ N (два принадлежит множеству натуральных чисел</p>
+                <p>Если любой элемент множества A является элементом множества B, то A называют <strong class="yellow">подмножеством</strong> множества B</p>
+                <p class="definition">N ⊂ C (Натуральные числа есть подмножество множества целых чисел)</p>
+                <p><strong class="yellow">Пустое множество</strong> (Ø) – не содержит ни одного элемента</p>
+                <p><strong class="yellow">Объединение множеств</strong> (A ⋃ B) – содержит элементы, принадлежащие либо множеству A, либо множеству B</p>
+                <p><strong class="yellow">Пересечение множеств</strong> (A ⋂ B) – содержит элементы, которые принадлежат обоим множествам одновременно</p>
+                <p><strong class="yellow">Разность множеств</strong> (A \ B) – содержит элементы, принадлежащие только множеству A</p>
+            </div>
+        </section>
+        <section class="bottom_nav">
+            <nav>
+                <a href="index.php"><div>На главную</div></a>
+                <a href="algebra_main.php"><div>В категорию</div></a>
+                <a href="algebra_proportions.php"><div>След. тема</div></a>
+            </nav>
         </section>
     </div>
     
