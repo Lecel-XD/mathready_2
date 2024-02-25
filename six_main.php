@@ -17,11 +17,11 @@
      ?>
     <div class="container first_cont">
         <h1>математика</h1>
-        <h2>5 класс</h2>
-        <div class="theme_box">
+        <h2>6 класс</h2>
+        <!-- <div class="theme_box">
             <h3 class="theme_text">Список тем</h3>
-        </div>
-        <div class="ol_box">
+        </div> -->
+        <!-- <div class="ol_box">
             <ol>
                 <li><a href="five_natural_numbers.php">Натуральные числа</a></li>
                 <ul>
@@ -35,7 +35,13 @@
                 <li><a href="">grFDFV</a></li>
                 <li><a href="">grFDFV</a></li>
             </ol>
-        </div>
+        </div> -->
     </div> 
+    <section class="in_develop">
+        <div class="container">
+            <h4>Раздел в разработке</h4>
+            <a href="index.php"><div>На главную</div></a>
+        </div>
+    </section>
 </body>
 </html>

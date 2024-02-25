@@ -41,7 +41,15 @@
                     <li><a href="algebra_progressions.php#infinite">Бесконечно убывающая геометрическая прогрессия</a></li>
                 </ul>
                 <li><a href="algebra_equals.php">Уравнения</a></li>
-                <li><a href=""></a></li>
+                <ul>
+                    <li><a href="algebra_equals.php#first">Уравнения 1-ой степени</a></li>
+                    <li><a href="algebra_equals.php#square">Квадратные уравнения</a></li>
+                    <li><a href="algebra_equals.php#beesquare">Биквадратные уравнения</a></li>
+                    <li><a href="algebra_equals.php#rational">Рациональные уравнения</a></li>
+                    <li><a href="algebra_equals.php#irrational">Иррациональные уравнения</a></li>
+                    <li><a href="algebra_equals.php#systems">Системы уравнений</a></li>
+                </ul>
+                <li><a href="algebra_inequalities.php">Неравенства</a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>

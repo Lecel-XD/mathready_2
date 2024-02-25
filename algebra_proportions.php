@@ -23,13 +23,13 @@
                 <div class="theme_text">Проценты и пропорции</div>
             </div>
         </section>
-        <section class="left">
-            <p><strong class="yellow">Процент</strong> – одна сотая от числа</p>
-            <div class="progr_box_center">
+        <section class="procent">
+            <p class="left"><strong class="yellow">Процент</strong> – одна сотая от числа</p>
+            <div class="progr_box_center left">
                 <p class="progr_text_center">Чтобы узнать, сколько первое число составляет от второго, надо первое число разделить на второе и результат умножить на 100</p>
                 <p class="progr_text_center">270 от 540 = 270 : 540 · 100% = 50%</p>
             </div>
-            <p class="proportion"><strong class="yellow">Пропорция</strong> – равенство 2-ух отношений</p>
+            <p class="proportion left"><strong class="yellow">Пропорция</strong> – равенство 2-ух отношений</p>
             
             <div class="box">
                 <img class="flex_elem" src="img/progression_elem.svg" alt="">

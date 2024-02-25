@@ -248,8 +248,6 @@
                         </div>
                         <img class="bracket_2_rotated" src="img/bracket_1.svg" alt="">
                         <sup class="degree_of_bracket">n</sup>
-
-                        
                     </div>
                     <p></p>
                     <p></p>
