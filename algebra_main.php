@@ -50,7 +50,14 @@
                     <li><a href="algebra_equals.php#systems">Системы уравнений</a></li>
                 </ul>
                 <li><a href="algebra_inequalities.php">Неравенства</a></li>
-                <li><a href=""></a></li>
+                <ul>
+                    <li><a href="algebra_inequalities.php#properties">Свойства неравенст</a></li>
+                    <li><a href="algebra_inequalities.php#kinds">Виды неравенств</a></li>
+                    <li><a href="algebra_inequalities.php#interval">Метод интервалов</a></li>
+                    <li><a href="algebra_inequalities.php#change">Замена неизвестного при решении неравенств</a></li>
+                    <li><a href="algebra_inequalities.php#systems">Системы неравенств</a></li>
+                </ul>
+                <li><a href="algebra_graphs.php">Функции и графики функций</a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>

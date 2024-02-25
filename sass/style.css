@@ -1664,6 +1664,60 @@ footer img {
   width: 400px;
 }
 
+.graphs .graph-about {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 35px;
+}
+.graphs .graph-about .graph-1 {
+  width: 300px;
+}
+.graphs .graph-about div {
+  width: 700px;
+}
+.graphs .graph-about div p {
+  margin: 10px 0;
+}
+.graphs .grade_func .box {
+  padding: 5px;
+}
+.graphs .grade_func .box .lighter_box {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #202020;
+  margin: 20px;
+}
+.graphs .grade_func .box .lighter_box img {
+  width: 200px;
+  margin: 10px;
+}
+.graphs .grade_func .box .lighter_box h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #d1ae59;
+}
+.graphs .grade_func .box .lighter_box h5 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.graphs .grade_func .box .lighter_box .flex_box {
+  display: flex;
+}
+.graphs .grade_func .box .lighter_box .flex_box .column {
+  width: 500px;
+}
+.graphs .grade_func .box .lighter_box .flex_box .text {
+  margin-top: 10px;
+}
+.graphs .grade_func .box .lighter_box .flex_box .text .container_with_fraction {
+  justify-content: flex-start;
+}
+
 section {
   margin-bottom: 50px;
 }

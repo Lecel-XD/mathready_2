@@ -30,6 +30,7 @@
             <div class="box">► При умножении (или делении) неравенства на положительное число знак неравенства сохраняется</div>
             <div class="box">► При умножении (или делении) неравенства на отрицательное число знак неравенства меняется на противоположный</div>
             <div class="box">► Решение неравенства записывается ввиде интервала(ов). Круглые скобки при строгом неравенстве, квадратные при нестрогом</div>
+            <a name="kinds"></a>
         </section>
         <section class="ineq_kinds">
             <div class="theme_box">
@@ -72,6 +73,7 @@
                         <img class="ineq-2" src="img/ineq-2.svg" alt="">
                     </div>
             </div>
+            <a name="interval"></a>
         </section>
         <section class="interval_method">
             <div class="theme_box">
@@ -90,6 +92,7 @@
                     <p>Ответ: x ∈ (2; 3)</p>
                 </div>
             </div>
+            <a name="change"></a>
         </section>
         <section class="change_unnown">
             <div class="theme_box">
@@ -100,7 +103,7 @@
                 <p>Объединив решения, получаем ответ</p>
                 <p>Ответ: x ∈ [-1; 0] ⋃ [4; 5]</p>
             </div>
-            
+            <a name="systems"></a>
         </section>
         <section class="systems">
             <div class="theme_box">
@@ -116,7 +119,7 @@
             <nav>
                 <a href="index.php"><div>На главную</div></a>
                 <a href="algebra_main.php"><div>В категорию</div></a>
-                <a href="algebra_units.php"><div>След. тема</div></a>
+                <a href="algebra_graphs.php"><div>След. тема</div></a>
             </nav>
         </section>
      </div>
