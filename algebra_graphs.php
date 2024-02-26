@@ -138,10 +138,52 @@
                             <p>График – парабола</p>
                         </div>
                     </div>
-                </div>.
+                </div>
                 <div class="lighter_box">
                     <h4>Функция с корнем</h4>
+                    <div class="flex_box">
+                        <div class="column">
+                            <img class="odd" src="img/odd-5.svg" alt="">
+                            <img class="odd" src="img/odd-1.svg" alt="">
+                            <img class="odd" src="img/odd-4.svg" alt="">
+                            <img class="odd" src="img/odd-2.svg" alt="">
+                            <img class="odd" src="img/odd-3.svg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Функция – обратная пропорциональность</p>
+                            <p>График – ветвь параболы</p>
+                            <p>Область определения: (-∞; +∞)</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <section class="indicate_func">
+            <div class="theme_box">
+                <div class="theme_text">Показательная функция</div>
+            </div>
+            <div class="box">
+                <h4>y = a<sup>x</sup></h4>
+                <div class="flex_box">
+                        <div class="column">
+                            <img class="linear" src="img/line_graph-3.svg" alt="">
+                            <img class="linear" src="img/line_graph-1.svg" alt="">
+                            <img class="linear" src="img/line_graph-2.svg" alt="">
+                            <img class="linear" src="img/line_graph-4.svg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Если a > 1, то график возрастает</p>
+                            <p>Если 0 < a < 1, то график убывает</p>
+                            <p>Если k < 0, то график убывает</p>
+                            <p>Коэффициент b отвечает за смещение по оси y</p>
+                            <p>График – прямая</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="odd_neodd">
+            <div class="theme_box">
+                <div class="theme_text">Чётная и нечётная функции</div>
             </div>
         </section>
     </div>
