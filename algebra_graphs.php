@@ -33,6 +33,10 @@
                 <p><strong class="yellow">Область значений</strong> – множество значений, которые принимает y</p>
                 <p><strong class="yellow">Функция возрастает</strong>, если при увеличении x увеличивается и y</p>
                 <p><strong class="yellow">Функция убывает</strong>, если при увеличении x уменьшается y</p>
+                <p><strong class="yellow">Функция чётная</strong>, если f(x) = f(-x)</p>
+                <p><strong class="yellow">Функция нечётная</strong>, если f(x) = -f(-x)</p>
+                <p>Функция y = f(x) – <strong class="yellow">периодическая</strong>, если существует такое T, не равное нулю, что для любого x из её области определения f(x + T) = f(x)</p>
+                <p>Функции f(x) и g(x) называются <strong class="yellow">взаимно-обратными</strong>, если f(g(x)) = x</p>
             </div>
         </section>
         <section class="grade_func">
@@ -68,10 +72,11 @@
                             <img class="odd" src="img/odd-4.svg" alt="">
                             <img class="odd" src="img/odd-2.svg" alt="">
                             <img class="odd" src="img/odd-3.svg" alt="">
+                            <img class="odd" src="img/odd-6.svg" alt="">
                         </div>
                         <div class="text">
                             <p>Чем больше степень, тем более "резкий" график</p>
-                            <p>Если a < 0, то ветви графика смотрят вниз</p>
+                            <p>Если a < 0, то ветви параболы смотрят вниз</p>
                             <p>Коэффициент c отвечает за пересечение графика с осью y</p>
                             <p>Область определения: (-∞; +∞)</p>
                             <p>График – парабола</p>
@@ -90,21 +95,18 @@
                 </div>
                 <div class="lighter_box">
                     <h4>Нечетная степень</h4>
-                    <h5>y = x<sup>3</sup> + bx + c, y = x<sup>5</sup> + bx + c и т.д.</h5>
+                    <h5>y = ax<sup>3</sup> + bx + c, y = ax<sup>5</sup> + bx + c и т.д.</h5>
                     <div class="flex_box">
                         <div class="column">
-                            <img class="odd" src="img/odd-5.svg" alt="">
-                            <img class="odd" src="img/odd-1.svg" alt="">
-                            <img class="odd" src="img/odd-4.svg" alt="">
-                            <img class="odd" src="img/odd-2.svg" alt="">
-                            <img class="odd" src="img/odd-3.svg" alt="">
+                            <img class="odd" src="img/neodd-3.svg" alt="">
+                            <img class="odd" src="img/neodd-2.svg" alt="">
+                            <img class="odd" src="img/neodd-1.svg" alt="">
                         </div>
                         <div class="text">
                             <p>Чем больше степень, тем более "резкий" график</p>
-                            <p>Если a < 0, то график располагается в I и III четвертях</p>
+                            <p>Если a > 0, то график располагается в I и III четвертях</p>
                             <p>Если a < 0, то график располагается во II и IV четвертях</p>
                             <p>Область определения: (-∞; +∞)</p>
-                            <p>График – парабола</p>
                         </div>
                     </div>
                 </div>
@@ -119,15 +121,13 @@
                                 <p>x</p>
                             </div>
                         </div>
-                        <p>или y = x<sup>-k</sup></p>
                     </div>
                     <div class="flex_box">
                         <div class="column">
-                            <img class="odd" src="img/odd-5.svg" alt="">
-                            <img class="odd" src="img/odd-1.svg" alt="">
-                            <img class="odd" src="img/odd-4.svg" alt="">
-                            <img class="odd" src="img/odd-2.svg" alt="">
-                            <img class="odd" src="img/odd-3.svg" alt="">
+                            <img class="odd" src="img/reverse-4.svg" alt="">
+                            <img class="odd" src="img/reverse-3.svg" alt="">
+                            <img class="odd" src="img/reverse-2.svg" alt="">
+                            <img class="odd" src="img/reverse-1.svg" alt="">
                         </div>
                         <div class="text">
                             <p>Функция – обратная пропорциональность</p>
@@ -135,7 +135,6 @@
                             <p>Если k > 0, то график располагается в I и III четвертях</p>
                             <p>Если k < 0, то график располагается во II и IV четвертях</p>
                             <p>Область определения: (-∞; +∞)</p>
-                            <p>График – парабола</p>
                         </div>
                     </div>
                 </div>
@@ -143,16 +142,12 @@
                     <h4>Функция с корнем</h4>
                     <div class="flex_box">
                         <div class="column">
-                            <img class="odd" src="img/odd-5.svg" alt="">
-                            <img class="odd" src="img/odd-1.svg" alt="">
-                            <img class="odd" src="img/odd-4.svg" alt="">
-                            <img class="odd" src="img/odd-2.svg" alt="">
-                            <img class="odd" src="img/odd-3.svg" alt="">
+                            <img class="odd" src="img/root-graph-2.svg" alt="">
+                            <img class="odd" src="img/root-graph-1.svg" alt="">
                         </div>
                         <div class="text">
-                            <p>Функция – обратная пропорциональность</p>
-                            <p>График – ветвь параболы</p>
-                            <p>Область определения: (-∞; +∞)</p>
+                            <p>Если корень четной степени, то график состоит только из одной ветви параболы</p>
+                            <p>Если корень гнчетной степени, то график состоит из двух ветвей параболы</p>
                         </div>
                     </div>
                 </div>
@@ -166,10 +161,8 @@
                 <h4>y = a<sup>x</sup></h4>
                 <div class="flex_box">
                         <div class="column">
-                            <img class="linear" src="img/line_graph-3.svg" alt="">
-                            <img class="linear" src="img/line_graph-1.svg" alt="">
-                            <img class="linear" src="img/line_graph-2.svg" alt="">
-                            <img class="linear" src="img/line_graph-4.svg" alt="">
+                            <img class="linear" src="img/show_func-1.svg" alt="">
+                            <img class="linear" src="img/show_func-2.svg" alt="">
                         </div>
                         <div class="text">
                             <p>Если a > 1, то график возрастает</p>

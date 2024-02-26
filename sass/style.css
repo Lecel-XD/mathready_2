@@ -1669,9 +1669,11 @@ footer img {
   justify-content: space-between;
   position: relative;
   left: 35px;
+  align-items: flex-start;
 }
 .graphs .graph-about .graph-1 {
   width: 300px;
+  margin-top: 10px;
 }
 .graphs .graph-about div {
   width: 700px;
@@ -1713,6 +1715,7 @@ footer img {
 }
 .graphs .grade_func .box .lighter_box .flex_box .text {
   margin-top: 10px;
+  width: 440px;
 }
 .graphs .grade_func .box .lighter_box .flex_box .text .container_with_fraction {
   justify-content: flex-start;
