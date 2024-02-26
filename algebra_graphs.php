@@ -73,6 +73,7 @@
                             <p>Чем больше степень, тем более "резкий" график</p>
                             <p>Если a < 0, то ветви графика смотрят вниз</p>
                             <p>Коэффициент c отвечает за пересечение графика с осью y</p>
+                            <p>Область определения: (-∞; +∞)</p>
                             <p>График – парабола</p>
                             <div class="container_with_fraction">
                                 <p>x<sub>в</sub>(вершины) = -</p>
@@ -89,6 +90,33 @@
                 </div>
                 <div class="lighter_box">
                     <h4>Нечетная степень</h4>
+                    <h5>y = x<sup>3</sup> + bx + c, y = x<sup>5</sup> + bx + c и т.д.</h5>
+                    <div class="flex_box">
+                        <div class="column">
+                            <img class="odd" src="img/odd-5.svg" alt="">
+                            <img class="odd" src="img/odd-1.svg" alt="">
+                            <img class="odd" src="img/odd-4.svg" alt="">
+                            <img class="odd" src="img/odd-2.svg" alt="">
+                            <img class="odd" src="img/odd-3.svg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Чем больше степень, тем более "резкий" график</p>
+                            <p>Если a < 0, то график располагается в I и III четвертях</p>
+                            <p>Если a < 0, то график располагается во II и IV четвертях</p>
+                            <p></p>
+                            <p>График – парабола</p>
+                            <div class="container_with_fraction">
+                                <p>x<sub>в</sub>(вершины) = -</p>
+                                <div class="elem">
+                                    <div class="fraction">
+                                        <p>b</p>
+                                        <hr>
+                                        <p>2a</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="lighter_box">
                     <h4>Функция обратная пропорциональность</h4>
