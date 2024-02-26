@@ -103,24 +103,42 @@
                             <p>Чем больше степень, тем более "резкий" график</p>
                             <p>Если a < 0, то график располагается в I и III четвертях</p>
                             <p>Если a < 0, то график располагается во II и IV четвертях</p>
-                            <p></p>
+                            <p>Область определения: (-∞; +∞)</p>
                             <p>График – парабола</p>
-                            <div class="container_with_fraction">
-                                <p>x<sub>в</sub>(вершины) = -</p>
-                                <div class="elem">
-                                    <div class="fraction">
-                                        <p>b</p>
-                                        <hr>
-                                        <p>2a</p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="lighter_box">
                     <h4>Функция обратная пропорциональность</h4>
-                </div>
+                    <div class="container_with_fraction">
+                        <p>y = </p>
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>k</p>
+                                <hr>
+                                <p>x</p>
+                            </div>
+                        </div>
+                        <p>или y = x<sup>-k</sup></p>
+                    </div>
+                    <div class="flex_box">
+                        <div class="column">
+                            <img class="odd" src="img/odd-5.svg" alt="">
+                            <img class="odd" src="img/odd-1.svg" alt="">
+                            <img class="odd" src="img/odd-4.svg" alt="">
+                            <img class="odd" src="img/odd-2.svg" alt="">
+                            <img class="odd" src="img/odd-3.svg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Функция – обратная пропорциональность</p>
+                            <p>График – гипербола</p>
+                            <p>Если k > 0, то график располагается в I и III четвертях</p>
+                            <p>Если k < 0, то график располагается во II и IV четвертях</p>
+                            <p>Область определения: (-∞; +∞)</p>
+                            <p>График – парабола</p>
+                        </div>
+                    </div>
+                </div>.
                 <div class="lighter_box">
                     <h4>Функция с корнем</h4>
                 </div>
