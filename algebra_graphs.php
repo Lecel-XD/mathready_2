@@ -38,6 +38,7 @@
                 <p>Функция y = f(x) – <strong class="yellow">периодическая</strong>, если существует такое T, не равное нулю, что для любого x из её области определения f(x + T) = f(x)</p>
                 <p>Функции f(x) и g(x) называются <strong class="yellow">взаимно-обратными</strong>, если f(g(x)) = x</p>
             </div>
+            <a name='grade'></a>
         </section>
         <section class="grade_func">
             <div class="theme_box">
@@ -152,6 +153,7 @@
                     </div>
                 </div>
             </div>
+            <a name="show"></a>
         </section>
         <section class="indicate_func">
             <div class="theme_box">
