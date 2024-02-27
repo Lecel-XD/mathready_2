@@ -37,8 +37,9 @@
                 <p><strong class="yellow">Функция нечётная</strong>, если f(x) = -f(-x)</p>
                 <p>Функция y = f(x) – <strong class="yellow">периодическая</strong>, если существует такое T, не равное нулю, что для любого x из её области определения f(x + T) = f(x)</p>
                 <p>Функции f(x) и g(x) называются <strong class="yellow">взаимно-обратными</strong>, если f(g(x)) = x</p>
+                <a name='grade'></a>
             </div>
-            <a name='grade'></a>
+            
         </section>
         <section class="grade_func">
             <div class="theme_box">
@@ -160,7 +161,8 @@
                 <div class="theme_text">Показательная функция</div>
             </div>
             <div class="box">
-                <h4>y = a<sup>x</sup></h4>
+                <h4>показательная функция</h4>
+                <h5>y = a<sup>x</sup></h5>
                 <div class="flex_box">
                         <div class="column">
                             <img class="linear" src="img/show_func-1.svg" alt="">
@@ -169,17 +171,16 @@
                         <div class="text">
                             <p>Если a > 1, то график возрастает</p>
                             <p>Если 0 < a < 1, то график убывает</p>
-                            <p>Если k < 0, то график убывает</p>
-                            <p>Коэффициент b отвечает за смещение по оси y</p>
-                            <p>График – прямая</p>
                         </div>
                     </div>
             </div>
         </section>
-        <section class="odd_neodd">
-            <div class="theme_box">
-                <div class="theme_text">Чётная и нечётная функции</div>
-            </div>
+        <section class="bottom_nav">
+            <nav>
+                <a href="index.php"><div>На главную</div></a>
+                <a href="algebra_main.php"><div>В категорию</div></a>
+                <a href="algebra_log.php"><div>След. тема</div></a>
+            </nav>
         </section>
     </div>
 </body>

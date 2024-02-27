@@ -1681,44 +1681,156 @@ footer img {
 .graphs .graph-about div p {
   margin: 10px 0;
 }
-.graphs .grade_func .box {
+.graphs .box {
   padding: 5px;
 }
-.graphs .grade_func .box .lighter_box {
+.graphs .box .lighter_box {
   padding: 20px;
   border-radius: 10px;
   background-color: #202020;
   margin: 20px;
 }
-.graphs .grade_func .box .lighter_box img {
+.graphs .box .lighter_box img {
   width: 200px;
   margin: 10px;
 }
-.graphs .grade_func .box .lighter_box h4 {
+.graphs .box .lighter_box h4 {
   text-align: center;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
   color: #d1ae59;
 }
-.graphs .grade_func .box .lighter_box h5 {
+.graphs .box .lighter_box h5 {
   text-align: center;
   font-weight: 500;
   font-size: 17px;
   margin-bottom: 20px;
 }
-.graphs .grade_func .box .lighter_box .flex_box {
+.graphs .box .lighter_box .flex_box {
   display: flex;
 }
-.graphs .grade_func .box .lighter_box .flex_box .column {
+.graphs .box .lighter_box .flex_box .column {
   width: 500px;
 }
-.graphs .grade_func .box .lighter_box .flex_box .text {
+.graphs .box .lighter_box .flex_box .text {
   margin-top: 10px;
   width: 440px;
 }
-.graphs .grade_func .box .lighter_box .flex_box .text .container_with_fraction {
+.graphs .box .lighter_box .flex_box .text .container_with_fraction {
   justify-content: flex-start;
+}
+.graphs .indicate_func .box {
+  padding: 20px;
+}
+.graphs .indicate_func .box h4 {
+  color: #d1ae59;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+}
+.graphs .indicate_func .box h5 {
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+}
+.graphs .indicate_func .box .flex_box {
+  display: flex;
+}
+.graphs .indicate_func .box .flex_box .column {
+  width: 500px;
+}
+.graphs .indicate_func .box .flex_box .column img {
+  width: 200px;
+  margin: 10px;
+}
+.graphs .indicate_func .box .flex_box .text {
+  margin-top: 10px;
+}
+
+.logs .about_log .box .lighter_box {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #202020;
+  width: 500px;
+}
+.logs .about_log .main_log_func {
+  padding: 20px;
+  width: 1075px;
+  position: relative;
+  left: 35px;
+  border-radius: 10px;
+  background-color: #191919;
+  margin-top: 20px;
+}
+.logs .about_log .main_log_func h4 {
+  color: #d1ae59;
+  margin-bottom: 10px;
+}
+.logs .about_log .main_log_func p {
+  margin: 0;
+  font-size: 20px;
+}
+.logs .log_formules .box {
+  width: 500px;
+  margin: 0 auto;
+}
+.logs .log_formules .box h4 {
+  color: #d1ae59;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.logs .log_formules .box p {
+  margin: 10px 0;
+  text-align: center;
+}
+.logs .log_formules .box .container_with_fraction {
+  margin: 10px auto;
+  justify-content: center;
+}
+.logs .log_formules .box .container_with_fraction .elem {
+  margin: 0 5px;
+}
+.logs .log_formules .box .container_with_fraction .elem .fraction p {
+  margin: 0;
+}
+.logs .log_formules .box .container_with_fraction .elem .fraction hr {
+  margin: 1px 5px;
+}
+.logs .log_formules .second_method {
+  background-color: #191919;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 50px auto 0 auto;
+  position: relative;
+  left: 35px;
+}
+.logs .log_formules .second_method h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #d1ae59;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.logs .log_formules .second_method .column-1 {
+  margin-right: 20px;
+}
+.logs .log_formules .second_method .column-1 p {
+  text-align: right;
+}
+.logs .log_formules .second_method .column-2 {
+  margin-left: 20px;
+}
+.logs .log_formules .second_method .column-2 p {
+  text-align: left;
+}
+.logs .log_formules .second_method .flex_box {
+  display: flex;
+  justify-content: center;
 }
 
 section {
