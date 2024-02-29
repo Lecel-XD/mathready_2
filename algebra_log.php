@@ -116,6 +116,13 @@
                 <div class="theme_text">Логарифмические неравенства</div>
             </div>
         </section>
+        <section class="bottom_nav">
+            <nav>
+                <a href="index.php"><div>На главную</div></a>
+                <a href="algebra_main.php"><div>В категорию</div></a>
+                <a href="algebra_probability.php"><div>След. тема</div></a>
+            </nav>
+        </section>
      </div>
 </body>
 </html>

@@ -64,7 +64,18 @@
                     <li><a href="algebra_graphs.php#show">Показательные функции</a></li>
                 </ul>
                 <li><a href="algebra_log.php">Логарифмы</a></li>
-                <li><a href=""></a></li>
+                <ul>
+                    <li><a href="">Свойства логарифмов</a></li>
+                    <li><a href="">Формулы для логарифмов</a></li>
+                    <li><a href="">Логарифмическая функция</a></li>
+                    <li><a href="">Логарифмические неравества</a></li>
+                    <li><a href="">Логарифмические неравенства</a></li>
+                </ul>
+                <li><a href="">Теория вероятности</a></li>
+                <ul>
+                    <li><a href=""></a></li>
+
+                </ul>
                 <li><a href=""></a></li>
             </ol>
         </div>
