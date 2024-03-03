@@ -154,6 +154,36 @@
                     </div>
                 </div>
             </div>
+            <a name="mod"></a>
+        </section>
+        <section class="mod_func">
+            <div class="theme_box">
+                <div class="theme_text">y = |x|, y = {x} и y = [x]</div>
+            </div>
+            <div class="box">
+                <div class="lighter_box">
+                    <h4>y = |x|</h4>
+                    <div class="img">
+                        <img class="linear" src="img/mod-1.svg" alt="">
+                        <img class="linear" src="img/mod-2.svg" alt="">
+                        <img class="linear" src="img/mod-3.svg" alt="">
+                    </div>
+                </div>
+                <div class="lighter_box">
+                    <h4>y = [x]</h4>
+                    <h5>[x] – целая часть числа x – наибольшее целое число, не превосходящее x</h5>
+                    <div class="img">
+                        <img class="linear" src="img/mod-5.svg" alt="">
+                    </div>
+                </div>
+                <div class="lighter_box">
+                    <h4>y = {x}</h4>
+                    <h5>{x} – дробная часть числа x – разность числа x и его целой части [x]</h5>
+                    <div class="img">
+                        <img class="linear" src="img/mod-6.svg" alt="">
+                    </div>
+                </div>
+            </div>
             <a name="show"></a>
         </section>
         <section class="indicate_func">

@@ -61,21 +61,28 @@
                 <ul>
                     <li><a href="algebra_graphs.php#first">Декартова система координат</a></li>
                     <li><a href="algebra_graphs.php#grade">Степенные функции</a></li>
+                    <li><a href="algebra_graphs.php#mod">y = |x|, y = [x] и y = {x}</a></li>
                     <li><a href="algebra_graphs.php#show">Показательные функции</a></li>
+                </ul>
+                <li><a href="algebra_trigonometry.php">Тригонометрия</a></li>
+                <ul>
+                    <li><a href="algebra_trigonometry.php#">Тригонометрия в прямоугольном треугольнике</a></li>
+                    <li><a href="algebra_trigonometry.php#">Тригонометрия для произвольного угла</a></li>
+                    <li><a href="algebra_trigonometry.php#">Тригонометрические формулы</a></li>
+                    <li><a href="algebra_trigonometry.php#">Значения sin, cos, tg, ctg для углов</a></li>
+                    <li><a href="algebra_trigonometry.php#">Тригонометрические функции</a></li>
+                    <li><a href="algebra_trigonometry.php#">Тригонометрические уравнения</a></li>
+                    <li><a href="algebra_trigonometry.php#">Тригонометрические неравенства</a></li>
                 </ul>
                 <li><a href="algebra_log.php">Логарифмы</a></li>
                 <ul>
-                    <li><a href="">Свойства логарифмов</a></li>
-                    <li><a href="">Формулы для логарифмов</a></li>
-                    <li><a href="">Логарифмическая функция</a></li>
-                    <li><a href="">Логарифмические неравества</a></li>
-                    <li><a href="">Логарифмические неравенства</a></li>
+                    <li><a href="algebra_log.php#first">Свойства логарифмов</a></li>
+                    <li><a href="algebra_log.php#formules">Формулы для логарифмов</a></li>
+                    <li><a href="algebra_log.php#func">Логарифмическая функция</a></li>
+                    <li><a href="algebra_log.php#equal">Логарифмические уравнения</a></li>
+                    <li><a href="algebra_log.php#ineq">Логарифмические неравенства</a></li>
                 </ul>
-                <li><a href="">Теория вероятности</a></li>
-                <ul>
-                    <li><a href=""></a></li>
-
-                </ul>
+                <li><a href="algebra_probability.php">Теория вероятности</a></li>
                 <li><a href=""></a></li>
             </ol>
         </div>

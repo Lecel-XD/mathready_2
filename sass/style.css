@@ -360,8 +360,17 @@ footer img {
   margin: 0 auto;
 }
 
+.ol_box ol li a {
+  font-size: 17px;
+  color: #c75c5c;
+}
+.ol_box ol ul {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
 .ol_box ol ul li a {
   color: #c7c7c7;
+  font-size: 17px;
 }
 
 .theme_box {
@@ -519,8 +528,24 @@ footer img {
   min-height: 100px;
   border-radius: 10px;
   background-color: #191919;
-  padding: 20px;
+  padding: 70px;
   margin-top: 50px;
+}
+.first_cont .ol_box ol li {
+  text-decoration-color: #d1ae59;
+  color: #d1ae59;
+  font-weight: 700;
+}
+.first_cont .ol_box ol li a {
+  color: #d1ae59;
+  font-weight: 700;
+}
+.first_cont .ol_box ol ul li {
+  color: #c7c7c7;
+}
+.first_cont .ol_box ol ul li a {
+  color: #c7c7c7;
+  font-weight: 500;
 }
 
 .fifth {
@@ -1748,6 +1773,17 @@ footer img {
 .graphs .indicate_func .box .flex_box .text {
   margin-top: 10px;
 }
+.graphs .mod_func .box .lighter_box h4 {
+  text-transform: lowercase;
+  margin-bottom: 10px;
+}
+.graphs .mod_func .box .lighter_box .img {
+  display: flex;
+  justify-content: center;
+}
+.graphs .mod_func .box .lighter_box .img img {
+  margin: 10px 20px;
+}
 
 .logs .about_log .box .lighter_box {
   padding: 20px;
@@ -1831,6 +1867,242 @@ footer img {
 .logs .log_formules .second_method .flex_box {
   display: flex;
   justify-content: center;
+}
+.logs .log_func .box {
+  padding: 30px 20px;
+}
+.logs .log_func .box .flex_box {
+  display: flex;
+  justify-content: space-around;
+}
+.logs .log_func .box .flex_box .column-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logs .log_func .box .flex_box .column-1 img {
+  width: 200px;
+  margin: 10px;
+}
+.logs .log_func .box .flex_box .column-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+.logs .log_func .box .flex_box .column-2 div {
+  margin: 20px 0;
+}
+.logs .log_func .box .flex_box .column-2 h4 {
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: #d1ae59;
+}
+.logs .log_ineq .second {
+  padding: 20px 30px 20px 30px;
+}
+.logs .log_ineq .second h4 {
+  text-align: center;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: #d1ae59;
+  margin-bottom: 20px;
+}
+.logs .log_ineq .second h4 sub {
+  color: #d1ae59;
+}
+.logs .log_ineq .second p {
+  margin: 5px 0;
+}
+.logs .log_ineq .second .yellow {
+  margin-bottom: 15px;
+}
+.logs .log_equals .second p {
+  margin: 5px 0;
+}
+
+.prob .prob_part .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.prob .prob_part .box .flex_box {
+  background-color: #202020;
+  width: 490px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.prob .prob_part .box .flex_box div p {
+  margin: 5px 0;
+}
+.prob .prob_part .box .flex_box .container_with_fraction {
+  justify-content: flex-start;
+}
+.prob .prob_part .box .flex_box .prob {
+  width: 200px;
+}
+.prob .prob_part .second .flex_box {
+  display: block;
+}
+.prob .prob_part .second .flex_box p {
+  margin: 20px 0;
+}
+.prob .prob_part .second .flex_box img {
+  width: 160px;
+  margin: 10px 0;
+}
+
+.trigo .trig_in_triangle .box {
+  display: flex;
+  justify-content: space-around;
+}
+.trigo .trig_in_triangle .box .trig-1 {
+  height: 156px;
+}
+.trigo .trig_arbitrary_angle .box .second {
+  width: 600px;
+  margin: 0 auto;
+}
+.trigo .trig_arbitrary_angle .box .second p {
+  text-align: center;
+}
+.trigo .trig_arbitrary_angle .box .first {
+  display: flex;
+  justify-content: center;
+}
+.trigo .trig_arbitrary_angle .box .trig-2, .trigo .trig_arbitrary_angle .box .trig-3 {
+  width: 300px;
+  margin: 0 0 10px 0;
+}
+.trigo .trig_arbitrary_angle .second {
+  display: flex;
+  justify-content: space-between;
+}
+.trigo .trig_arbitrary_angle .second img {
+  width: 250px;
+}
+.trigo .tri-formules .first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.trigo .tri-formules .first p {
+  width: 200px;
+  text-align: center;
+  margin: 0 10px;
+  margin-bottom: 0;
+}
+.trigo .tri-formules .second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.trigo .tri-formules .second .lighter_box {
+  width: 490px;
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+.trigo .tri-formules .second .lighter_box h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  color: #d1ae59;
+  margin-bottom: 20px;
+}
+.trigo .tri-formules .second .lighter_box p {
+  margin: 9px 0;
+  text-align: center;
+}
+.trigo .tri-formules .second .lighter_box .container_with_fraction {
+  justify-content: center;
+}
+.trigo .tri-formules .second .lighter_box .container_with_fraction p {
+  margin: 0;
+}
+.trigo .tri-formules .second .lighter_box .container_with_fraction hr {
+  margin: 1px 5px;
+}
+.trigo .tri-tablet .tri-table {
+  width: 649px;
+  position: relative;
+  left: 35px;
+  margin-top: 20px;
+}
+.trigo .tri-funcs .box .flex_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.trigo .tri-funcs .box .flex_box .tri-func {
+  width: 450px;
+  margin: 20px;
+}
+.trigo .tri-funcs .box .flex_box .arc-f {
+  width: 300px;
+  margin: 20px;
+}
+.trigo .tri-funcs .box h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #d1ae59;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.trigo .tri-funcs .box .second {
+  width: 750px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.trigo .tri_equals .box .lighter_box {
+  border-radius: 10px;
+  background-color: #202020;
+  padding: 20px;
+  margin: 20px 0;
+}
+.trigo .tri_equals .box .lighter_box h4 {
+  color: #d1ae59;
+  font-weight: 500;
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.trigo .tri_equals .box .lighter_box .flexes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.trigo .tri_equals .box .lighter_box .flexes .flex_box {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+.trigo .tri_equals .box .lighter_box .flexes .flex_box h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+}
+.trigo .tri_equals .box .lighter_box .flexes .flex_box .sin-1 {
+  width: 250px;
+  margin: 10px;
+}
+.trigo .tri_equals .box .lighter_box .flexes hr {
+  width: 100%;
+  border-color: #c75c5c;
 }
 
 section {
