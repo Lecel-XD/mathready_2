@@ -83,7 +83,8 @@
                     <li><a href="algebra_log.php#ineq">Логарифмические неравенства</a></li>
                 </ul>
                 <li><a href="algebra_probability.php">Теория вероятности</a></li>
-                <li><a href=""></a></li>
+                <li><a href="algebra_derivative.php">Производная и первообразная функции</a></li>
+                <li><a href="">Интегралы</a></li>
             </ol>
         </div>
     </div> 

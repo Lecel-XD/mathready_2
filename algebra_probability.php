@@ -105,7 +105,7 @@
             <nav>
                 <a href="index.php"><div>На главную</div></a>
                 <a href="algebra_main.php"><div>В категорию</div></a>
-                <a href="algebra_.php"><div>След. тема</div></a>
+                <a href="algebra_derivative.php"><div>След. тема</div></a>
             </nav>
         </section>
      </div>
