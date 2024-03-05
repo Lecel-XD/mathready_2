@@ -66,13 +66,13 @@
                 </ul>
                 <li><a href="algebra_trigonometry.php">Тригонометрия</a></li>
                 <ul>
-                    <li><a href="algebra_trigonometry.php#">Тригонометрия в прямоугольном треугольнике</a></li>
-                    <li><a href="algebra_trigonometry.php#">Тригонометрия для произвольного угла</a></li>
-                    <li><a href="algebra_trigonometry.php#">Тригонометрические формулы</a></li>
-                    <li><a href="algebra_trigonometry.php#">Значения sin, cos, tg, ctg для углов</a></li>
-                    <li><a href="algebra_trigonometry.php#">Тригонометрические функции</a></li>
-                    <li><a href="algebra_trigonometry.php#">Тригонометрические уравнения</a></li>
-                    <li><a href="algebra_trigonometry.php#">Тригонометрические неравенства</a></li>
+                    <li><a href="algebra_trigonometry.php#first">Тригонометрия в прямоугольном треугольнике</a></li>
+                    <li><a href="algebra_trigonometry.php#arbitrary">Тригонометрия для произвольного угла</a></li>
+                    <li><a href="algebra_trigonometry.php#formules">Тригонометрические формулы</a></li>
+                    <li><a href="algebra_trigonometry.php#sin">Значения sin, cos, tg, ctg для углов</a></li>
+                    <li><a href="algebra_trigonometry.php#priv">Формулы приведения</a></li>
+                    <li><a href="algebra_trigonometry.php#func">Тригонометрические функции</a></li>
+                    <li><a href="algebra_trigonometry.php#equals">Простейшие тригонометрические уравнения</a></li>
                 </ul>
                 <li><a href="algebra_log.php">Логарифмы</a></li>
                 <ul>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="sass/style.css">
 </head>
-<body>
+<body class='derivative_main'>
     <?php 
         @include('nav.php')
      ?> 
@@ -25,13 +25,12 @@
             </div>
         </section>
         <section class="derivative">
-            <div class="box">
+            <div class="box first">
                 <div class="flex_box">
                     <p><strong class="yellow">Производная</strong> – это скорость изменения функции</p>
                     <p>Производная функции f(x) в точке x<sub>0</sub> равна угловому коэффициенту касательной, проведённой к графику функции в точке x<sub>0</sub></p>
                     <p>Производная равна тангенсу угла наклона касательной</p>
                     <p>f(x<sub>0</sub>) = tgα = k</p>
-                    <img src="" alt="">
                     <p>Если f(x) > 0, то функция возрастает</p>
                     <p>Если f(x) < 0, то функция убывает</p>
                     <p>В точке максимума производная функция равна нулю и меняет знак с "плюса" на "минус"</p>

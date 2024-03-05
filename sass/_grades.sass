@@ -1360,11 +1360,21 @@
             display: flex
             flex-wrap: wrap
             justify-content: center
+            padding: 5px
             p 
                 width: 200px
                 text-align: center
-                margin: 0 10px
-                margin-bottom: 0
+                margin: 10px 10px
+            
+        .third 
+            display: flex
+            flex-wrap: wrap 
+            justify-content: center
+            align-items: center
+            .third_elem 
+                width: 400px
+                margin: 0
+                .fraction 
         .second
             display: flex
             flex-wrap: wrap 
@@ -1433,6 +1443,10 @@
                     text-align: center
                     font-size: 23px
                     margin-bottom: 10px
+                h5 
+                        text-align: center
+                        font-size: 17px
+                        font-weight: 500
                 .flexes
                     display: flex
                     justify-content: space-between
@@ -1448,12 +1462,57 @@
                             text-transform: uppercase
                             font-size: 17px
                             font-weight: 500
+                        
                         .sin-1 
                             width: 250px
                             margin: 10px
+                        .tg-1 
+                            width: 500px
+                            margin: 10px
                     hr 
                         width: 100%
-                        border-color: $pink_color
+                        border-color: $p_color
+        .tri-methods 
+            h4 
+                text-align: center
+                text-transform: uppercase
+                color: $yellow_color
+                font-weight: 500
+                font-size: 17px
+                margin: 10px 0 20px 0
+            ul 
+                text-align: center
+                list-style-type: none
+                li 
+                    margin: 10px
+    .priv_formules 
+        .priv 
+            padding: 10px
+            .lighter_box 
+                background-color: $third_color
+                border-radius: 10px
+                padding: 20px
+                margin: 20px
+                .priv-1 
+                    width: 974px
+                    margin-bottom: 10px
+                p 
+                    margin: 0
+            .priv-2
+                width: 155px
+                margin: 0 auto
+                display: block
+                margin-bottom: 20px
+.derivative_main 
+    .derivative 
+        .first 
+            padding: 30px
+            display: flex
+            justify-content: space-between
+            .flex_box
+                width: 600px
+            img 
+                width: 350px
 
 
 section 

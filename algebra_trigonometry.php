@@ -34,6 +34,7 @@
                     <p><strong class="yellow">Котангенс острого угла</strong> – отношение прилежащего катета к противолежащему</p>
                 </div>
             </div>
+            <a name="arbitrary"></a>
         </section>
         <section class="trig_arbitrary_angle">
             <div class="theme_box">
@@ -55,16 +56,55 @@
                 <img src="img/tri-3.svg" alt="" class="trig-4">
                 <img src="img/tri-2.svg" alt="" class="trig-4">
             </div>
+            <a name="formules"></a>
         </section>
         <section class="tri-formules">
             <div class="theme_box">
                 <div class="theme_text">Тригонометрические формулы</div>
             </div>
             <div class="box first">
-                <p>sin(-α) = -sinα</p>
-                <p>cos(-α) = cosα</p>
-                <p>tg(-α) = -tgα</p>
-                <p>ctg(-α) = -ctgα</p>
+                <p>sin(-α) = -sin α</p>
+                <p>cos(-α) = cos α</p>
+                <p>tg(-α) = -tg α</p>
+                <p>ctg(-α) = -ctg α</p>
+                <p>arcsin(-α) = -arcsin α</p>
+                <p>arccos(-α) = π - arccos α</p>
+                <p>arctg(-α) = -arctg α</p>
+                <p>arcctg(-α) = π - arcctg α</p>
+            </div>
+            <div class="box third">
+                <div class="container_with_fraction third_elem">
+                    <p class="elem">arcsin a = α, если sin α = a и </p>
+                    <p>-</p>
+                    <div class="fraction elem">
+                        <p>π</p>
+                        <hr>
+                        <p>2</p>
+                    </div>
+                    <p> ≤ α ≤ </p>
+                    <div class="fraction elem">
+                        <p>π</p>
+                        <hr>
+                        <p>2</p>
+                    </div>
+                </div>
+                <p class="third_elem">arccos a = α, если cos α = a и 0 ≤ α ≤ π</p>
+                <div class="container_with_fraction third_elem">
+                    <p class="elem">arctg a = α, если tg α = a и </p>
+                    <p>-</p>
+                    <div class="fraction elem">
+                        <p>π</p>
+                        <hr>
+                        <p>2</p>
+                    </div>
+                    <p> < α < </p>
+                    <div class="fraction elem">
+                        <p>π</p>
+                        <hr>
+                        <p>2</p>
+                    </div>
+                </div>
+                <p class="third_elem">arcctg a = α, если ctg α = a и 0 < α < π</p>
             </div>
             <div class="box second">
                 <div class="lighter_box">
@@ -258,12 +298,30 @@
                     </div>
                 </div>
             </div>
+            <a name="sin"></a>
         </section>
         <section class="tri-tablet">
             <div class="theme_box">
                 <div class="theme_text">Значения sin, cos, tg, ctg для углов</div>
             </div>
             <img class="tri-table" src="img/tri-table.svg" alt="">
+            <a name="priv"></a>
+        </section>
+        <section class="priv_formules">
+            <div class="theme_box">
+                <div class="theme_text">Формулы приведения</div>
+            </div>
+            <div class="box priv">
+                <div class="lighter_box">
+                    <img class="priv-1" src="img/priv-1.svg" alt="">
+                    <p>Если к аргументу прибавляется(вычитается) нечетное число, умноженное на π , то функция НЕ меняется на кофункцию  </p>
+                </div>
+                <div class="lighter_box">
+                    <p>Определяем знак первоначальной функции. Такого же знака и будет получившееся выражение</p>
+                </div>
+                <img src="img/priv-2.svg" alt="" class="priv-2">
+            </div>
+            <a name="func"></a>
         </section>
         <section class="tri-funcs">
             <div class="theme_box">
@@ -287,14 +345,16 @@
                     <img src="img/arc-f-1.svg" alt="" class="arc-f">
                 </div>
             </div>
+            <a name="equals"></a>
         </section>
         <section class="tri_equals">
             <div class="theme_box">
-                <div class="theme_text">Тригонометрические уравнения</div>
+                <div class="theme_text">Простейшие тригонометрические уравнения</div>
             </div>
             <div class="box">
                 <div class="lighter_box">
                     <h4>sinα</h4>
+                    <h5>Нет корней, если |α| > 1</h5>
                     <div class="flexes">
                         <hr>
                         <div class='flex_box'>
@@ -325,49 +385,93 @@
                 </div>
                 <div class="lighter_box">
                     <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
-                    <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
-                    <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
+                        <h4>cosα</h4>
+                        <h5>Не имеет корней, если |α| > 1</h5>
+                        <div class="flexes">
+                            <hr>
+                            <div class='flex_box'>
+                                <h5>Частный случай</h5>
+                                <div>
+                                    <img class="sin-1" src="img/cos-1.svg" alt="">
+                                    <img class="sin-1" src="img/cos-2.svg" alt="">
+                                    <img class="sin-1" src="img/cos-3.svg" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class='flex_box'>
+                                <h5>Общий случай</h5>
+                                <div>
+                                    <img class="sin-1" src="img/cos-4.svg" alt="">
+                                    <img class="sin-1" src="img/cos-5.svg" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class='flex_box'>
+                                <h5>Общий случай. Нетабличное значение</h5>
+                                <div>
+                                    <img class="sin-1" src="img/cos-6.svg" alt="">
+                                    <img class="sin-1" src="img/cos-7.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
                 </div>
                 <div class="lighter_box">
                     <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
-                    <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
-                    <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
+                        <h4>tgα</h4>
+                        <div class="flexes">
+                            <hr>
+                            <div class='flex_box'>
+                                <h5>Общий случай</h5>
+                                <div>
+                                    <img class="sin-1" src="img/tg-1.svg" alt="">
+                                    <img class="sin-1" src="img/tg-2.svg" alt="">
+                                    <img class="sin-1" src="img/tg-3.svg" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class='flex_box'>
+                                <h5>Общий случай. Нетабличное значение</h5>
+                                <img class="tg-1" src="img/tg-4.svg" alt="">
+                            </div>
+                        </div>
                 </div>
                 <div class="lighter_box">
                     <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
-                    <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
-                    <flex_box>
-                        <h4></h4>
-                        <img src="" alt=""><img src="" alt=""></flex_box>
+                        <h4>ctgα</h4>
+                        <div class="flexes">
+                            <hr>
+                            <div class='flex_box'>
+                                <h5>Общий случай</h5>
+                                <div>
+                                    <img class="sin-1" src="img/ctg-1.svg" alt="">
+                                    <img class="sin-1" src="img/ctg-2.svg" alt="">
+                                    <img class="sin-1" src="img/ctg-3.svg" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class='flex_box'>
+                                <h5>Общий случай. Нетабличное значение</h5>
+                                <img class="tg-1" src="img/ctg-4.svg" alt="">
+                            </div>
+                        </div>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="theme_box">
-                <div class="theme_text">Тригонометрические неравенства</div>
+            <div class="box tri-methods">
+                <h4>Методы решения тригонометрических уравнений / неравенств</h4>
+                <ul>
+                    <li>Сведение к квадратному уравнению</li>
+                    <li>Преобразование при помощи формул</li>
+                    <li>Деление уравнения на некоторое выражение</li>
+                    <li>Разложение левой части на множители</li>
+                    <li>Введение вспомогательного угла</li>
+                </ul>
             </div>
         </section>
         <section class="bottom_nav">
             <nav>
                 <a href="index.php"><div>На главную</div></a>
                 <a href="algebra_main.php"><div>В категорию</div></a>
-                <a href="algebra_proportions.php"><div>След. тема</div></a>
+                <a href="algebra_log.php"><div>След. тема</div></a>
             </nav>
         </section>
      </div>

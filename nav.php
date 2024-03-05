@@ -4,7 +4,7 @@
         <ul>
             <li><a href="index.php">главная</a></li>
             <li><a href="algebra_main.php">алгебра</a></li>
-            <li><a href="geometry.php">геометрия</a></li>
+            <li><a href="geometry_main.php">геометрия</a></li>
         </ul>
         <button>
             <span></span>

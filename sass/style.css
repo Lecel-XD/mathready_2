@@ -1993,12 +1993,22 @@ footer img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 5px;
 }
 .trigo .tri-formules .first p {
   width: 200px;
   text-align: center;
-  margin: 0 10px;
-  margin-bottom: 0;
+  margin: 10px 10px;
+}
+.trigo .tri-formules .third {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.trigo .tri-formules .third .third_elem {
+  width: 400px;
+  margin: 0;
 }
 .trigo .tri-formules .second {
   display: flex;
@@ -2078,6 +2088,11 @@ footer img {
   font-size: 23px;
   margin-bottom: 10px;
 }
+.trigo .tri_equals .box .lighter_box h5 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
 .trigo .tri_equals .box .lighter_box .flexes {
   display: flex;
   justify-content: space-between;
@@ -2100,9 +2115,62 @@ footer img {
   width: 250px;
   margin: 10px;
 }
+.trigo .tri_equals .box .lighter_box .flexes .flex_box .tg-1 {
+  width: 500px;
+  margin: 10px;
+}
 .trigo .tri_equals .box .lighter_box .flexes hr {
   width: 100%;
-  border-color: #c75c5c;
+  border-color: #c7c7c7;
+}
+.trigo .tri_equals .tri-methods h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #d1ae59;
+  font-weight: 500;
+  font-size: 17px;
+  margin: 10px 0 20px 0;
+}
+.trigo .tri_equals .tri-methods ul {
+  text-align: center;
+  list-style-type: none;
+}
+.trigo .tri_equals .tri-methods ul li {
+  margin: 10px;
+}
+.trigo .priv_formules .priv {
+  padding: 10px;
+}
+.trigo .priv_formules .priv .lighter_box {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+.trigo .priv_formules .priv .lighter_box .priv-1 {
+  width: 974px;
+  margin-bottom: 10px;
+}
+.trigo .priv_formules .priv .lighter_box p {
+  margin: 0;
+}
+.trigo .priv_formules .priv .priv-2 {
+  width: 155px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.derivative_main .derivative .first {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.derivative_main .derivative .first .flex_box {
+  width: 600px;
+}
+.derivative_main .derivative .first img {
+  width: 350px;
 }
 
 section {
