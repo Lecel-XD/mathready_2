@@ -2173,6 +2173,13 @@ footer img {
   width: 350px;
 }
 
+.vectors .first_cont {
+  margin-bottom: 10px;
+}
+.vectors .vectors_planimetry .left {
+  margin-bottom: 50px;
+}
+
 section {
   margin-bottom: 50px;
 }
