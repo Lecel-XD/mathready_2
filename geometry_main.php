@@ -45,7 +45,7 @@
                     <li><a href="">Симметрия</a></li>
                     <li><a href=""></a></li>
                 </ol>
-                <li><a href="">Вектор</a></li>
+                <li><a href="geometry_vectors.php">Вектор</a></li>
                 <li><a href="">Координаты в пространстве</a></li>
             </ol>
         </div>
