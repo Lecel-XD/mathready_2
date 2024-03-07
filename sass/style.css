@@ -373,6 +373,14 @@ footer img {
   font-size: 17px;
 }
 
+.vec {
+  height: 15px;
+  width: 9px;
+  display: inline;
+  position: relative;
+  bottom: 3px;
+}
+
 .theme_box {
   height: 66px;
   background-color: #191919;
@@ -2178,6 +2186,89 @@ footer img {
 }
 .vectors .vectors_planimetry .left {
   margin-bottom: 50px;
+}
+.vectors .vectors_planimetry .box {
+  padding: 20px;
+}
+.vectors .vectors_planimetry .box h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #d1ae59;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.vectors .vectors_planimetry .box .cord_vect {
+  width: 400px;
+  margin: 20px auto;
+  display: block;
+}
+.vectors .vectors_planimetry .box .vec-3 {
+  width: 300px;
+  display: block;
+  margin: 40px auto;
+}
+.vectors .vectors_planimetry .box .vec-4 {
+  width: 200px;
+  display: block;
+  margin: 40px auto 30px auto;
+}
+.vectors .vectors_planimetry .box .scal {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 30px;
+}
+.vectors .summ_vectors .box {
+  padding: 20px;
+}
+.vectors .summ_vectors .box h4 {
+  color: #d1ae59;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.vectors .summ_vectors .box .vec-5 {
+  height: 130px;
+}
+.vectors .summ_vectors .box .lighter_box {
+  display: flex;
+  justify-content: space-between;
+}
+.vectors .summ_vectors .box .flex_box {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+}
+.vectors .summ_vectors .box .flex_box h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  color: #d1ae59;
+}
+.vectors .summ_vectors .box .flex_box .summ-text {
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.vectors .summ_vectors .box .flex_box .vec-5 {
+  display: block;
+  margin: 30px auto 0 auto;
+}
+.vectors .summ_vectors .box .vec-7 {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.vectors .summ_vectors .box .light_box {
+  border-radius: 10px;
+  background-color: #202020;
+  width: 500px;
+  margin: 30px auto 30px auto;
+  padding: 30px;
 }
 
 section {
