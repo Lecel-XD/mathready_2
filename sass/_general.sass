@@ -9,29 +9,22 @@ sub
         font-weight: 700
         font-size: 25px
         margin-top: 100px
-        color: $main_theme
-        background-color: $yellow_color
         border-radius: 10px 
         margin-bottom: 100px
     a 
         border-radius: 50px 
-        background-color: $third_color
         padding: 20px
         display: block
         margin: 0 auto
         width: 400px
         &:hover 
             text-decoration: none 
-            background-color: $second_color
         div
             font-size: 30px
             text-transform: uppercase
             line-height: 30px
             text-align: center
-            color: #fff
             font-weight: 700
-            &:hover 
-                color: $p_color
 
 
 
@@ -64,12 +57,10 @@ sub
         top: -20px
     .high_module 
         display: block
-        background-color: #fff
         height: 50px
         width: 2px
         margin: 0 2px
-.yellow 
-    color: $yellow_color
+
 .approximation_line 
     text-decoration: overline
 
@@ -77,7 +68,6 @@ sub
 header 
     position: fixed
     z-index: 999
-    background-color: $third_color
     width: 100%
     min-height: 68px
     .logo
@@ -101,16 +91,13 @@ header
             margin: 0 10px
             list-style-type: none
             a 
-                color: #fff
                 text-transform: uppercase
                 font-size: 17px
                 &:hover 
                     font-size: 18px
-                    color: $pink_color
                     text-decoration: none
     button 
         outline: none
-        background-color: rgba(255, 255, 255, 0)
         width: 40px
         padding: 0
         border: none
@@ -128,19 +115,13 @@ header
             margin: 7px 0
             width: 40px
             height: 3px
-            background-color: #fff
             border-radius: 3px
-
-body 
-    background-color: $main_theme
 .about 
     min-height: 537px
-    background: $main_theme
     padding-top: 150px
     &_info 
         margin: 0 auto
         max-width: 881px
-        background: $second_color
         border-radius: 55px
         padding: 26px 35px
         &_img 
@@ -157,16 +138,13 @@ body
             strong 
                 font-weight: 700
             a 
-                color: #fff
                 font-style: italic
     &_search 
         margin: 0 auto
         margin-top: 36px
         max-width: 881px
-        background: #191919
         height: 70px
         border-radius: 35px 
-        border: 1px solid #202020
     .search
         &_img
             position: relative
@@ -176,17 +154,14 @@ body
             &:before
                 content: ''
                 display: block
-                background-color: rgba(0, 0, 0, 0)
                 height: 30px
                 width: 30px
-                border: 3px solid #fff
                 border-radius: 50%
             &:after 
                 content: ''
                 display: block
                 height: 4px 
                 width: 15px
-                background-color: #fff
                 transform: rotateZ(45deg) translateX(15px) translateY(-16px)
                 border-radius: 2px
         &_input 
@@ -194,13 +169,8 @@ body
 .divider 
     width: 100%
     height: 5px
-    background-color: #191919
-
-
-
 .category 
     min-height: 850px
-    background-color: $main_theme
     padding-bottom: 40px
     &_header 
         @include header
@@ -215,7 +185,6 @@ body
         max-width: 800px
         margin: 0 auto
         .category_link 
-            color: #fff
             border-radius: 10px 
             text-transform: uppercase
             text-align: center
@@ -225,48 +194,17 @@ body
             line-height: 20px
             width: 220px
             height: 220px
-            background-image: url(../img/5.svg)
-            &:hover
-                background-image: url(../img/5_hover.svg)
-        .five 
-            background-image: url(../img/5.svg)
-            &:hover
-                background-image: url(../img/5_hover.svg)
-        .six 
-            background-image: url(../img/6.svg)
-            &:hover
-                background-image: url(../img/6_hover.svg)
-        .seven 
-            background-image: url(../img/7.svg)
-            &:hover
-                background-image: url(../img/7_hover.svg)
-        .eight 
-            background-image: url(../img/8.svg)
-            &:hover
-                background-image: url(../img/8_hover.svg)
-        .nine 
-            background-image: url(../img/9.svg)
-            &:hover
-                background-image: url(../img/9_hover.svg)
-        .ten_eleven
-            background-image: url(../img/10-11.svg)
-            &:hover
-                background-image: url(../img/10-11_hover.svg)
-
     &_item 
         margin: 20px 20px
         width: 220px 
-        background-color: $second_color
         border-radius: 10px
         height: 220px
     h3 
         text-align: center
         text-transform: uppercase
         font-weight: 500
-        color: $p_color
         margin: 10px 0 20px 0
     &_name 
-        color: $pink_color
         text-transform: uppercase
         font-weight: 700
         font-size: 20px
@@ -275,7 +213,6 @@ body
         margin: 45% 0
 
 footer 
-    background-color: $second_color
     min-height: 67px
     padding-top: 23px
     img 
@@ -287,15 +224,18 @@ footer
         li 
             a 
                 font-size: 17px
-                color: $pink_color
         ul 
             margin-bottom: 10px
             margin-left: 10px
             li 
                 a
-                    color: $p_color
                     font-size: 17px
-                
+.h4-med 
+    text-align: center
+    text-transform: uppercase
+    font-size: 17px
+    font-weight: 500
+    margin: 10px 0 
 
 .vec
     height: 15px

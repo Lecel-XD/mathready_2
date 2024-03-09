@@ -1,19 +1,34 @@
 .theme_box 
     height: 66px
-    background-color: $second_color
     border-radius: 32px
     display: inline-block
     padding: 10px 35px
     margin: 30px 0
+.axiom 
+    padding: 15px 20px
+    border-radius: 40px 
+    border: 2px dashed
+    font-size: 17px
+    text-align: center
+.flex_cont 
+    display: flex
+    justify-content: center
+    position: relative
+    left: 35px
+    flex-wrap: wrap
+.theorem
+    padding: 10px 20px
+    border-radius: 40px
+    border: 2px dashed
+    font-size: 17px
+    text-align: center
 .theme_text
-    color: #c75c5c
     font-weight: 700
     font-size: 28px
     text-align: center
     margin: 0
 .box_center 
     height: 53px
-    background-color: $second_color
     border-radius: 10px
     margin: 0 auto
     display: flex
@@ -26,7 +41,6 @@
 .yellow_illustration 
     font-family: Bahnschrift
     font-size: 35px
-    color: $yellow_color
     font-weight: 700
     position: relative
     left: 35px    
@@ -42,12 +56,10 @@
     border-radius: 10px 
     position: relative
     left: 35px
-    background-color: $second_color
     padding: 15px 20px 15px 20px
     margin-top: 30px
     width: 1075px
 .yellow_subheader
-    color: $yellow_color
     font-size: 25px
     font-weight: 700
     line-height: 25px
@@ -72,7 +84,6 @@
         display: inline-block
         margin: 30px 20px
         border-radius: 30px
-        background-color: #c75c5c
         height: 40px
         padding: 9px 30px
         text-transform: uppercase
@@ -80,7 +91,6 @@
         display: block
         font-weight: 700
         a 
-            color: #fff
             display: block
             font-weight: 500
             font-size: 15px
@@ -99,52 +109,35 @@
         text-align: center
         margin: 0 auto
         text-transform: uppercase
-        color: $p_color
         margin-bottom: 27px
     ol 
         li 
             margin-bottom: 5px
             a 
-                color: #fff
                 font-weight: 500
         ul 
             list-style-type: square
             padding-left: 25px 
             li 
-                color: $p_color
     .ol_box 
         position: relative
         left: 35px
         min-width: 100px
         min-height: 100px
         border-radius: 10px 
-        background-color: $second_color
         padding: 70px
         margin-top: 50px
         ol 
             li 
-                text-decoration-color: $yellow_color
-                color: $yellow_color
                 font-weight: 700
                 a 
-                    color: $yellow_color
                     font-weight: 700
             ul 
                 li 
-                    color: $p_color
                     a 
-                        color: $p_color
                         font-weight: 500
-
-        
-
-            
-
-
-
 .fifth
     font-size: 17px
-    background-color: $main_theme
     .natural_numbers 
         position: relative
         .arrow 
@@ -163,11 +156,9 @@
             margin-bottom: 30px
         .numbers 
             margin-bottom: 30px
-
         .single_digit 
             width: 445px
             margin: 30px auto 0 auto
-            background-color: $second_color
             border-radius: 10px
             display: flex
             justify-content: center
@@ -191,7 +182,6 @@
             .bracket_1 
                 width: 2px
                 height: 19px
-                background-color: #fff
                 position: relative
                 top: -40px
                 &:before 
@@ -199,7 +189,6 @@
                     content: ''
                     width: 5px
                     height: 2px
-                    background-color: #fff
                     position: absolute
                     top: 0
                 &:after
@@ -207,13 +196,11 @@
                     content: ''
                     width: 5px
                     height: 2px
-                    background-color: #fff
                     position: absolute
                     bottom: 0
             .bracket_2
                 width: 2px
                 height: 70px
-                background-color: #fff
                 position: relative
                 bottom: -12px
                 left: -2px
@@ -222,7 +209,6 @@
                     content: ''
                     width: 5px
                     height: 2px
-                    background-color: #fff
                     position: absolute
                     top: 0
                 &:after
@@ -230,7 +216,6 @@
                     content: ''
                     width: 5px
                     height: 2px
-                    background-color: #fff
                     position: absolute
                     bottom: 0
             .number_digit 
@@ -257,7 +242,6 @@
         .number_line 
             max-width: 500px
         .wrapper 
-            background-color: $second_color
             border-radius: 10px 
             padding: 20px 0
             margin-left: 30px
@@ -286,19 +270,13 @@
                 margin-bottom: 7px
             .examples 
                 text-align: center
-                color: $yellow_color
-                u 
-                    color: $yellow_color
-                    text-decoration-color: $p_color
             .biggest_division_box
                 max-width: 520px
                 border-radius: 10px 
-                background-color: $second_color
                 padding: 20px
             .lowest_factor_box
                 max-width: 520px
                 border-radius: 10px 
-                background-color: $second_color
                 padding: 20px
         .actions 
             display: flex
@@ -320,20 +298,16 @@
                 display: flex
                 justify-content: space-between
                 .lighter_box 
-                    background-color: $third_color
                     border-radius: 10px
                     margin: 20px 0
                     padding: 15px
-                    color: $yellow_color
                     font-weight: 700
                 .first_column
                     max-width: 450px
                 .second_column
                     max-width: 550px
-
         .action 
             .wrapper
-                background-color: $second_color
                 border-radius: 10px 
                 min-height: 165px
                 width: 200px
@@ -365,7 +339,6 @@
                 margin: 30px auto 50px auto
                 width: 800px
                 .lighter 
-                    background-color: $third_color
                     border-radius: 10px
                     padding: 10px
                     display: inline-block
@@ -392,7 +365,6 @@
                         .bracket_3 
                             width: 110px
                             height: 2px
-                            background-color: #fff
                             display: block
                             position: relative
                             left: 138px
@@ -402,7 +374,6 @@
                                 display: block
                                 height: 7px
                                 width: 2px
-                                background-color: #fff
                                 position: relative
                                 top: -7px
                             &::after
@@ -410,7 +381,6 @@
                                 display: block
                                 height: 7px
                                 width: 2px
-                                background-color: #fff
                                 position: relative
                                 left: 108px
                                 top: -14px
@@ -425,13 +395,10 @@
                 width: 150px
         .addition_rule 
             p
-                color: $p_color
                 b
-                    color: $yellow_color
                     display: inline-block
                     font-weight: 300
             .more 
-                color: #fff
                 margin: 10px 0 0 0
                 line-height: 19px
             .mb 
@@ -487,9 +454,7 @@
             ul 
                 max-width: 700px
                 margin: 0
-
     .tasks_on_parts 
-
         .task_1
             position: relative
             left: 35px 
@@ -506,7 +471,6 @@
                     margin: 0
                 .answer 
                     margin: 20px 0 0 0  
-
     .summ_tasks 
         .yellow_subheader
             margin-top: 30px
@@ -533,7 +497,6 @@
     .numbers_box 
         width: 1075px
         position: relative
-        background-color: $second_color
         border-radius: 10px
         margin-top: 50px
         padding: 15px
@@ -545,20 +508,16 @@
         justify-content: center
         .number_box 
             width: 300px
-            background-color: $third_color
             border-radius: 10px
             padding: 10px
             margin: 20px 10px
             height: 200px
-
             img 
                 max-height: 18px
                 margin: 0 auto
                 display: block
             p 
                 text-align: center
-            strong 
-                color: $yellow_color
             .number_item
                 text-align: center
                 margin-bottom: 30px
@@ -567,7 +526,6 @@
                 span 
                     width: 11px
                     height: 2px
-                    background-color: #fff
                     display: block
                     margin: 0 auto
                 p 
@@ -588,7 +546,6 @@
         margin-top: 30px
         .action 
             .wrapper
-                background-color: $second_color
                 border-radius: 10px 
                 min-height: 165px
                 width: 200px
@@ -625,7 +582,6 @@
             h3 
                 text-align: center
             .lighter_box 
-                background-color: $third_color
                 padding: 20px
                 border-radius: 10px
                 margin: 20px
@@ -633,20 +589,15 @@
                 p 
                     text-align: center
                     line-height: 30px
-                .formule_str 
-                    
                 h4 
                     text-align: center
                     text-transform: uppercase
                     font-weight: 500
-                    color: $yellow_color
                     display: block
                     max-width: 250px
                     margin: 0 auto 8px auto
             .features_wider 
                 max-width: 100%
-            .yellow 
-                color: $yellow_color
     .roots 
         .box 
             display: flex
@@ -656,7 +607,6 @@
             .lighter_box 
                 margin: 10px
                 position: relative
-                background-color: $third_color
                 border-radius: 10px
                 padding: 15px
                 width: 100%
@@ -673,13 +623,11 @@
                     text-align: center
                     font-weight: 500
                     text-transform: uppercase
-                    color: $yellow_color
                 p 
                     text-align: center
                 .tie
                     width: 115px
                     height: 2px
-                    background-color: #fff
                     display: block
                     position: absolute
                     right: 25px
@@ -691,7 +639,6 @@
                         position: absolute
                         height: 7px
                         width: 2px
-                        background-color: #fff
                     &:after
                         content: ''
                         display: block
@@ -700,13 +647,11 @@
                         position: absolute
                         height: 7px
                         width: 2px
-                        background-color: #fff
                 .formule_roots  
                     margin: 0 0 10px 0
                 .absolute 
                     position: relative
                     right: -15px
-        
     .approximation 
         p 
             line-height: 22px
@@ -716,13 +661,11 @@
             p 
                 line-height: 17px
                 margin: 0
-
     .plenties 
         .left 
             .definition 
                 position: relative
                 left: 35px
-                color: $p_color
 .container 
     .left 
         position: relative
@@ -731,7 +674,6 @@
     .procent 
         .progr_box_center  
             border-radius: 10px
-            background-color: $second_color
             width: 1075px
             padding: 10px
             margin: 20px 0
@@ -762,7 +704,6 @@
             max-width: 300px
             max-height: 300px
             border-radius: 10px
-            background-color: $second_color
             padding: 25px
             min-height: 290px
             h4 
@@ -771,8 +712,6 @@
                 font-weight: 500
                 font-size: 17px
                 margin-bottom: 10px
-                color: $yellow_color
-
 .progressions 
     .box
         display: flex
@@ -780,65 +719,36 @@
         justify-content: space-between
         .progression_column
             border-radius: 10px
-            background-color: $third_color
             padding: 20px
             max-width: 500px
             h4 
                 text-align: center
                 text-transform: uppercase
                 font-weight: 500
-                color: $yellow_color
                 font-size: 20px
             .progression_formules 
                 margin: 0 auto
                 display: inline
                 p 
-                    color: $yellow_color
                     text-align: center
-                    sub 
-                        color: $yellow_color
-                    sup 
-                        color: $yellow_color
                 .progression_formule
                     text-align: left
                     margin-top: 30px
                     font-weight: 700
-                    color: #fff
-            .container_with_fraction
-                p, sub, sup
-                    color: $yellow_color
-                hr 
-                    border-color: $yellow_color
             .progression_property 
                 .property_header
                     text-align: left
                     margin-top: 30px
                     font-weight: 700
-                    color: #fff
                     margin-bottom: 5px
                 .property_text 
-                    color: #fff
                     text-align: left
                 p 
                     text-align: center
-                    color: $yellow_color
-                    sub 
-                        color: $yellow_color
-                    sup 
-                        color: $yellow_color
     .infinite_geometric_progression_box
         .box-2 
             display: block
             padding: 30px
-            .container_with_fraction 
-                p 
-                    color: $yellow_color
-                    sub 
-                        color: $yellow_color
-                    sup 
-                        color: $yellow_color
-                hr 
-                    border-color: $yellow_color
             .center 
                 text-align: center
 .equals 
@@ -850,7 +760,6 @@
                 padding: 20px
                 max-width: 500px 
                 border-radius: 10px
-                background-color: $third_color
                 h4 
                     text-align: center
                     text-transform: uppercase
@@ -864,7 +773,6 @@
             .lighter_box 
                 padding: 20px
                 border-radius: 10px
-                background-color: $third_color
                 margin: 20px
             h4 
                 text-align: center
@@ -887,7 +795,6 @@
                 justify-content: center
                 .lighter_box 
                     border-radius: 10px 
-                    background-color: $third_color
                     width: 470px
                     padding: 20px
                     margin: 20px
@@ -924,13 +831,11 @@
                 text-align: center
                 text-transform: uppercase
                 font-size: 20px
-                color: $yellow_color
                 font-weight: 500
             .flex_box 
                 display: flex
                 justify-content: center
                 .lighter_box 
-                    background-color: $third_color
                     border-radius: 10px
                     padding: 20px
                     width: 30%
@@ -944,9 +849,6 @@
                         font-weight: 700
                         font-size: 17px
                         text-transform: lowercase
-                        color: $yellow_color
-                        sup 
-                           color: $yellow_color 
                     p 
                         margin: 5px 0
                         text-align: center
@@ -963,7 +865,6 @@
                 align-items: flex-start
                 .lighter_box 
                     border-radius: 10px
-                    background-color: $third_color
                     padding: 20px
                     min-height: 320px
                     justify-content: flex-start
@@ -981,10 +882,7 @@
             h4 
                 text-align: center
                 font-weight: 500
-                color: $yellow_color
                 font-size: 20px
-                sup 
-                    color: $yellow_color
             p 
                 text-align: center
                 margin-bottom: 0
@@ -994,7 +892,6 @@
                 padding: 20px
                 .lighter_box 
                     border-radius: 10px 
-                    background-color: $third_color
                     padding: 20px
                     width: 47%
                     p 
@@ -1014,12 +911,6 @@
         .box 
             .container_with_fraction   
                 margin: 10px
-                p 
-                    color: $yellow_color
-                    sub, sup 
-                        color: $yellow_color
-                hr 
-                    border-color: $yellow_color
         .to 
             p
                 margin: 0
@@ -1036,7 +927,6 @@
                 text-align: center
                 text-transform: uppercase
                 font-weight: 500
-                color: $yellow_color
                 font-size: 20px
 .ineq 
     .ineq_properties 
@@ -1050,7 +940,6 @@
             flex-wrap: wrap
             .lighter_box 
                 border-radius: 10px
-                background-color: $third_color
                 padding: 20px
                 width: 495px  
                 margin: 10px
@@ -1062,7 +951,6 @@
                 h4 
                     text-align: center
                     text-transform: uppercase
-                    color: $yellow_color
                     margin-bottom: 20px
                 .example 
                     text-align: center
@@ -1076,7 +964,6 @@
         .box 
             display: flex
             .lighter_box 
-                background-color: $third_color
                 border-radius: 10px
                 padding: 20px
                 margin: 10px
@@ -1090,7 +977,6 @@
                     text-align: center
                     text-transform: uppercase
                     font-weight: 500
-                    color: $yellow_color
                     margin-bottom: 20px
     .change_unnown 
         .box 
@@ -1122,7 +1008,6 @@
         .lighter_box 
             padding: 20px
             border-radius: 10px 
-            background-color: $third_color
             margin: 20px
             img
                 width: 200px
@@ -1132,13 +1017,11 @@
                 text-transform: uppercase
                 font-size: 20px
                 font-weight: 500
-                color: $yellow_color
             h5 
                 text-align: center
                 font-weight: 500
                 font-size: 17px
                 margin-bottom: 20px
-                
             .flex_box 
                 display: flex
                 .column 
@@ -1152,7 +1035,6 @@
         .box 
             padding: 20px
             h4 
-                color: $yellow_color
                 text-align: center
                 text-transform: uppercase
                 font-size: 20px
@@ -1187,7 +1069,6 @@
             .lighter_box 
                 padding: 20px
                 border-radius: 10px
-                background-color: $third_color
                 width: 500px
         .main_log_func 
             padding: 20px
@@ -1195,10 +1076,8 @@
             position: relative
             left: 35px
             border-radius: 10px
-            background-color: $second_color
             margin-top: 20px
             h4
-                color: $yellow_color
                 margin-bottom: 10px
             p 
                 margin: 0
@@ -1208,7 +1087,6 @@
             width: 500px
             margin: 0 auto
             h4 
-                color: $yellow_color
                 text-align: center
                 text-transform: uppercase
                 font-weight: 500
@@ -1227,7 +1105,6 @@
                         hr 
                             margin: 1px 5px
         .second_method 
-            background-color: $second_color
             border-radius: 10px
             padding: 20px
             width: 500px
@@ -1237,14 +1114,13 @@
             h4 
                 text-align: center
                 text-transform: uppercase
-                color: $yellow_color
+                
                 font-weight: 500
                 margin-bottom: 20px
             .column-1
                 margin-right: 20px
                 p 
                     text-align: right
-
             .column-2 
                 margin-left: 20px
                 p 
@@ -1279,7 +1155,6 @@
                         text-align: center
                         font-size: 17px
                         font-weight: 500
-                        color: $yellow_color
     .log_ineq 
         .second 
             padding: 20px 30px 20px 30px
@@ -1288,10 +1163,7 @@
                 text-align: center
                 font-size: 17px
                 font-weight: 500
-                color: $yellow_color
                 margin-bottom: 20px
-                sub 
-                    color: $yellow_color
             p 
                 margin: 5px 0
             .yellow 
@@ -1307,7 +1179,6 @@
             flex-wrap: wrap
             justify-content: space-around
             .flex_box 
-                background-color: $third_color
                 width: 490px
                 padding: 20px
                 border-radius: 10px
@@ -1365,7 +1236,6 @@
                 width: 200px
                 text-align: center
                 margin: 10px 10px
-            
         .third 
             display: flex
             flex-wrap: wrap 
@@ -1381,7 +1251,6 @@
             justify-content: space-between
             .lighter_box 
                 width: 490px
-                background-color: $third_color
                 border-radius: 10px
                 padding: 20px
                 margin: 10px
@@ -1390,7 +1259,6 @@
                     text-transform: uppercase
                     font-size: 17px
                     font-weight: 500
-                    color: $yellow_color
                     margin-bottom: 20px
                 p 
                     margin: 9px 0
@@ -1422,7 +1290,6 @@
             h4 
                 text-align: center
                 text-transform: uppercase
-                color: $yellow_color
                 font-weight: 500
                 font-size: 17px
                 margin-top: 20px
@@ -1434,11 +1301,9 @@
         .box 
             .lighter_box 
                 border-radius: 10px 
-                background-color: $third_color
                 padding: 20px
                 margin: 20px 0
                 h4 
-                    color: $yellow_color
                     font-weight: 500
                     text-align: center
                     font-size: 23px
@@ -1471,12 +1336,10 @@
                             margin: 10px
                     hr 
                         width: 100%
-                        border-color: $p_color
         .tri-methods 
             h4 
                 text-align: center
                 text-transform: uppercase
-                color: $yellow_color
                 font-weight: 500
                 font-size: 17px
                 margin: 10px 0 20px 0
@@ -1489,7 +1352,6 @@
         .priv 
             padding: 10px
             .lighter_box 
-                background-color: $third_color
                 border-radius: 10px
                 padding: 20px
                 margin: 20px
@@ -1524,7 +1386,6 @@
             h4 
                 text-align: center
                 text-transform: uppercase
-                color: $yellow_color
                 font-weight: 500
                 margin-bottom: 20px
             .cord_vect
@@ -1549,7 +1410,6 @@
         .box 
             padding: 20px
             h4 
-                color: $yellow_color
                 font-weight: 500
                 font-size: 17px
                 text-align: center
@@ -1561,7 +1421,6 @@
                 display: flex
                 justify-content: space-between
             .flex_box 
-                background-color: $third-color 
                 border-radius: 10px 
                 padding: 20px
                 width: 500px
@@ -1570,7 +1429,6 @@
                     text-transform: uppercase
                     font-weight: 500
                     font-size: 15px
-                    color: $yellow_color
                 .summ-text 
                     margin-bottom: 20px
                     line-height: 25px
@@ -1583,12 +1441,9 @@
                 margin: 0 auto
             .light_box 
                 border-radius: 10px 
-                background-color: $third-color
                 width: 500px
                 margin: 30px auto 30px auto
                 padding: 30px
-
-                
 section 
     margin-bottom: 50px
 .left 
@@ -1599,13 +1454,11 @@ section
         display: flex
         justify-content: center 
         align-items: center
-        
     a 
         padding: 20px
         border-radius: 20px 
         height: 30px
         margin: 0 20px
-        background-color: $yellow_color
         div 
             text-align: center
             text-transform: uppercase
@@ -1613,8 +1466,205 @@ section
             font-weight: 700
             transform: translateY(-50%)
             position: relative
-            color: $main_theme
+.axiom_header 
+    position: relative
+    left: 45px
+    text-transform: uppercase
+    font-weight: 500
+    font-size: 17px
+    margin-top: 20px
+.stereo_planes 
+    .stereo 
+        width: 300px
+        margin-top: 30px
+.flex_item 
+    width: 500px
+    margin: 20px
+    background-color: $second_color
+    border-radius: 40px
+    padding: 20px
+    display: flex
+    flex-direction: column 
+    justify-content: space-between
+    align-items: center
+.geom_lines 
+    .flex_cont
+        .flex_item
+            padding-bottom: 30px
+            padding-top: 30px
+            p 
+                text-align: center
+                font-size: 14px
+                margin-bottom: 0
+                
+        .line 
+            height: 110px
+            margin-top: 20px
+    .first_cont 
+        .parallel 
+            font-weight: 500
+            font-size: 17px
+            text-transform: uppercase
+            position: relative
+            left: 35px
+            margin: 20px 0 10px 0
+    .parallel_cont 
+        .flex_item 
+            width: 320px
+            margin: 10px
+.corner 
+    .box 
+        display: flex
+        justify-content: center
+        .wrapper 
+            border-radius: 10px 
+            background-color: $third-color
+            padding: 20px
+            margin: 10px
+            width: 250px
+            img 
+                margin: 0 auto
+                display: block
+                height: 110px
+            h5
+                text-align: center
+                margin-bottom: 0
+                margin-top: 10px
+                font-weight: 500
+                font-size: 17px
+            p 
+                margin: 0
+                text-align: center
+                font-size: 12px
+                color: $p_color
+.geom_triangles
+    .triangle_main 
+        .box 
+            p 
+                text-align: center
+                color: $p_color
+            .theorem
+                margin: 20px 0
+    .box
+        .triangle-1 
+            height: 200px
+        p 
+            b 
+                sub 
+                    font-weight: 700
+        .theorem-1 
+            margin-top: 30px
+    .first 
+        display: flex
+        justify-content: space-between
+        padding: 20px
+        div 
+            max-height: 300px 
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            width: 700px
+            flex-wrap: wrap
+            p 
+                margin: 5px
+    .fourth 
+        display: flex
+        justify-content: space-between 
+        div 
+            width: 500px
+            img 
+                height: 120px
+                margin: 0 auto
+                display: block
+    .first_cont 
+        .second 
+            display: flex
+            justify-content: center
+            .wrapper 
+                border-radius: 10px 
+                background-color: $third-color
+                padding: 20px
+                margin: 10px
+                width: 250px
+                .triangle_corners 
+                    height: 120px
+                    margin: 0 auto
+                    display: block
+                h5 
+                    text-align: center
+                    margin-top: 10px 
+                    font-size: 17px
+                    font-weight: 500
+                    line-height: 23px
+                    margin-bottom: 0
+                p 
+                    text-align: center
+                    color: $p_color
+                    font-size: 14px
+                    margin: 2px
+                .first_definition
+                    margin-bottom: 15px
+                    margin-top: 0
+        .third 
+            position: relative
+            left: 35px
+            background-color: $second-color 
+            border-radius: 10px 
+            width: 550px 
+            display: flex
+            justify-content: space-between
+            margin: 20px auto
+            padding: 15px
+            .wrapper 
+                border-radius: 10px 
+                background-color: $third-color
+                padding: 20px
+                margin: 10px
+                width: 250px
+                .triangle_corners 
+                    height: 120px
+                    display: block
+                    margin: 0 auto
+                h5 
+                    text-align: center
+                    margin-top: 10px 
+                    font-size: 17px
+                    font-weight: 500
+                    line-height: 23px
+                    margin-bottom: 0
+                p 
+                    text-align: center
+                    color: $p_color
+                    font-size: 14px
+                    margin: 2px
 
+
+.right_triangle 
+    .box 
+        .flex-box 
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .first 
+                width: 300px
+                img 
+                    height: 120px
+                    display: block
+                    margin: 0 auto
+            .second
+                width: 700px
+                p 
+                    margin: 5px 0
+    .right_triangle_equals 
+        h4 
+            margin-bottom: 20px
+        .theorem 
+            margin: 30px 0    
+            padding: 10px    
+            border-radius: 10px
+            background-color: $third-color
+            text-align: left
+        
 
 
     

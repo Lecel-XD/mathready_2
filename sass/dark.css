@@ -1,0 +1,538 @@
+.in_develop h4 {
+  color: #121212;
+  background-color: #d1ae59;
+}
+.in_develop a {
+  background-color: #202020;
+}
+.in_develop a:hover {
+  background-color: #191919;
+}
+.in_develop a div {
+  color: #fff;
+}
+.in_develop a div:hover {
+  color: #c7c7c7;
+}
+
+.container_with_fraction .high_module {
+  background-color: #fff;
+}
+
+.yellow {
+  color: #d1ae59;
+}
+
+header {
+  background-color: #202020;
+}
+header ul li a {
+  color: #fff;
+}
+header ul li a:hover {
+  color: #c75c5c;
+}
+header button {
+  background-color: rgba(255, 255, 255, 0);
+}
+header button span {
+  background-color: #fff;
+}
+
+body {
+  background-color: #121212;
+}
+
+.about {
+  background: #121212;
+}
+.about_info {
+  background: #191919;
+}
+.about_info p a {
+  color: #fff;
+}
+.about_search {
+  background: #191919;
+  border: 1px solid #202020;
+}
+.about .search_img:before {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #fff;
+}
+.about .search_img:after {
+  background-color: #fff;
+}
+
+.divider {
+  background-color: #191919;
+}
+
+.category {
+  background-color: #121212;
+}
+.category_header {
+  color: #fff;
+}
+.category .wrapper .category_link {
+  color: #fff;
+  background-image: url(../img/5.svg);
+}
+.category .wrapper .category_link:hover {
+  background-image: url(../img/5_hover.svg);
+}
+.category .wrapper .five {
+  background-image: url(../img/5.svg);
+}
+.category .wrapper .five:hover {
+  background-image: url(../img/5_hover.svg);
+}
+.category .wrapper .six {
+  background-image: url(../img/6.svg);
+}
+.category .wrapper .six:hover {
+  background-image: url(../img/6_hover.svg);
+}
+.category .wrapper .seven {
+  background-image: url(../img/7.svg);
+}
+.category .wrapper .seven:hover {
+  background-image: url(../img/7_hover.svg);
+}
+.category .wrapper .eight {
+  background-image: url(../img/8.svg);
+}
+.category .wrapper .eight:hover {
+  background-image: url(../img/8_hover.svg);
+}
+.category .wrapper .nine {
+  background-image: url(../img/9.svg);
+}
+.category .wrapper .nine:hover {
+  background-image: url(../img/9_hover.svg);
+}
+.category .wrapper .ten_eleven {
+  background-image: url(../img/10-11.svg);
+}
+.category .wrapper .ten_eleven:hover {
+  background-image: url(../img/10-11_hover.svg);
+}
+.category_item {
+  background-color: #191919;
+}
+.category h3 {
+  color: #c7c7c7;
+}
+.category_name {
+  color: #c75c5c;
+}
+
+footer {
+  background-color: #191919;
+}
+
+.ol_box ol li a {
+  color: #c75c5c;
+}
+.ol_box ol ul li a {
+  color: #c7c7c7;
+}
+
+.theme_box {
+  background-color: #191919;
+}
+
+.theme_text {
+  color: #c75c5c;
+}
+
+.box_center {
+  background-color: #191919;
+}
+
+.yellow_illustration {
+  color: #d1ae59;
+}
+
+.box {
+  background-color: #191919;
+}
+
+.yellow_subheader {
+  color: #d1ae59;
+}
+
+.theme_btns .theme_btn {
+  background-color: #c75c5c;
+}
+.theme_btns .theme_btn a {
+  color: #fff;
+}
+
+.first_cont h2 {
+  color: #c7c7c7;
+}
+.first_cont ol li a {
+  color: #fff;
+}
+.first_cont ol ul li {
+  color: #c7c7c7;
+}
+.first_cont .ol_box {
+  background-color: #191919;
+}
+.first_cont .ol_box ol li {
+  text-decoration-color: #d1ae59;
+  color: #d1ae59;
+}
+.first_cont .ol_box ol li a {
+  color: #d1ae59;
+}
+.first_cont .ol_box ol ul li {
+  color: #c7c7c7;
+}
+.first_cont .ol_box ol ul li a {
+  color: #c7c7c7;
+}
+
+.fifth {
+  background-color: #121212;
+}
+.fifth .natural_numbers .single_digit {
+  background-color: #191919;
+}
+.fifth .natural_numbers .single_digit .bracket_1 {
+  background-color: #fff;
+}
+.fifth .natural_numbers .single_digit .bracket_1:before {
+  background-color: #fff;
+}
+.fifth .natural_numbers .single_digit .bracket_1:after {
+  background-color: #fff;
+}
+.fifth .natural_numbers .single_digit .bracket_2 {
+  background-color: #fff;
+}
+.fifth .natural_numbers .single_digit .bracket_2:before {
+  background-color: #fff;
+}
+.fifth .natural_numbers .single_digit .bracket_2:after {
+  background-color: #fff;
+}
+.fifth .comparison_nat .wrapper {
+  background-color: #191919;
+}
+.fifth .actions_with_naturals .division_flex .examples {
+  color: #d1ae59;
+}
+.fifth .actions_with_naturals .division_flex .examples u {
+  color: #d1ae59;
+  text-decoration-color: #c7c7c7;
+}
+.fifth .actions_with_naturals .division_flex .biggest_division_box {
+  background-color: #191919;
+}
+.fifth .actions_with_naturals .division_flex .lowest_factor_box {
+  background-color: #191919;
+}
+.fifth .actions_with_naturals .division_rules_box .wrapper .lighter_box {
+  background-color: #202020;
+  color: #d1ae59;
+}
+.fifth .actions_with_naturals .action .wrapper {
+  background-color: #191919;
+}
+.fifth .actions_with_naturals .exponentiation_more .lighter {
+  background-color: #202020;
+}
+.fifth .actions_with_naturals .exponentiation_more .exp_rules .a_in_n .bracket_3 {
+  background-color: #fff;
+}
+.fifth .actions_with_naturals .exponentiation_more .exp_rules .a_in_n .bracket_3::before {
+  background-color: #fff;
+}
+.fifth .actions_with_naturals .exponentiation_more .exp_rules .a_in_n .bracket_3::after {
+  background-color: #fff;
+}
+.fifth .actions_with_naturals .addition_rule p {
+  color: #c7c7c7;
+}
+.fifth .actions_with_naturals .addition_rule p b {
+  color: #d1ae59;
+}
+.fifth .actions_with_naturals .addition_rule .more {
+  color: #fff;
+}
+
+.ten-eleven .numbers_box {
+  background-color: #191919;
+}
+.ten-eleven .numbers_box .number_box {
+  background-color: #202020;
+}
+.ten-eleven .numbers_box .number_box strong {
+  color: #d1ae59;
+}
+.ten-eleven .numbers_box .number_box .rational_number span {
+  background-color: #fff;
+}
+.ten-eleven .actions .action .wrapper {
+  background-color: #191919;
+}
+.ten-eleven .actions_rules .box .lighter_box {
+  background-color: #202020;
+}
+.ten-eleven .actions_rules .box .lighter_box h4 {
+  color: #d1ae59;
+}
+.ten-eleven .actions_rules .box .yellow {
+  color: #d1ae59;
+}
+.ten-eleven .roots .box .lighter_box {
+  background-color: #202020;
+}
+.ten-eleven .roots .box .lighter_box h4 {
+  color: #d1ae59;
+}
+.ten-eleven .roots .box .lighter_box .tie {
+  background-color: #fff;
+}
+.ten-eleven .roots .box .lighter_box .tie:before {
+  background-color: #fff;
+}
+.ten-eleven .roots .box .lighter_box .tie:after {
+  background-color: #fff;
+}
+.ten-eleven .plenties .left .definition {
+  color: #c7c7c7;
+}
+
+.proportions .procent .progr_box_center {
+  background-color: #191919;
+}
+
+.units .flexbox .unit_item {
+  background-color: #191919;
+}
+.units .flexbox .unit_item h4 {
+  color: #d1ae59;
+}
+
+.progressions .box .progression_column {
+  background-color: #202020;
+}
+.progressions .box .progression_column h4 {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_formules p {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_formules p sub {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_formules p sup {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_formules .progression_formule {
+  color: #fff;
+}
+.progressions .box .progression_column .container_with_fraction p, .progressions .box .progression_column .container_with_fraction sub, .progressions .box .progression_column .container_with_fraction sup {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .container_with_fraction hr {
+  border-color: #d1ae59;
+}
+.progressions .box .progression_column .progression_property .property_header {
+  color: #fff;
+}
+.progressions .box .progression_column .progression_property .property_text {
+  color: #fff;
+}
+.progressions .box .progression_column .progression_property p {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_property p sub {
+  color: #d1ae59;
+}
+.progressions .box .progression_column .progression_property p sup {
+  color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 .container_with_fraction p {
+  color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 .container_with_fraction p sub {
+  color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 .container_with_fraction p sup {
+  color: #d1ae59;
+}
+.progressions .infinite_geometric_progression_box .box-2 .container_with_fraction hr {
+  border-color: #d1ae59;
+}
+
+.equals .grade_1 .first_grade .lighter_box {
+  background-color: #202020;
+}
+.equals .grade_1 .properties .lighter_box {
+  background-color: #202020;
+}
+.equals .systems_first_grade .systems .flex_box .lighter_box {
+  background-color: #202020;
+}
+.equals .square_equal .box h4 {
+  color: #d1ae59;
+}
+.equals .square_equal .box .flex_box .lighter_box {
+  background-color: #202020;
+}
+.equals .square_equal .box .flex_box .lighter_box h4 {
+  color: #d1ae59;
+}
+.equals .square_equal .box .flex_box .lighter_box h4 sup {
+  color: #d1ae59;
+}
+.equals .square_equal .full_square .flex_box .lighter_box {
+  background-color: #202020;
+}
+.equals .beesquare_equals .box h4 {
+  color: #d1ae59;
+}
+.equals .beesquare_equals .box h4 sup {
+  color: #d1ae59;
+}
+.equals .beesquare_equals .box .flex_box .lighter_box {
+  background-color: #202020;
+}
+.equals .rational_equals .box .container_with_fraction p {
+  color: #d1ae59;
+}
+.equals .rational_equals .box .container_with_fraction p sub, .equals .rational_equals .box .container_with_fraction p sup {
+  color: #d1ae59;
+}
+.equals .rational_equals .box .container_with_fraction hr {
+  border-color: #d1ae59;
+}
+.equals .irrational .box h4 {
+  color: #d1ae59;
+}
+
+.ineq .ineq_kinds .box .lighter_box {
+  background-color: #202020;
+}
+.ineq .ineq_kinds .box .lighter_box h4 {
+  color: #d1ae59;
+}
+.ineq .interval_method .box .lighter_box {
+  background-color: #202020;
+}
+.ineq .interval_method .box .lighter_box h4 {
+  color: #d1ae59;
+}
+
+.graphs .box .lighter_box {
+  background-color: #202020;
+}
+.graphs .box .lighter_box h4 {
+  color: #d1ae59;
+}
+.graphs .indicate_func .box h4 {
+  color: #d1ae59;
+}
+
+.logs .about_log .box .lighter_box {
+  background-color: #202020;
+}
+.logs .about_log .main_log_func {
+  background-color: #191919;
+}
+.logs .about_log .main_log_func h4 {
+  color: #d1ae59;
+}
+.logs .log_formules .box h4 {
+  color: #d1ae59;
+}
+.logs .log_formules .second_method {
+  background-color: #191919;
+}
+.logs .log_formules .second_method h4 {
+  color: #d1ae59;
+}
+.logs .log_func .box .flex_box .column-2 h4 {
+  color: #d1ae59;
+}
+.logs .log_ineq .second h4 {
+  color: #d1ae59;
+}
+.logs .log_ineq .second h4 sub {
+  color: #d1ae59;
+}
+
+.prob .prob_part .box .flex_box {
+  background-color: #202020;
+}
+
+.trigo .tri-formules .second .lighter_box {
+  background-color: #202020;
+}
+.trigo .tri-formules .second .lighter_box h4 {
+  color: #d1ae59;
+}
+.trigo .tri-funcs .box h4 {
+  color: #d1ae59;
+}
+.trigo .tri_equals .box .lighter_box {
+  background-color: #202020;
+}
+.trigo .tri_equals .box .lighter_box h4 {
+  color: #d1ae59;
+}
+.trigo .tri_equals .box .lighter_box .flexes hr {
+  border-color: #c7c7c7;
+}
+.trigo .tri_equals .tri-methods h4 {
+  color: #d1ae59;
+}
+.trigo .priv_formules .priv .lighter_box {
+  background-color: #202020;
+}
+
+.vectors .vectors_planimetry .box h4 {
+  color: #d1ae59;
+}
+.vectors .summ_vectors .box h4 {
+  color: #d1ae59;
+}
+.vectors .summ_vectors .box .flex_box {
+  background-color: #202020;
+}
+.vectors .summ_vectors .box .flex_box h5 {
+  color: #d1ae59;
+}
+.vectors .summ_vectors .box .light_box {
+  background-color: #202020;
+}
+
+.bottom_nav a {
+  background-color: #d1ae59;
+}
+.bottom_nav a div {
+  color: #121212;
+}
+
+.axiom {
+  background-color: #191919;
+  border-color: #d1ae59;
+}
+
+.theorem {
+  background-color: #191919;
+  border-color: #c75c5c;
+}
+
+.geom_lines .flex_cont .flex_item p {
+  color: #c7c7c7;
+}
+
+.h4-med {
+  color: #d1ae59;
+}/*# sourceMappingURL=dark.css.map */
