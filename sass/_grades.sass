@@ -4,6 +4,34 @@
     display: inline-block
     padding: 10px 35px
     margin: 30px 0
+.cont_with_el 
+    position: relative
+    left: 35px
+    max-width: 1075px 
+    display: flex
+    justify-content: space-between
+    position: relative
+    margin-top: 30px
+    flex-wrap: wrap
+    .el 
+        margin: 0 auto
+        background-color: #191919
+        border-radius: 40px
+        padding: 20px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        align-items: center
+        p 
+            color: $p_color
+            font-size: 14px
+            text-align: center
+            margin-bottom: 0
+        img 
+            height: 120px
+            margin-top: 20px
+
+
 .axiom 
     padding: 15px 20px
     border-radius: 40px 
@@ -1513,6 +1541,9 @@ section
             width: 320px
             margin: 10px
 .corner 
+    .cont_with_el 
+        .el 
+            width: 500px
     .box 
         display: flex
         justify-content: center
@@ -1637,7 +1668,51 @@ section
                     color: $p_color
                     font-size: 14px
                     margin: 2px
-
+.geom_circles 
+    .inscribed_circle 
+        .inscribed_circle_first
+            display: flex
+            justify-content: space-between
+            .lighter_box 
+                width: 500px
+                border-radius: 10px 
+                background-color: $third-color
+                padding: 20px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                img 
+                    height: 150px
+                    margin-right: 10px
+    .first_cont 
+        .cont_with_el
+            .el 
+                width: 330px
+    .first
+        display: flex
+        padding: 20px
+        align-items: center
+        justify-content: space-around
+        img 
+            height: 200px
+        div 
+            max-height: 300px
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            width: 700px
+            flex-wrap: wrap
+.polygons 
+    .first_cont 
+        .convex_polygon 
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .convex
+                height: 120px
+                margin: 30px
+            .container_with_fraction
+                justify-content: flex-start
 
 .right_triangle 
     .box 

@@ -93,14 +93,18 @@ header {
 }
 header .logo {
   position: absolute;
-  left: 25px;
+  margin-left: 25px;
   margin-top: 18px;
+  height: 28px;
+}
+header .logo:hover {
+  margin-left: 23px;
 }
 header .logo img {
-  max-height: 28px;
+  height: 28px;
 }
 header .logo img:hover {
-  max-height: 29px;
+  height: 29px;
 }
 header ul {
   display: flex;
@@ -315,6 +319,37 @@ footer img {
   display: inline-block;
   padding: 10px 35px;
   margin: 30px 0;
+}
+
+.cont_with_el {
+  position: relative;
+  left: 35px;
+  max-width: 1075px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.cont_with_el .el {
+  margin: 0 auto;
+  background-color: #191919;
+  border-radius: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont_with_el .el p {
+  color: #c7c7c7;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.cont_with_el .el img {
+  height: 120px;
+  margin-top: 20px;
 }
 
 .axiom {
@@ -2140,6 +2175,9 @@ section {
   margin: 10px;
 }
 
+.corner .cont_with_el .el {
+  width: 500px;
+}
 .corner .box {
   display: flex;
   justify-content: center;
@@ -2284,6 +2322,57 @@ section {
   color: #c7c7c7;
   font-size: 14px;
   margin: 2px;
+}
+
+.geom_circles .inscribed_circle .inscribed_circle_first {
+  display: flex;
+  justify-content: space-between;
+}
+.geom_circles .inscribed_circle .inscribed_circle_first .lighter_box {
+  width: 500px;
+  border-radius: 10px;
+  background-color: #202020;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.geom_circles .inscribed_circle .inscribed_circle_first .lighter_box img {
+  height: 150px;
+  margin-right: 10px;
+}
+.geom_circles .first_cont .cont_with_el .el {
+  width: 330px;
+}
+.geom_circles .first {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.geom_circles .first img {
+  height: 200px;
+}
+.geom_circles .first div {
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 700px;
+  flex-wrap: wrap;
+}
+
+.polygons .first_cont .convex_polygon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.polygons .first_cont .convex_polygon .convex {
+  height: 120px;
+  margin: 30px;
+}
+.polygons .first_cont .convex_polygon .container_with_fraction {
+  justify-content: flex-start;
 }
 
 .right_triangle .box .flex-box {

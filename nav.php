@@ -1,6 +1,6 @@
 <header>
     <nav>
-        <a href="index.php" class="logo"><img src="icons/temporary/logo.png" alt=""></a>
+        <a href="index.php" class="logo"><img src="icons/logo.svg" alt=""></a>
         <ul>
             <li><a href="index.php">главная</a></li>
             <li><a href="algebra_main.php">алгебра</a></li>

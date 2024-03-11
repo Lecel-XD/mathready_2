@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>MATHREADY</title>
+    <title>Геометрия 5-11 класс - MathReady</title>
     <?php 
         @include('head.php');
      ?>
@@ -25,8 +25,8 @@
                     <li><a href="">Параллельные прямые</a></li>
                     <li><a href="geometry_circles.php">Окружность. Касательная, хорда, вписанная и описанная окружность</a></li>
                     <li><a href="">Симметрия</a></li>
-                    <li><a href="">Четырёхугольник</a></li>
-                    <li><a href="">Многоугольник</a></li>
+                    <li><a href="geometry_quadrate.php">Четырёхугольник</a></li>
+                    <li><a href="geometry_polygon.php">Многоугольник</a></li>
                     <li><a href="">sin, cos, tg, ctg</a></li>
                 </ol>
                 <li><a href="geometry_stereo_planes.php">Стереометрия</a></li>

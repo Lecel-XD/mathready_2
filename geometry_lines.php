@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>MATHREADY</title>
+    <title>Прямые, углы, отрезки - MathReady</title>
     <?php 
         @include('head.php');
      ?>
@@ -81,6 +81,11 @@
                 </div>
             </div>
         </section>
+        <section class="inclined">
+            <div class="theme_box">
+                <div class="theme_text">Наклонная (стр. 80)</div>
+            </div>
+        </section>
         <section class="corner">
             <div class="theme_box">
                 <div class="theme_text">Углы</div>
@@ -114,6 +119,18 @@
                     <h5>Вертикальные углы</h5>
                     <p>Они равны</p>
                 </div>
+            </div>
+            <div class="cont_with_el">
+                <div class="el">
+                    <p>Каждая точка биссектрисы неразвёрнутого угла равноудалена от его сторон</p>
+                    <p>Каждая точка, лежащая внутри угла и равноудалённая от сторон угла, лежит на его биссектрисе</p>
+                    <img src="img/corner-10.svg" alt="">
+                </div>
+                <div class="el">
+                    <p>Каждая точка серединного перпендикуляра к отрезку равноудалена от концов этого отрезка</p>
+                    <img src="img/perpendicular-1.svg" alt="">
+                </div>
+                
             </div>
         </section>
         <section class="bottom_nav">

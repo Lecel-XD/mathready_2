@@ -14,7 +14,7 @@
     <section class="about">
         <div class="container">
             <div class="about_info">
-                <img class="about_info_img" src="icons/temporary/logo.png" alt="MATHREADY">
+                <img class="about_info_img" src="icons/logo.svg" alt="MATHREADY">
                 <p class="about_info_text"><strong>MATHREADY</strong> – сайт, где вы сможете найти всю нужную информацию по математике. Формулы, теоремы, определения – всё, что нужно. Без лишней воды. Все темы 5-11 класса.</p>
             </div>
             <div class="about_search">
