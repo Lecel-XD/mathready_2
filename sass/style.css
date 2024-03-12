@@ -38,6 +38,14 @@ sub {
   font-weight: 700;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.flex p {
+  margin: 10px 0;
+}
+
 .container_with_fraction {
   display: flex;
   flex-direction: row;
@@ -350,6 +358,14 @@ footer img {
 .cont_with_el .el img {
   height: 120px;
   margin-top: 20px;
+}
+.cont_with_el .el h5 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-bottom: 0;
 }
 
 .axiom {
@@ -2208,13 +2224,6 @@ section {
   color: #c7c7c7;
 }
 
-.geom_triangles .triangle_main .box p {
-  text-align: center;
-  color: #c7c7c7;
-}
-.geom_triangles .triangle_main .box .theorem {
-  margin: 20px 0;
-}
 .geom_triangles .box .triangle-1 {
   height: 200px;
 }
@@ -2227,18 +2236,38 @@ section {
 .geom_triangles .first {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
+  align-items: center;
 }
-.geom_triangles .first div {
-  max-height: 300px;
+.geom_triangles .first .triangle_definition {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 700px;
   flex-wrap: wrap;
 }
-.geom_triangles .first div p {
+.geom_triangles .first .triangle_definition .heron {
+  height: 53px;
+}
+.geom_triangles .first .triangle_definition p {
   margin: 5px;
+}
+.geom_triangles .first .triangle_definition .lighter_box {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  width: 500px;
+  border: 2px dashed #c75c5c;
+  margin-bottom: 20px;
+}
+.geom_triangles .first .triangle_definition .lighter_box .container_with_fraction {
+  justify-content: flex-start;
+}
+.geom_triangles .first .triangle_definition .lighter_box .container_with_fraction p {
+  margin: 0;
+}
+.geom_triangles .first .triangle_definition .lighter_box .container_with_fraction hr {
+  margin: 1px 0;
 }
 .geom_triangles .fourth {
   display: flex;
@@ -2252,15 +2281,62 @@ section {
   margin: 0 auto;
   display: block;
 }
-.geom_triangles .first_cont .second {
-  display: flex;
-  justify-content: center;
+.geom_triangles .first_cont .triangle_equals p {
+  text-align: center;
+  font-size: 14px;
+  color: #c7c7c7;
 }
-.geom_triangles .first_cont .second .wrapper {
+.geom_triangles .first_cont .triangle_equals_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.geom_triangles .first_cont .triangle_equals .h4-med {
+  margin-bottom: 0;
+}
+.geom_triangles .first_cont .triangle_equals .theorem {
+  width: 300px;
+  margin: 30px 20px;
+  padding: 10px;
   border-radius: 10px;
   background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.geom_triangles .first_cont .tri-second .el {
+  width: 520px;
+  margin: 0;
+}
+.geom_triangles .first_cont .heronFormule {
+  justify-content: flex-start;
+  width: 700px;
+}
+.geom_triangles .first_cont .heronFormule .heronRoot {
+  height: 23px;
+  margin-left: 5px;
+}
+.geom_triangles .first_cont .first .container_with_fraction {
+  margin-left: 5px;
+}
+.geom_triangles .first_cont .cont_with_el .simHeightsTri {
+  height: 120px;
+  margin: 20px 20px 0 20px;
+}
+.geom_triangles .first_cont .cont_with_el .simHeightsTriText {
+  height: 35px;
+}
+.geom_triangles .first_cont .second {
+  display: flex;
+  justify-content: space-between;
+  width: 1075px;
+  position: relative;
+  left: 35px;
+  margin-top: 90px;
+}
+.geom_triangles .first_cont .second .wrapper {
+  border-radius: 40px;
+  background-color: #191919;
   padding: 20px;
-  margin: 10px;
   width: 250px;
 }
 .geom_triangles .first_cont .second .wrapper .triangle_corners {
@@ -2289,20 +2365,17 @@ section {
 .geom_triangles .first_cont .third {
   position: relative;
   left: 35px;
-  background-color: #191919;
-  border-radius: 10px;
-  width: 550px;
+  width: 1075px;
   display: flex;
   justify-content: space-between;
-  margin: 20px auto;
-  padding: 15px;
+  padding: 15px 0;
+  margin-top: 30px;
 }
 .geom_triangles .first_cont .third .wrapper {
-  border-radius: 10px;
-  background-color: #202020;
+  border-radius: 40px;
+  background-color: #191919;
   padding: 20px;
-  margin: 10px;
-  width: 250px;
+  width: 520px;
 }
 .geom_triangles .first_cont .third .wrapper .triangle_corners {
   height: 120px;
@@ -2323,6 +2396,36 @@ section {
   font-size: 14px;
   margin: 2px;
 }
+.geom_triangles .first_cont .triangles_similarity p {
+  text-align: center;
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.geom_triangles .first_cont .triangles_similarity .theorem_first {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #202020;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+}
+.geom_triangles .first_cont .triangles_similarity .h4-med_second {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.geom_triangles .first_cont .triangles_similarity .triangle_similarity_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.geom_triangles .first_cont .triangles_similarity .triangle_similarity_flex .theorem {
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .geom_circles .inscribed_circle .inscribed_circle_first {
   display: flex;
@@ -2340,6 +2443,16 @@ section {
 .geom_circles .inscribed_circle .inscribed_circle_first .lighter_box img {
   height: 150px;
   margin-right: 10px;
+}
+.geom_circles .inscribed_circle .inscribed_circle_first .lighter_box p {
+  margin-bottom: 0;
+}
+.geom_circles .inscribed_circle .final {
+  padding: 10px;
+}
+.geom_circles .inscribed_circle .final p {
+  background-color: #202020;
+  margin: 30px;
 }
 .geom_circles .first_cont .cont_with_el .el {
   width: 330px;
@@ -2360,6 +2473,78 @@ section {
   align-items: flex-start;
   width: 700px;
   flex-wrap: wrap;
+}
+.geom_circles .two_circles .cont_with_el {
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.geom_circles .two_circles .cont_with_el .el {
+  width: 300px;
+  margin: 10px;
+}
+.geom_circles .two_circles .box p {
+  text-align: center;
+}
+.geom_circles .two_circles .box .heading {
+  margin-top: 20px;
+}
+.geom_circles .two_circles .box .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.geom_circles .two_circles .box .wrapper .el {
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #202020;
+}
+.geom_circles .two_circles .box .wrapper .el img {
+  height: 120px;
+}
+.geom_circles .two_circles .box .wrapper .el p {
+  font-size: 14px;
+  color: #c7c7c7;
+  margin-bottom: 0;
+}
+.geom_circles .two_circles .box_center {
+  margin: 0;
+  margin-top: 50px;
+  position: relative;
+  left: 35px;
+  width: 1075px;
+}
+.geom_circles .two_circles .tangent {
+  justify-content: space-between;
+}
+.geom_circles .two_circles .tangent .el {
+  width: 500px;
+}
+
+.arc .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.arc .box .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.arc .box .wrapper .corner_in_circle {
+  height: 120px;
+  margin: 10px;
+}
+.arc .box .second {
+  width: 700px;
+}
+.arc .final .el {
+  width: 500px;
+  margin: 20px 0;
 }
 
 .polygons .first_cont .convex_polygon {
@@ -2394,13 +2579,101 @@ section {
 .right_triangle .box .flex-box .second p {
   margin: 5px 0;
 }
-.right_triangle .right_triangle_equals h4 {
-  margin-bottom: 20px;
+.right_triangle .right_triangle_equals_flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.right_triangle .right_triangle_equals .h4-med {
+  margin-bottom: 0;
 }
 .right_triangle .right_triangle_equals .theorem {
-  margin: 30px 0;
+  width: 200px;
+  margin: 30px 20px;
   padding: 10px;
   border-radius: 10px;
   background-color: #202020;
-  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_triangle .average_proporcional .h4-med {
+  margin-bottom: 20px;
+}
+.right_triangle .average_proporcional_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.right_triangle .average_proporcional .average_proporcional_img {
+  height: 200px;
+  margin-right: 70px;
+  margin-left: 20px;
+}
+.right_triangle .average_proporcional .average_img {
+  height: 18px;
+  margin-bottom: 1rem;
+}
+.right_triangle .average_proporcional .average_img_2 {
+  height: 47px;
+  margin-bottom: 1rem;
+}
+.right_triangle .trig_in_right_triangle_box {
+  padding: 15px 30px 30px 30px;
+}
+.right_triangle .trig_in_right_triangle_box .h4-med {
+  text-transform: none;
+  font-size: 20px;
+}
+.right_triangle .trig_in_right_triangle_box .trig_in_right_triangle_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.right_triangle .trig_in_right_triangle_box .trig_in_right_triangle_flex img {
+  height: 200px;
+  margin-left: 30px;
+}
+.right_triangle .trig_in_right_triangle_box .trig_in_right_triangle_flex .trig_in_right_triangle_wrapper {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.right_triangle .trig_in_right_triangle_box .trig_in_right_triangle_flex .trig_in_right_triangle_wrapper .container_with_fraction {
+  justify-content: center;
+  background-color: #202020;
+  border: 2px dashed #c75c5c;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.quadrate .first_cont .first {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.quadrate .first_cont .first img {
+  margin-right: 50px;
+  height: 200px;
+}
+.quadrate .parallelogram .flex {
+  padding: 30px;
+  align-items: center;
+}
+.quadrate img.parallelogram-1 {
+  height: 120px;
+  margin-right: 50px;
+}
+.quadrate .trapezoid .flex {
+  padding: 30px;
+  align-items: center;
+}
+
+.rectangle .flex {
+  padding: 30px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -20,26 +20,79 @@
             </div>
             <div class="box first">
                 <img src="img/triangle-1.svg" alt="" class="triangle-1">
-                <div>
-                    <p><b class="yellow">A, B, C</b> – вершины</p>
-                    <p><b class="yellow">AB, BC, AC</b> – стороны</p>
-                    <p><b class="yellow">∠ABC, ∠BCA, ∠CAB</b> – углы</p>
-                    <p><b class="yellow">P<sub class="yellow">△ABC</sub> (периметр)</b> = AB + BC + AC</p>
-                    <p>Сумма углов треугольника равна 180°</p>
+                <div class="triangle_definition">
+                    <div class="lighter_box">
+                        <p>∠A + ∠B + ∠C = 180°</p>
+                        <p><strong>P</strong> = a + b + c</p>
+                        <div class="container_with_fraction">
+                            <p><strong>S</strong> = </p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>ah</p>
+                                    <hr>
+                                    <p>2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_with_fraction heronFormule">
+                            <p><strong>S</strong> = </p>
+                            <img class="heronRoot" src="img/heronRoot.svg" alt="">
+                            <p>, при p =</p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>a + b + c</p>
+                                    <hr>
+                                    <p>2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p><strong>S</strong> = pr, где p – полупериметр, r – радиус вписанной окружности</p>
+                    </div>
                     <p>Против большей стороны лежит больший угол и наоборот</p>
                     <p>Каждая сторона треугольника меньше суммы двух других сторон</p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p><strong class="yellow">Средняя линия</strong> – отрезок, соединяющий середины двух сторон треугольника. Параллельна основанию и равна половине этого основания</p>
+                    <p>Если угол одного треугольника равен углу другого треугольника, то площади этих треугольников относятся как произведения сторон, заключающих равные углы</p>
+                    <p>Египетский треугольник – треугольник со сторонами 3, 4, 5</p>
+                    
                 </div>
             </div>
-            <div class="cont_with_el">
+            <div class="cont_with_el tri-second">
                 <div class="el">
                     <p>Точка пересечения серединных перпендикуляров к сторонам треугольника равноудалена от всех его вершин</p>
                     <img src="img/perpendicular-2.svg" alt="">
                 </div>
+                <div class="el">
+                    <p>Если высоты двух треугольников равны, то их площади относятся как основания</p>
+                    <div>
+                        <img class="simHeightsTri" src="img/similarHeightsTriangle-1.svg" alt="">
+                        <img class="simHeightsTri" src="img/similarHeightsTriangle-2.svg" alt="">
+                    </div>
+                    <img class="simHeightsTriText" src="img/similarHeightsTriangleText.svg" alt="">
+                </div>
             </div>
-            <div class="box second">
+            <div class="box triangle_equals">
+                <h4 class="h4-med">Равенство треугольников</h4>
+                <div class="triangle_equals_flex">
+                    <div class="theorem">По 2-ум сторонам и углу между ними</div>
+                    <div class="theorem">По стороне и 2-ум прилежащим к ней углам</div>
+                    <div class="theorem">По 3-ём сторонам</div>
+                </div>
+                <p>Если два треугольника равны, то элементы одного треугольника соответственно равны элементам другого треугольника</p>
+                <p>В равных треугольниках против соответственно равных сторон лежат равные углы, и обратно: против соответственно равных углов лежат равные стороны</p>
+            </div>
+            <div class="box triangles_similarity">
+                <h4 class="h4-med">Подобие треугольников</h4>
+                <h4 class="theorem_first">Два треугольника называются <strong class="yellow">подобными</strong>, если их углы соответственно равны и стороны одного треугольника пропорциональны сходственным сторонам другого треугольника</h4>
+                <p>k – коэффициент подобия – отношение сходственных сторон подобных треугольников</p>
+                <p>Отношение площадей двух подобных треугольников равно квадрату коэффициента подобия</p>
+                <h4 class="h4-med h4-med_second">Признаки подобия</h4>
+                <div class="triangle_similarity_flex">
+                    <div class="theorem">По 2-ум углам</div>
+                    <div class="theorem">По 2-ум пропорциональным сторонам и углу между ними</div>
+                    <div class="theorem">По 3-ём пропорциональным сторонам</div>
+                </div>
+            </div>
+            <div class="second">
                 <div class="wrapper">
                     <img src="img/corner-in-triangle-1.svg" alt="" class="triangle_corners">
                     <h5>Медиана</h5>
@@ -50,7 +103,7 @@
                     <img src="img/corner-in-triangle-2.svg" alt="" class="triangle_corners">
                     <h5>Биссектриса</h5>
                     <p class="first_definition">Отрезок биссектрисы угла треугольника, соединяющий вершину треугольника с точкой противоположной стороны</p>
-                    <p>Биссектрисы треугольника пересекаются в одной точке. Эта точка равноудалена от всех сторон треугольника</p>
+                    <p>Биссектрисы треугольника пересекаются в одной точке. Эта точка равноудалена от всех сторон треугольника и является центром вписанной окружности</p>
                 </div>
                 <div class="wrapper">
                     <img src="img/corner-in-triangle-3.svg" alt="" class="triangle_corners">
@@ -96,33 +149,87 @@
                         <p>Гипотенуза всегда больше катета</p>
                         <p>Сумма двух острых углов равна 90°</p>
                         <p>Катет, лежащий против угла в 30°, равен половине гипотенузы, и наоборот</p>
+                        <p>Площадь прямоугольного треугольника равна половине произведения его катетов</p>
+                        <p>Теорема Пифагора: Квадрат гипотенузы равен сумме квадратов катетов</p>
                     </div>
                 </div>
             </div>
             <div class="box right_triangle_equals">
                 <h4 class="h4-med">Равенство прямоугольных треугольников</h4>
-                <div class="theorem">Если катеты одного прямоугольного треугольника соответственно равны катетам другого, то такие треугольники равны</div>
-                <div class="theorem">Если катет и прилежащий к нему острый угол одного прямоугольного треугольника соответственно равны катету и прилежащему к нему острому углу другого, то такие треугольники равны</div>
-                <div class="theorem">Если гипотенуза и острый угол одного прямоугольного треугольника соответственно равны гипотенузе и острому углу другого, то такие треугольники равны</div>
-                <div class="theorem">Если гипотенуза и катет одного прямоугольного треугольника соответственно равны гипотенузе и катету другого, то такие треугольники равны</div>
+                <div class="right_triangle_equals_flex">
+                    <div class="theorem">По 2-ум катетам</div>
+                    <div class="theorem">По катету и прилежащему к нему острому углу</div>
+                    <div class="theorem">По гипотенузе и острому углу</div>
+                    <div class="theorem">По гипотенузе и катету</div>
+                </div>
+            </div>
+            <div class="box average_proporcional">
+                <div class="average_proporcional_flex">
+                    <img class="average_proporcional_img" src="img/average_proporcional_img.svg" alt="">
+                    <div class="average_proporcional_el">
+                        <h4 class="h4-med">Среднее пропорциональное (среднее геометрическое)</h4>
+                        <p>Отрезок XY называется <strong class="yellow">средним пропорциональным (средним геометрическим)</strong> для отрезков AC и BH, если <img class="average_img" src="img/average_proporcional_2.svg" alt=""></p>
+                        <p>Высота прямоугольного треугольника, проведённая из вершины прямого угла, есть среднее пропорциональное для отрезков, на которые делится гипотенуза этой высотой</p>
+                        <img class="average_img" src="img/average_proporcional_1.svg" alt="">
+                        <p>Катет прямоугольного треугольника есть среднее пропорциональное для гипотенузы и отрезка гипотенузы, заключённого между катетом и высотой, проведённой из вершины прямого угла</p>
+                        <img class="average_img_2" src="img/average_proporcional_3.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="trig_in_right_triangle_box box">
+                <h4 class="h4-med">Sin, cos, tg, ctg</h4>
+                <div class="trig_in_right_triangle_flex">
+                    <img src="img/trig_in_right_triangle.svg" alt="">
+                    <div class="trig_in_right_triangle_wrapper">
+                        <div class="container_with_fraction">
+                            <p>sin α = </p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>b</p>
+                                    <hr>
+                                    <p>c</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_with_fraction">
+                            <p>cos α = </p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>a</p>
+                                    <hr>
+                                    <p>c</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_with_fraction">
+                            <p>tg α = </p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>b</p>
+                                    <hr>
+                                    <p>a</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_with_fraction">
+                            <p>ctg α = </p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>a</p>
+                                    <hr>
+                                    <p>b</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             <div class="cont_with_el">
                 <div class="el">
                     <p>Медиана прямоугольного треугольника, проведённая из вершины прямого угла, равна половине гипотенузы</p>
                     <img src="img/right_triangle.svg" alt="">
                 </div>
-            </div>
-        </section>
-        <section class="triangle_main">
-            <div class="theme_box">
-                <div class="theme_text">Равенство треугольников</div>
-            </div>
-            <div class="box">
-                <p>Если два треугольника равны, то элементы одного треугольника соответственно равны элементам другого треугольника</p>
-                <p>В равных треугольниках против соответственно равных сторон лежат равные углы, и обратно: против соответственно равных углов лежат равные стороны</p>
-                <div class="theorem theorem-1">Если две стороны и угол между ними одного треугольника соответственно равны двум сторонам и углу между ними другого треугольника, то такие треугольники равны</div>
-                <div class="theorem">Если сторона и два прилежащих к ней угла одного треугольника соответственно равны стороне и двум прилежащим к ней углам другого треугольника, то такие треугольники равны</div>
-                <div class="theorem">Если три стороны одного треугольника соответственно равны трём сторонам другого треугольника, то такие треугольники равны</div>
             </div>
         </section>
         <section class="bottom_nav">

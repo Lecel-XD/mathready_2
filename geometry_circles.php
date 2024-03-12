@@ -33,6 +33,10 @@
                     <p>Диаметр, проведённый через середину хорды, перпендикулярен этой хорде</p>
                     <img src="img/circle-2.svg" alt="">
                 </div>
+                <div class="el">
+                    <p><strong class="yellow">Концентрические окружности</strong> – окружности с общим центром и различными радиусами</p>
+                    <img src="img/circle-4.svg" alt="">
+                </div>
             </div>
             <div class="cont_with_el">
                 <div class="el">
@@ -50,6 +54,54 @@
                 </div>
             </div>
         </section>
+        <section class="two_circles">
+            <div class="theme_box">
+                <div class="theme_text">Взаимное расположение двух окружностей</div>
+            </div>
+            <div class="cont_with_el">
+                <div class="el">
+                    <p>Касаются внутренним образом</p>
+                    <p>d = R - r и R > r</p>
+                    <p>Точка касания лежит на прямой OO<sub>1</sub></p>
+                    <img src="img/two_circles_3.svg" alt="">
+                </div>
+                <div class="el">
+                    <p>Касаются внешним образом</p>
+                    <p>d = R + r</p>
+                    <p>Точка касания лежит на прямой OO<sub>1</sub></p>
+                    <img src="img/two_circles_4.svg" alt="">
+                </div>
+                <div class="el">
+                    <p>Пересекаются</p>
+                    <p>R - r < d < R + r и R ≥ r</p>
+                    <p>Точки пересечения не лежат на прямой OO<sub>1</sub></p>
+                    <img src="img/two_circles_5.svg" alt="">
+                </div>
+                <div class="el">
+                    <p>Одна окружность лежит внутри другой</p>
+                    <p>d < R - r и R > r</p>
+                    <img src="img/two_circles_1.svg" alt="">
+                </div>
+                <div class="el">
+                    <p>Одна окружность лежит вне другой окружности</p>
+                    <p>d > R + r</p>
+                    <img src="img/two_circles_2.svg" alt="">
+                </div>
+            </div>
+            <div class="box_center">
+                <div class="text_center"><strong class="yellow">Общая касательная</strong> – прямая, проходящая через точку касания и перпендикулярная к прямой OO<sub>1</sub></div>
+            </div>
+            <div class="cont_with_el tangent">
+                <div class="el">
+                    <p><strong class="yellow">Внешняя</strong> общая касательная</p>
+                    <img src="img/two_circles_6.svg" alt="">
+                </div>
+                <div class="el">
+                    <p><strong class="yellow">Внутренняя</strong> общая касательная</p>
+                    <img src="img/two_circles_7.svg" alt="">
+                </div>
+            </div>
+        </section>
         <section class="inscribed_circle">
             <div class="theme_box">
                 <div class="theme_text">Вписанная и описанная окружности</div>
@@ -62,6 +114,47 @@
                 <div class="lighter_box">
                     <img src="img/inscribed-1.svg" alt="">
                     <p>В любой треугольник можно вписать окружность, и притом только одну</p>
+                </div>
+            </div>
+            <div class="box final">
+                <p class="theorem">В любом описанном четырёхугольнике суммы противоположных сторон равны. И наоборот: если суммы противоположных сторон выпуклого четырёхугольника равны, то в него можно вписать окружность</p>
+                <p class="theorem">В любом вписанном четырёхугольнике сумма противоположных углов равна 180°. И наоборот: если сумма противоположных углов четырёхугольника равна 180°, то около него можно описать окружность</p>
+            </div>
+        </section>
+        <section class="arc">
+            <div class="theme_box">
+                <div class="theme_text">Дуга. Центральный и вписанный угол</div>
+            </div>
+            <div class="box">
+                <div class="wrapper">
+                    <img class="corner_in_circle" src="img/corner_in_circle_1.svg" alt="">
+                    <img class="corner_in_circle" src="img/corner_in_circle_2.svg" alt="">
+                </div>
+                <div class="wrapper second">
+                    <p><strong class="yellow"></strong></p>
+                    <p><strong class="yellow">Центральный угол</strong> – угол с вершиной в центре окружности. Равен дуге, на которую опирается</p>
+                    <p>Сумма градусных мер двух дуг с общими концами равна 360°</p>
+                    <p><strong class="yellow">Вписанный угол</strong> – угол, вершина которого лежит на окружности, а стороны пересекают окружность. Измеряется половиной дуги, на которую он опирается</p>
+                    <p>Вписанные углы, опирающиеся на одну и ту же дугу, равны</p>
+                    <p>Вписанный угол, опирающийся на полуокружность, — прямой</p>
+                </div>
+            </div>
+            <div class="cont_with_el final">
+                <div class="el">
+                    <p>Угол между хордами окружности измеряется полусуммой двух дуг этой окружности, заключённых между сторонами угла и их продолжениями</p>
+                    <img src="" alt="">
+                </div>
+                <div class="el">
+                    <p>Угол между секущими окружности, пересекающимися в точке, внешней относительно этой окружности, измеряется полуразностью двух дуг этой окружности, заключённых внутри угла</p>
+                    <img src="" alt="">
+                </div>
+                <div class="el">
+                    <p>Угол между хордой и касательной к окружности измеряется половиной дуги этой окружности, заключённой внутри угла</p>
+                    <img src="" alt="">
+                </div>
+                <div class="el">
+                    <p>Угло между касательной к окружности и секущей, не проходящей через точку касания, измеряется полуразностью дуг этой окружности, на которые точкой касания делится дуга, заключённая внутри этого угла</p>
+                    <img src="" alt="">
                 </div>
             </div>
         </section>
