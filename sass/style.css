@@ -2190,9 +2190,22 @@ section {
   width: 320px;
   margin: 10px;
 }
+.geom_lines .parallel_cont .flex_item p sub {
+  color: #c7c7c7;
+}
+.geom_lines .second .flex_item {
+  width: 660px;
+}
+.geom_lines .second .flex_item img {
+  height: 200px;
+}
 
 .corner .cont_with_el .el {
   width: 500px;
+  margin: 20px auto;
+}
+.corner .cont_with_el .el hr {
+  margin: 2px;
 }
 .corner .box {
   display: flex;
@@ -2454,20 +2467,129 @@ section {
   background-color: #202020;
   margin: 30px;
 }
+.geom_circles .inscribed_circle .right_polygon_inscribed .h4-med {
+  margin-top: 30px;
+}
+.geom_circles .inscribed_circle .right_polygon_inscribed .inscribed_circle_second {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+.geom_circles .inscribed_circle .right_polygon_inscribed .inscribed_circle_second p {
+  margin: 12px 0;
+}
+.geom_circles .inscribed_circle .right_polygon_inscribed .inscribed_circle_second img {
+  height: 200px;
+  margin-right: 50px;
+}
+.geom_circles .inscribed_circle .right_polygon_inscribed .last {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.geom_circles .inscribed_circle .right_polygon_inscribed .last p {
+  margin: 3px 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.geom_circles .inscribed_circle .right_polygon_inscribed .inscribed_right_polygon_formules {
+  display: flex;
+  position: relative;
+  left: 35px;
+  width: 1075px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #191919;
+}
+.geom_circles .inscribed_circle .right_polygon_inscribed .inscribed_right_polygon_formules .container_with_fraction {
+  background-color: #202020;
+  border-radius: 10px;
+  border: 2px dashed #c75c5c;
+  padding: 10px;
+  width: 200px;
+}
+.geom_circles .inscribed_circle .right_polygon_inscribed .inscribed_right_polygon_formules .container_with_fraction hr {
+  margin: 2px;
+}
+.geom_circles .first_cont .cont_with_el {
+  justify-content: space-between;
+}
 .geom_circles .first_cont .cont_with_el .el {
   width: 330px;
+}
+.geom_circles .first_cont .cont_with_el .thick {
+  width: 500px;
+}
+.geom_circles .first_cont .cont_with_el .thick img {
+  height: 200px;
+}
+.geom_circles .first_cont .cont_with_el .thick p sub, .geom_circles .first_cont .cont_with_el .thick p sup {
+  color: #c7c7c7;
+}
+.geom_circles .first_cont .cont_with_el .thin {
+  width: 250px;
+}
+.geom_circles .first_cont .last .el {
+  margin: 10px 12px;
+}
+.geom_circles .first_cont .last .el img {
+  margin-bottom: 10px;
+}
+.geom_circles .first_cont .circle_formules {
+  position: relative;
+  left: 35px;
+  background-color: #191919;
+  border-radius: 10px;
+  width: 1075px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.geom_circles .first_cont .circle_formules .circle_formule {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 10px;
+  border: 2px dashed #c75c5c;
+  background-color: #202020;
+  margin: 0;
+}
+.geom_circles .first_cont .circle_formules .container_with_fraction hr {
+  margin: 2px;
+}
+.geom_circles .first_cont .circle_formule_definition {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.geom_circles .first_cont .circle_formule_definition p {
+  color: #c7c7c7;
+  font-size: 14px;
+  margin: 3px 20px;
+  text-align: center;
 }
 .geom_circles .first {
   display: flex;
   padding: 20px;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 .geom_circles .first img {
   height: 200px;
 }
 .geom_circles .first div {
-  max-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -2552,12 +2674,36 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+.polygons .first_cont .convex_polygon p {
+  margin: 10px 0;
+}
 .polygons .first_cont .convex_polygon .convex {
   height: 120px;
   margin: 30px;
+  margin-right: 50px;
 }
 .polygons .first_cont .convex_polygon .container_with_fraction {
   justify-content: flex-start;
+}
+.polygons .first_cont .convex_polygon .container_with_fraction .elem {
+  margin: 0 5px;
+}
+.polygons .first_cont .convex_polygon .container_with_fraction .elem .fraction p {
+  margin: 5px 0;
+}
+.polygons .first_cont .convex_polygon .container_with_fraction hr {
+  margin: 0;
+}
+.polygons .right_polygon .box hr {
+  margin: 2px 0;
+}
+.polygons .right_polygon .box .text {
+  text-align: center;
+}
+.polygons .polygon_similarity .theorem {
+  position: relative;
+  left: 35px;
+  width: 1075px;
 }
 
 .right_triangle .box .flex-box {
@@ -2614,6 +2760,10 @@ section {
 .right_triangle .average_proporcional .average_img {
   height: 18px;
   margin-bottom: 1rem;
+}
+.right_triangle .average_proporcional .average_img_1 {
+  height: 18px;
+  margin-bottom: 3px;
 }
 .right_triangle .average_proporcional .average_img_2 {
   height: 47px;
@@ -2676,4 +2826,14 @@ section {
 .rectangle .flex {
   padding: 30px;
   align-items: center;
+}
+
+.gomothety .first_cont .box {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.gomothety .first_cont .box img {
+  margin-right: 70px;
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */

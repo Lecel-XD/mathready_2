@@ -1547,10 +1547,21 @@ section
         .flex_item 
             width: 320px
             margin: 10px
+            p 
+                sub 
+                    color: $p_color
+    .second 
+        .flex_item 
+            width: 660px
+            img 
+                height: 200px
 .corner 
     .cont_with_el 
         .el 
             width: 500px
+            margin: 20px auto
+            hr 
+                margin: 2px
     .box 
         display: flex
         justify-content: center
@@ -1767,24 +1778,116 @@ section
                     margin-right: 10px
                 p 
                     margin-bottom: 0
+        
         .final
             padding: 10px
             p 
                 background-color: $third-color
                 margin: 30px
+        .right_polygon_inscribed 
+            .h4-med 
+                margin-top: 30px
+            .inscribed_circle_second 
+                display: flex
+                justify-content: space-between
+                padding: 30px
+                align-items: center
+                p 
+                    margin: 12px 0
+                img 
+                    height: 200px
+                    margin-right: 50px
+            .last 
+                margin-top: 30px
+                display: flex
+                justify-content: center
+                flex-wrap: wrap
+                padding: 10px
+                p 
+                    margin: 3px 20px
+                    text-align: center
+                    font-size: 14px
+                    color: $p_color
+            .inscribed_right_polygon_formules 
+                display: flex
+                position: relative
+                left: 35px
+                width: 1075px
+                justify-content: space-between
+                flex-wrap: wrap 
+                margin-top: 30px
+                padding: 20px
+                border-radius: 10px
+                background-color: $second-color
+                .container_with_fraction
+                    background-color: $third-color
+                    border-radius: 10px 
+                    border: 2px dashed $pink_color
+                    padding: 10px
+                    width: 200px 
+                    hr 
+                        margin: 2px
     .first_cont 
         .cont_with_el
+            justify-content: space-between
             .el 
                 width: 330px
+            .thick 
+                width: 500px
+                img 
+                    height: 200px
+                p 
+                    sub, sup
+                        color: $p_color
+            .thin 
+                width: 250px
+        .last 
+            .el
+                margin: 10px 12px
+                img 
+                    margin-bottom: 10px
+        .circle_formules 
+            position: relative
+            left: 35px
+            background-color: $second-color 
+            border-radius: 10px 
+            width: 1075px
+            display: flex
+            flex-wrap: wrap 
+            justify-content: space-between
+            padding: 20px
+            .circle_formule 
+                display: flex 
+                align-items: center
+                width: 200px
+                text-align: center
+                justify-content: center
+                padding: 3px
+                border-radius: 10px 
+                border: 2px dashed $pink_color 
+                background-color: $third-color
+                margin: 0
+            .container_with_fraction 
+                hr 
+                    margin: 2px    
+        .circle_formule_definition 
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+            p 
+                color: $p_color
+                font-size: 14px
+                margin: 3px 20px
+                text-align: center
     .first
         display: flex
         padding: 20px
         align-items: center
         justify-content: space-around
+        margin-bottom: 30px
         img 
             height: 200px
         div 
-            max-height: 300px
             display: flex
             flex-direction: column
             align-items: flex-start
@@ -1855,11 +1958,32 @@ section
             display: flex
             justify-content: space-between
             align-items: center
+            p 
+                margin: 10px 0
             .convex
                 height: 120px
                 margin: 30px
+                margin-right: 50px
             .container_with_fraction
                 justify-content: flex-start
+                .elem 
+                    margin: 0 5px
+                    .fraction 
+                        p 
+                            margin: 5px 0
+                hr 
+                    margin: 0
+    .right_polygon 
+        .box 
+            hr 
+                margin: 2px 0
+            .text 
+                text-align: center
+    .polygon_similarity 
+        .theorem 
+            position: relative
+            left: 35px
+            width: 1075px
 
 .right_triangle 
     .box 
@@ -1908,6 +2032,9 @@ section
         .average_img 
             height: 18px
             margin-bottom: 1rem
+        .average_img_1 
+            height: 18px
+            margin-bottom: 3px
         .average_img_2
             height: 47px
             margin-bottom: 1rem
@@ -1960,7 +2087,15 @@ section
     .flex 
         padding: 30px
         align-items: center
-
+.gomothety 
+    .first_cont 
+        .box 
+            display: flex
+            justify-content: space-between
+            padding: 30px
+            img 
+                margin-right: 70px
+                height: 200px
 
 
     

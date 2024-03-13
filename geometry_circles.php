@@ -23,39 +23,49 @@
                 <div>
                     <p><b class="yellow">Окружность</b> – геометрическая фигура, состоящая из всех точек плоскости, расположенных на заданном расстоянии от данной точки</p>
                     <p><strong class="yellow">Круг</strong> – часть плоскости, ограниченная окружностью</p>
-                    <p><b class="yellow">AO, OB</b> – радиусы</p>
-                    <p><b class="yellow">AB</b> – диаметр</p>
-                    <p><b class="yellow">CD</b> – хорда</p>
-                    <p>В прямоугольной системе координат уравнение окружности радиуса r с центром в точке O (x<sub>0</sub>;y<sub>0</sub>) имеет вид (x - x<sub>0</sub>)<sup>2</sup> + (y - y<sub>0</sub>)<sup>2</sup> = r<sup>2</sup></p>
-                    <p>π – отношение длины окружности к её диаметру. π ≈ 3,14</p>
-                    <p>S = πR<sup>2</sup></p>
-                    <div class="container_with_fraction">
-                        <p>S = </p>
-                        <div class="elem">
-                            <div class="fraction">
-                                <p>πR<sup>2</sup></p>
-                                <hr>
-                                <p>360</p>
-                            </div>
-                        </div>
-                        <p>∙ α</p>
-                    </div>
-                    <p><strong class="yellow">Круговой сектор</strong> – называется часть круга, ограниченная дугой и двумя радиусами</p>
-                    <p><strong class="yellow">Дуга сектора</strong> – дуга, которая ограничивает сектор</p>
-
+                    <p><strong class="yellow">AO, OB</strong> – радиусы, <strong class="yellow">AB</strong> – диаметр, <strong class="yellow">CD</strong> – хорда</p>
+                    <p><strong class="yellow">π</strong> – отношение длины окружности к её диаметру</p>
+                    <p><strong class="yellow">Круговой сектор</strong> – часть круга, ограниченная дугой и двумя радиусами</p>
+                    <p><strong class="yellow">Дуга сектора</strong> – дуга, ограничивающая сектор</p>
                 </div>
             </div>
+            <div class="circle_formules">
+                <p class="circle_formule">π ≈ 3,14</p>
+                <p class="circle_formule">S = πR<sup>2</sup></p>
+                <div class="container_with_fraction circle_formule">
+                    <p>S<sub>сект. </sub> = </p>
+                    <div class="elem">
+                        <div class="fraction">
+                            <p>πR<sup>2</sup></p>
+                            <hr>
+                            <p>360</p>
+                        </div>
+                    </div>
+                    <p>∙ α</p>
+                </div>
+                <p class="circle_formule">C = 2πR</p>
+            </div>
+            <div class="box circle_formule_definition">
+                <p>S – площадь круга</p>
+                <p>R – радиус описанной окружности</p>
+                <p>C – длина окружности</p>
+            </div>
             <div class="cont_with_el">
-                <div class="el">
+                <div class="el thin">
                     <p>Диаметр, проведённый через середину хорды, перпендикулярен этой хорде</p>
                     <img src="img/circle-2.svg" alt="">
                 </div>
-                <div class="el">
+                <div class="el thick">
+                    <p>В прямоугольной системе координат уравнение окружности радиуса r с центром в точке O (x<sub>0</sub>;y<sub>0</sub>) имеет вид </p>
+                    <p>(x - x<sub>0</sub>)<sup>2</sup> + (y - y<sub>0</sub>)<sup>2</sup> = r<sup>2</sup></p>
+                    <img src="img/circle_10.svg" alt="">
+                </div>
+                <div class="el thin">
                     <p><strong class="yellow">Концентрические окружности</strong> – окружности с общим центром и различными радиусами</p>
                     <img src="img/circle-4.svg" alt="">
                 </div>
             </div>
-            <div class="cont_with_el">
+            <div class="cont_with_el last">
                 <div class="el">
                     <p>Секущая – прямая, имеющая с окружностью две общие точки</p>
                     <img src="img/tangent-2.svg" alt="">
@@ -68,6 +78,21 @@
                 <div class="el">
                     <p>Отрезки касательных к окружности, проведённые из одной точки, равны и составляют равные углы с прямой, проходящей через эту точку и центр окружности</p>
                     <img src="img/circle-3.svg" alt="">
+                </div>
+                <div class="el">
+                    <p>Если две хорды окружности пересекаются, то произведение отрезков одной хорды равно произведению отрезков другой хорды</p>
+                    <img src="img/circle-11.svg" alt="">
+                    <p>AM·MB = CM·MD</p>
+                </div>
+                <div class="el">
+                    <p>Если через внешнюю точку к окружности проведены касательная и секущая, то квадрат отрезка касательной равен произведению отрезков секущей</p>
+                    <img src="img/circle-12.svg" alt="">
+                    <p>AD<sup>2</sup> = AB·AC</p>
+                </div>
+                <div class="el">
+                    <p>Если через точку A, лежащую вне окружности, проведены две секущие, то произведение отрезков одной секущей равно произведению отрезков другой секущей</p>
+                    <img src="img/circle-13.svg" alt="">
+                    <p>AB·AC = AD·AE</p>
                 </div>
             </div>
         </section>
@@ -141,20 +166,11 @@
             <div class="right_polygon_inscribed">
                 <h4 class="h4-med">Окружность и правильный многоугольник</h4>
                 <div class="box inscribed_circle_second">
+                    <img src="img/polygon_in_circle.svg" alt="">
                     <div class="lighter_box">
-                        <img src="img/inscribed-3.svg" alt="">
                         <p>Около любого правильного многоугольника можно описать окружность, и притом только одну</p>
-                    </div>
-                    <div class="lighter_box">
-                        <img src="img/inscribed-4.svg" alt="">
                         <p>В любой правильный многоугольник можно вписать окружность, и притом только одну</p>
-                    </div>
-                    <div class="lighter_box">
-                        <img src="img/inscribed-5.svg" alt="">
                         <p>Окружность, вписанная в правильный многоугольник, касается сторон многоугольника в их серединах</p>
-                    </div>
-                    <div class="lighter_box">
-                        <img src="img/inscribed-6.svg" alt="">
                         <p>Центр окружности, описанной около правильного многоугольника, совпадает с центром окружности, вписанной в тот же многоугольник. Эта точка называется центром правильного многоугольника</p>
                     </div>
                 </div>
@@ -209,7 +225,13 @@
                             </div>
                         </div>
                     </div>
-                    <p>C = 2πR</p>
+                </div>
+                <div class="box last">
+                    <p>S – площадь многоугольника</p>
+                    <p>r – радиус вписанной окружности</p>
+                    <p>R – радиус описанной окружности</p>
+                    <p>P – периметр многоугольника</p>
+                    <p>n – количество углов многоугольника</p>
                 </div>
             </div>
         </section>
@@ -234,19 +256,19 @@
             <div class="cont_with_el final">
                 <div class="el">
                     <p>Угол между хордами окружности измеряется полусуммой двух дуг этой окружности, заключённых между сторонами угла и их продолжениями</p>
-                    <img src="" alt="">
+                    <img src="img/corner_in_circle_7.svg" alt="">
                 </div>
                 <div class="el">
                     <p>Угол между секущими окружности, пересекающимися в точке, внешней относительно этой окружности, измеряется полуразностью двух дуг этой окружности, заключённых внутри угла</p>
-                    <img src="" alt="">
+                    <img src="img/corner_in_circle_6.svg" alt="">
                 </div>
                 <div class="el">
                     <p>Угол между хордой и касательной к окружности измеряется половиной дуги этой окружности, заключённой внутри угла</p>
-                    <img src="" alt="">
+                    <img src="img/corner_in_circle_5.svg" alt="">
                 </div>
                 <div class="el">
                     <p>Угло между касательной к окружности и секущей, не проходящей через точку касания, измеряется полуразностью дуг этой окружности, на которые точкой касания делится дуга, заключённая внутри этого угла</p>
-                    <img src="" alt="">
+                    <img src="img/corner_in_circle_4.svg" alt="">
                 </div>
             </div>
         </section>

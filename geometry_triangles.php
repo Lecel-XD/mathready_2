@@ -205,7 +205,7 @@
                     <img class="average_proporcional_img" src="img/average_proporcional_img.svg" alt="">
                     <div class="average_proporcional_el">
                         <h4 class="h4-med">Среднее пропорциональное (среднее геометрическое)</h4>
-                        <p>Отрезок XY называется <strong class="yellow">средним пропорциональным (средним геометрическим)</strong> для отрезков AC и BH, если <img class="average_img" src="img/average_proporcional_2.svg" alt=""></p>
+                        <p>Отрезок XY называется <strong class="yellow">средним пропорциональным (средним геометрическим)</strong> для отрезков AC и BH, если <img class="average_img_1" src="img/average_proporcional_2.svg" alt=""></p>
                         <p>Высота прямоугольного треугольника, проведённая из вершины прямого угла, есть среднее пропорциональное для отрезков, на которые делится гипотенуза этой высотой</p>
                         <img class="average_img" src="img/average_proporcional_1.svg" alt="">
                         <p>Катет прямоугольного треугольника есть среднее пропорциональное для гипотенузы и отрезка гипотенузы, заключённого между катетом и высотой, проведённой из вершины прямого угла</p>

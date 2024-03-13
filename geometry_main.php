@@ -28,6 +28,7 @@
                     <li><a href="geometry_quadrate.php">Четырёхугольник</a></li>
                     <li><a href="geometry_polygon.php">Многоугольник</a></li>
                     <li><a href="">sin, cos, tg, ctg</a></li>
+                    <li><a href="geometry_gomothety.php">Гомотетия</a></li>
                 </ol>
                 <li><a href="geometry_stereo_planes.php">Стереометрия</a></li>
                 <ol>
