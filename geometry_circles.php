@@ -26,6 +26,23 @@
                     <p><b class="yellow">AO, OB</b> – радиусы</p>
                     <p><b class="yellow">AB</b> – диаметр</p>
                     <p><b class="yellow">CD</b> – хорда</p>
+                    <p>В прямоугольной системе координат уравнение окружности радиуса r с центром в точке O (x<sub>0</sub>;y<sub>0</sub>) имеет вид (x - x<sub>0</sub>)<sup>2</sup> + (y - y<sub>0</sub>)<sup>2</sup> = r<sup>2</sup></p>
+                    <p>π – отношение длины окружности к её диаметру. π ≈ 3,14</p>
+                    <p>S = πR<sup>2</sup></p>
+                    <div class="container_with_fraction">
+                        <p>S = </p>
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>πR<sup>2</sup></p>
+                                <hr>
+                                <p>360</p>
+                            </div>
+                        </div>
+                        <p>∙ α</p>
+                    </div>
+                    <p><strong class="yellow">Круговой сектор</strong> – называется часть круга, ограниченная дугой и двумя радиусами</p>
+                    <p><strong class="yellow">Дуга сектора</strong> – дуга, которая ограничивает сектор</p>
+
                 </div>
             </div>
             <div class="cont_with_el">
@@ -116,9 +133,84 @@
                     <p>В любой треугольник можно вписать окружность, и притом только одну</p>
                 </div>
             </div>
+            
             <div class="box final">
                 <p class="theorem">В любом описанном четырёхугольнике суммы противоположных сторон равны. И наоборот: если суммы противоположных сторон выпуклого четырёхугольника равны, то в него можно вписать окружность</p>
                 <p class="theorem">В любом вписанном четырёхугольнике сумма противоположных углов равна 180°. И наоборот: если сумма противоположных углов четырёхугольника равна 180°, то около него можно описать окружность</p>
+            </div>
+            <div class="right_polygon_inscribed">
+                <h4 class="h4-med">Окружность и правильный многоугольник</h4>
+                <div class="box inscribed_circle_second">
+                    <div class="lighter_box">
+                        <img src="img/inscribed-3.svg" alt="">
+                        <p>Около любого правильного многоугольника можно описать окружность, и притом только одну</p>
+                    </div>
+                    <div class="lighter_box">
+                        <img src="img/inscribed-4.svg" alt="">
+                        <p>В любой правильный многоугольник можно вписать окружность, и притом только одну</p>
+                    </div>
+                    <div class="lighter_box">
+                        <img src="img/inscribed-5.svg" alt="">
+                        <p>Окружность, вписанная в правильный многоугольник, касается сторон многоугольника в их серединах</p>
+                    </div>
+                    <div class="lighter_box">
+                        <img src="img/inscribed-6.svg" alt="">
+                        <p>Центр окружности, описанной около правильного многоугольника, совпадает с центром окружности, вписанной в тот же многоугольник. Эта точка называется центром правильного многоугольника</p>
+                    </div>
+                </div>
+                <div class="inscribed_right_polygon_formules">
+                    <div class="container_with_fraction">
+                        <p>S = </p>
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>1</p>
+                                <hr>
+                                <p>2</p>
+                            </div>
+                        </div>
+                        <p>Pr</p>
+                    </div>
+                    <div class="container_with_fraction">
+                        <p>a<sub>n</sub> = 2R sin</p>
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>180°</p>
+                                <hr>
+                                <p>n</p>
+                            </div>
+                        </div>
+                        <p>Pr</p>
+                    </div>
+                    <div class="container_with_fraction">
+                        <p>r = R cos</p>
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>180°</p>
+                                <hr>
+                                <p>n</p>
+                            </div>
+                        </div>
+                        <p>Pr</p>
+                    </div>
+                    <div class="container_with_fraction">
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>P<sub>n</sub></p>
+                                <hr>
+                                <p>P'<sub>n</sub></p>
+                            </div>
+                        </div>
+                        <p> = </p>
+                        <div class="elem">
+                            <div class="fraction">
+                                <p>2R</p>
+                                <hr>
+                                <p>2R'</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>C = 2πR</p>
+                </div>
             </div>
         </section>
         <section class="arc">

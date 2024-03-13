@@ -46,6 +46,43 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="container_with_fraction heronFormule">
+                            <p><strong>S</strong> = </p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>1</p>
+                                    <hr>
+                                    <p>2</p>
+                                </div>
+                            </div>
+                            <p>ab sin C</p>
+                        </div>
+                        <div class="container_with_fraction heronFormule">
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>a</p>
+                                    <hr>
+                                    <p>sin A</p>
+                                </div>
+                            </div>
+                            <p> = </p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>b</p>
+                                    <hr>
+                                    <p>sin B</p>
+                                </div>
+                            </div>
+                            <p> = </p>
+                            <div class="elem">
+                                <div class="fraction">
+                                    <p>c</p>
+                                    <hr>
+                                    <p>sin C</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> - 2bc cos A</p>
                         <p><strong>S</strong> = pr, где p – полупериметр, r – радиус вписанной окружности</p>
                     </div>
                     <p>Против большей стороны лежит больший угол и наоборот</p>

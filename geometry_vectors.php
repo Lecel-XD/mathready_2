@@ -24,13 +24,38 @@
                 <p><strong class="yellow">Векторные величины</strong> – физические величины, имеющие не только абсолютное значение, но и направление</p>
                 <p><strong class="yellow">Вектор</strong> – это направленный отрезок</p>
                 <p><strong class="yellow">Длина вектора</strong> – длина этого отрезка</p>
-                <p><strong class="yellow">Равные векторы</strong> – векторы, имеющие одинаковые длины и одинаковое направление</p>
+                <p><strong class="yellow">Равные векторы</strong> – сонаправленные векторы, имеющие одинаковые длины. Их координаты равны</p>
                 <p><strong class="yellow">Единичный вектор</strong> – вектор с длиной 1</p>
                 <p><strong class="yellow">Нулевой вектор</strong> – вектор с длиной, равной нулю. Его начало совпадает с концом</p>
                 <p>Векторы <strong class="yellow">перпендикулярны</strong>, если их скалярное произведение равно нулю</p>
-                <p><strong class="yellow">Коллинеарные векторы </strong>– векторы, лежащие на одной прямой или на параллельных прямых</p>
+                <p><strong class="yellow">Коллинеарные векторы </strong>– векторы, лежащие на одной прямой или на параллельных прямых. Могут быть сонаправленными и противоположно направленными</p>
                 <p><strong class="yellow">Скалярное произведение векторов</strong> – произведение длин векторов на косинус угла между ними</p>
+                <p>Скалярное произведение ненулевых векторов равно нулю тогда и только тогда, когда эти векторы перпендикулярны</p>
+                <p>Скалярный квадрат вектора равен квадрату его длины</p>
+                <div><img src="img/v-a.svg" alt="" class="vec"> ∙ <img src="img/v-b.svg" alt="" class="vec"> = x<sub>1</sub>x<sub>2</sub> + y<sub>1</sub>y<sub>2</sub></div>
                 <div><strong class="yellow">Разность векторов</strong> <img src="img/v-a.svg" alt="" class="vec"> и <img src="img/v-b.svg" alt="" class="vec"> – это сумма вектора <img src="img/v-a.svg" alt="" class="vec"> и вектора <img src="img/v-b.svg" alt="" class="vec"></div>
+                <div>От любой точки можно отложить вектор, равный данному вектору <img src="img/v-a.svg" alt="" class="vec">, и притом только один</div>
+                <div><img src="img/v-a.svg" alt="" class="vec"> + <img src="img/v-b.svg" alt="" class="vec"> = <img src="img/v-b.svg" alt="" class="vec"> + <img src="img/v-a.svg" alt="" class="vec"></div>
+                <div>(<img src="img/v-a.svg" alt="" class="vec"> + <img src="img/v-a.svg" alt="" class="vec">) + <img src="img/v-c.svg" alt="" class="vec"> = <img src="img/v-a.svg" alt="" class="vec"> + (<img src="img/v-b.svg" alt="" class="vec"> + <img src="img/v-c.svg" alt="" class="vec">)</div>
+                <div><img src="img/v-a.svg" alt="" class="vec"> - <img src="img/v-b.svg" alt="" class="vec"> = <img src="img/v-a.svg" alt="" class="vec"> + (-<img src="img/v-b.svg" alt="" class="vec">)</div>
+                <div>Если векторы a и b коллинеарны, и a ≠ 0, то существует такое число k, что <img src="img/v-b.svg" alt="" class="vec"> = k<img src="img/v-a.svg" alt="" class="vec"></div>
+                <div>На плоскости любой вектор можно разложить по двум данным неколлинеарным векторам, причём коэффициенты разложения определяются единственным образом</div>
+                <div>Два данных неколлинеарных вектора a и b называют векторным базисом, а представление вектора <img src="img/v-c.svg" alt="" class="vec"> в виде <img src="img/v-c.svg" alt="" class="vec"> = x<img src="img/v-a.svg" alt="" class="vec"> + y<img src="img/v-b.svg" alt="" class="vec"> – разложением вектора <img src="img/v-c.svg" alt="" class="vec"> по базисным векторам</div>
+                <p>Каждая координата суммы двух или более векторов равна сумме соответствующих координат этих векторов</p>
+                <p>Каждая координата разности двух векторов равна разности соответствующих координат этих векторов</p>
+                <p>Каждая координата произведения вектора на число равна произведению соответствующей координаты вектора на это число</p>
+                <p>Каждая координата середины отрезка равна полусумме соответствующих координат его концов</p>
+                <p>длина вектора = x<sup>2</sup> + y<sup>2</sup> под корнем</p>
+                <div class="container_with_fraction">
+                    <p>cos α = </p>
+                    <div class="elem">
+                        <div class="fraction">
+                            <p>x<sub>1</sub>x<sub>2</sub> + y<sub>1</sub>y<sub>2</sub></p>
+                            <hr>
+                            <img class='cos_vectors' src="cos_vectors" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="box">
                 <div class="wrapper">

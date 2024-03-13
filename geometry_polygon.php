@@ -43,6 +43,25 @@
                 </div>
             </div>
         </section>
+        <section class="right_polygon">
+            <div class="theme_box">
+                <div class="theme_text">Правильный многоугольник</div>
+            </div>
+            <div class="box">
+                <p><strong class="yellow">Правильный многоугольник</strong> – многоугольник, у которого все углы равны и все стороны равны</p>
+                <div class="container_with_fraction">
+                    <p>α<sub>n</sub> = </p>
+                    <div class="elem">
+                        <div class="fraction">
+                            <p>n - 2</p>
+                            <hr>
+                            <p>n</p>
+                        </div>
+                    </div>
+                    <p> ∙ 180°</p>
+                </div>
+            </div>
+        </section>
         <section class="bottom_nav">
             <nav>
                 <a href="index.php"><div>На главную</div></a>
