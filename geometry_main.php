@@ -22,27 +22,22 @@
                 <ol>
                     <li><a href="geometry_lines.php">Прямая, луч, отрезок, угол</a></li>
                     <li><a href="geometry_triangles.php">Треугольник</a></li>
-                    <li><a href="">Параллельные прямые</a></li>
                     <li><a href="geometry_circles.php">Окружность. Касательная, хорда, вписанная и описанная окружность</a></li>
-                    <li><a href="">Симметрия</a></li>
                     <li><a href="geometry_quadrate.php">Четырёхугольник</a></li>
                     <li><a href="geometry_polygon.php">Многоугольник</a></li>
-                    <li><a href="">sin, cos, tg, ctg</a></li>
-                    <li><a href="geometry_gomothety.php">Гомотетия</a></li>
                 </ol>
                 <li><a href="geometry_stereo_planes.php">Стереометрия</a></li>
                 <ol>
-                    <li><a href="">Прямые и плоскости</a></li>
-                    <li><a href="">Тетраэдр и параллелепипед</a></li>
+                    <li><a href="">Прямые в пространстве</a></li>
+                    <li><a href="">Прямая и плоскость в пространстве</a></li>
+                    <li><a href="">Плоскости в пространстве</a></li>
                     <li><a href="">Двугранный, трёхгранный, многогранный угол</a></li>
                     <li><a href="">Многогранник</a></li>
-                    <li><a href="">Пирамида</a></li>
-                    <li><a href="">Цилиндр, конус и шар</a></li>
-                    <li><a href="">Симметрия</a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">Цилиндр, конус, шар, сфера</a></li>
                 </ol>
                 <li><a href="geometry_vectors.php">Вектор</a></li>
-                <li><a href="">Координаты в пространстве</a></li>
+                <li><a href="">Симметрия</a></li>
+                <li><a href="geometry_gomothety.php">Гомотетия</a></li>
             </ol>
         </div>
     </div> 
