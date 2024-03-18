@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>MATHREADY</title>
+    <title>Стереометрия – MathReady</title>
     <?php 
         @include('head.php');
      ?>
@@ -55,51 +55,103 @@
             <p class="left">Две прямые в пространстве называются <strong class="yellow">параллельными</strong>, если они лежат в одной плоскости и не пересекаются</p>
             <div class="cont_with_el">
                 <div class="el">
-                    <img src="" alt="">
+                    <img src="img/lines_planes_3.svg" alt="">
                     <p>Через любую точку пространства, не лежащую на данной прямой, проходит прямая, параллельная данной, и притом только одна</p>
                 </div>
                 <div class="el">
-                    <img src="" alt="">
-                    <p>Если одна из параллельных ппямых пересекает данную плоскость, то и другая прямая пересекает эту плоскость</p>
+                    <img src="img/lines_planes_6.svg" alt="">
+                    <p>Если одна из параллельных прямых пересекает данную плоскость, то и другая прямая пересекает эту плоскость</p>
                 </div>
                 <div class="el">
-                    <img src="" alt="">
+                    <img src="img/lines_planes_4.svg" alt="">
                     <p>Если две прямые параллельны третьей прямой, то они параллельны</p>
                 </div>
                 <div class="el">
-                    <img src="" alt="">
+                    <img src="img/lines_planes_5.svg" alt="">
                     <p>Прямая и плоскость называются <strong class="yellow">параллельными</strong>, если они не имеют общих точек</p>
                 </div>
                 <div class="el">
-                    <img src="" alt="">
+                    <img src="img/lines_planes_2.svg" alt="">
                     <p>Если прямая, не лежащая в данной плоскости, параллельна какой-нибудь прямой, лежащей в этой плоскости, то она параллельна данной плоскости</p>
                 </div>
                 <div class="el">
-                    <img src="" alt="">
+                    <img src="img/lines_planes_1.svg" alt="">
                     <p>Если плоскость проходит через данную прямую, параллельную другой плоскости, и пересекает эту плоскость, то линия пересечения плоскостей параллельна данной прямой</p>
                 </div>
                 <div class="el">
-                    <img src="" alt="">
+                    <img src="img/lines_planes_2.svg" alt="">
                     <p>Если одна из двух параллельных прямых параллельна данной плоскости, то другая прямая либо также параллельна данной плоскости, либо лежит в этой плоскости</p>
-                </div>
-                <div class="el">
-                    <img src="" alt="">
-                    <p></p>
                 </div>
             </div>
             <p class="left">Две прямые в пространстве называются <strong class="yellow">скрещивающимися</strong>, если они не лежат в одной плоскости</p>
             <div class="cont_with_el">
                 <div class="el">
-                    <img src="" alt="">
+                    <img src="img/lines_planes_7.svg" alt="">
                     <p>Если одна из двух прямых лежит в некоторой плоскости, а другая прямая пересекает эту плоскость в точке, не лежащей на первой прямой, то эти прямые скрещивающиеся</p>
                 </div>
                 <div class="el">
-                    <img src="" alt="">
+                    <img src="img/lines_planes_8.svg" alt="">
                     <p>Через каждую из двух скрещивающихся прямых проходит плоскость, параллельная другой прямой, и притом только одна</p>
+                </div>
+            </div>
+            <div class="cont_with_el">
+                <div class="el">
+                    <img src="img/perpendicular_lines_planes_3.svg" alt="">
+                    <p>Прямая называется перпендикулярной к плоскости, если она перпендикулярна к любой прямой, лежащей в этой плоскости</p>
+                </div>
+                <div class="el">
+                    <img src="img/perpendicular_lines_planes_2.svg" alt="">
+                    <p>Если одна из двух параллельных прямых перпендикулярна к плоскости, то и другая прямая перпендикулярна к этой плоскости. Если две прямые перпендикулярны к плоскости, то они параллельны</p>
+                </div>
+                <div class="el">
+                    <img src="img/perpendicular_lines_planes_4.svg" alt="">
+                    <p>Если прямая перпендикулярна к двум пересекающимся прямым, лежащим в плоскости, то она перпендикулярна к этой плоскости</p>
+                </div>
+                <div class="el">
+                    <img src="img/perpendicular_lines_planes_1.svg" alt="">
+                    <p>Через любую точку пространства проходит прямая, перпендикулярная к данной плоскости, и притом только одна</p>
+                </div>
+            </div>
+        </section>
+        <section class="parallel_planes">
+            <div class="theme_box">
+                <div class="theme_text">Параллельные плоскости</div>
+            </div>
+            <div class="cont_with_el">
+                <div class="el">
+                    <img src="img/parallel_planes_3.svg" alt="">
+                    <p>Две плоскости называются <strong class="yellow">параллельными</strong>, если они не пересекаются</p>
+                </div>
+                <div class="el">
+                    <img src="img/parallel_planes_4.svg" alt="">
+                    <p>Если две пересекающиеся прямые одной плоскости соответственно параллельны двум прямым другой плоскости, то эти плоскости параллельны</p>
+                </div>
+                <div class="el">
+                    <img src="img/parallel_planes_1.svg" alt="">
+                    <p>Отрезки параллельных прямых, заключённые между параллельными плоскостями, равны</p>
+                </div>
+                <div class="el">
+                    <img class="parallel_planes_2" src="img/parallel_planes_2.svg" alt="">
+                    <p>Если две параллельные плоскости пересечены третьей, то линии их пересечения параллельны</p>
+                </div>
+            </div>
+        </section>
+        <section class="perpendicular_planes">
+            <div class="theme_box">
+                <div class="theme_text">Перпендикулярные плоскости</div>
+            </div>
+            <div class="cont_with_el">
+                <div class="el">
+                    <img src="" alt="">
+                    <p>Две пересекающиеся плоскости называются <strong class="yellow">перпендикулярными (взаимно перпендикулярными)</strong>, если уол между ними равен 90°</p>
                 </div>
                 <div class="el">
                     <img src="" alt="">
-                    <p></p>
+                    <p>Если одна из двух плоскостей проходит через прямую, перпендикулярную к другой плоскости, то такие плоскости перпендикулярны</p>
+                </div>
+                <div class="el">
+                    <img src="" alt="">
+                    <p>Плоскость, перпендикулярная к прямой, по которой перпесекаются две данные плоскости, перпендикулярна к каждой из этих плоскостей</p>
                 </div>
             </div>
         </section>

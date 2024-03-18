@@ -2836,4 +2836,56 @@ section {
 .gomothety .first_cont .box img {
   margin-right: 70px;
   height: 200px;
+}
+
+.stereo_planes .line_plane .cont_with_el {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.stereo_planes .line_plane .cont_with_el .el {
+  width: 330px;
+  padding: 20px;
+  margin: 10px;
+  justify-content: center;
+}
+.stereo_planes .line_plane .cont_with_el .el img {
+  width: 250px;
+  margin: 10px 0 20px 0;
+}
+.stereo_planes .parallel_planes .cont_with_el {
+  justify-content: center;
+}
+.stereo_planes .parallel_planes .cont_with_el .el {
+  width: 320px;
+  margin: 10px 20px;
+}
+.stereo_planes .parallel_planes .cont_with_el .el img {
+  margin-bottom: 20px;
+}
+.stereo_planes .parallel_planes .cont_with_el .el .parallel_planes_2 {
+  height: 200px;
+}
+
+.stereo_corners .first_cont .box {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  align-items: center;
+}
+.stereo_corners .first_cont .box .flex_item img {
+  width: 300px;
+  margin: 30px 0;
+}
+
+.inclined .first_cont .box {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.inclined .first_cont .box img {
+  width: 300px;
+}
+.inclined .first_cont .cont_with_el .el {
+  width: 340px;
+  margin: 20px 0;
 }/*# sourceMappingURL=style.css.map */
