@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Углы – MathReady</title>
+    <title>Углы – MathReady</title>
     <?php 
         @include('head.php');
      ?>
@@ -34,12 +34,12 @@
                 <div class="theme_text">Двугранный угол</div>
             </div>
             <div class="box">
-                <img src="" alt="">
+                <img src="img/two_corner_1.svg" alt="">
                 <div class="flex_box">
                     <p><strong class="yellow">Двугранный угол</strong> – фигура, образованная прямой a и двумя полуплоскостями с общей границей a, не принадлежащими одной плоскости</p>
-                    <p>a – ребро двугранного угла</p>
+                    <p><strong class="yellow">Ребро двугранного угла</strong> – a</p>
                     <p><strong class="yellow">Грани двугранного угла</strong> – полуплоскости его образующие</p>
-                    <p><strong class="yellow">Линейный угол двугранного угла</strong> – </p>
+                    <p><strong class="yellow">Линейный угол двугранного угла</strong> – ABC</p>
                     <p><strong class="yellow">Градусной мерой двугранного угла</strong> называется градусная мера его линейного угла</p>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 <div class="theme_text">Трёхгранный угол</div>
             </div>
             <div class="box">
-                <img src="" alt="">
+                <img src="img/three_corner_1.svg" alt="">
                 <div class="flex_box">
                     <p>Фигура, состоящая из углов AOB, BOC, COA и их внутренних областей, называется <strong class="yellow">трёхгранным углом</strong> OABC, а указанные углы – плоскими углами этого трёхгранного угла</p>
                     <p>Каждый плоский угол трёхгранного угла меньше суммы двух других плоских углов</p>
@@ -59,6 +59,14 @@
         <section class="plenty_corner">
             <div class="theme_box">
                 <div class="theme_text">Многогранный угол</div>
+            </div>
+            <div class="box">
+                <div class="flex_box">
+                    <p><strong class="yellow">Многогранный угол</strong> – фигура, составленная из углов и их внутренних областей так, что смежные углы не лежат в одной плоскости, а несмежные углы (с их внутренними областями) не имеют общих точек</p>
+                    <p><strong class="yellow">Выпуклый многогранный угол</strong> – угол, который лежит по одну сторону от плоскости каждого из своих плоских углов</p>
+                    <p>Для любого выпуклого многогранного угла существует плоскость, пересекающая его рёбра</p>
+                    <p><strong class="yellow">Сумма плоских углов</strong> выпуклого многогранного угла меньше 360°</p>
+                </div>
             </div>
         </section>
      </div>

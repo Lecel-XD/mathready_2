@@ -2852,6 +2852,21 @@ section {
   width: 250px;
   margin: 10px 0 20px 0;
 }
+.stereo_planes .perpendicular_planes .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 30px;
+}
+.stereo_planes .perpendicular_planes .box img {
+  height: 200px;
+}
+.stereo_planes .perpendicular_planes .box .flex_box {
+  width: 500px;
+}
+.stereo_planes .perpendicular_planes .box .flex_box p {
+  margin: 15px 0;
+}
 .stereo_planes .parallel_planes .cont_with_el {
   justify-content: center;
 }
@@ -2875,6 +2890,27 @@ section {
 .stereo_corners .first_cont .box .flex_item img {
   width: 300px;
   margin: 30px 0;
+}
+.stereo_corners .two_corner .box, .stereo_corners .three_corner .box {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+.stereo_corners .two_corner .box .flex_box, .stereo_corners .three_corner .box .flex_box {
+  width: 500px;
+}
+.stereo_corners .two_corner .box img, .stereo_corners .three_corner .box img {
+  height: 200px;
+}
+.stereo_corners .two_corner .box p, .stereo_corners .three_corner .box p {
+  margin: 25px 0;
+}
+.stereo_corners .plenty_corner .box {
+  padding: 5px 30px;
+}
+.stereo_corners .plenty_corner .box p {
+  margin: 25px 0;
 }
 
 .inclined .first_cont .box {

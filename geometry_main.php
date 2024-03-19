@@ -33,7 +33,7 @@
                     <li><a href="">Плоскости в пространстве</a></li>
                     <li><a href="geometry_inclined.php">Наклонная</a></li>
                     <li><a href="geometry_stereo_corners.php">Двугранный, трёхгранный, многогранный угол</a></li>
-                    <li><a href="">Многогранник</a></li>
+                    <li><a href="geometry_polihedron.php">Многогранник</a></li>
                     <li><a href="">Цилиндр, конус, шар, сфера</a></li>
                 </ol>
                 <li><a href="geometry_vectors.php">Вектор</a></li>
