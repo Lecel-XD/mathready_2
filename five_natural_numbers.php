@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>MATHREADY</title>
+    <title>5 класс – MATHREADY</title>
     <?php 
         @include('head.php');
      ?>
